@@ -1,6 +1,7 @@
 import os
 import requests
 from dotenv import load_dotenv
+from json import dumps
 
 BASE_URL = 'https://api.spotify.com/v1/'
 
@@ -36,6 +37,54 @@ def get_track_audio_features(track):
   response_json = response.json()
   return response_json
 
-track = get_track_id("Taylor Swift", "Fearless (Taylor's Version)")
-features = get_track_audio_features(track)
-print(features)
+# Only using for sections. Most other content is in audio_features.
+def get_track_audio_analysis(track):
+  response = requests.get(BASE_URL + 'audio-analysis/' + track, headers=headers)
+  response_json = response.json()
+  return response_json
+
+# At the minute only using this to get the number of sections.
+# Could do more with section start times, durations, etc. later on.
+def get_track_sections(track):
+  analysis = get_track_audio_analysis(track)
+  sections = analysis['sections']
+  return sections
+
+# Extract desired features from data returned from API.
+def get_final_features(track):
+  features = get_track_audio_features(track)
+  sections = get_track_sections(track)
+
+  return {
+    **{key:value for key,value in features.items() if key in FEATURES_TO_EXTRACT},
+    'num_sections': len(sections)
+  }
+
+
+# List of features that will be extracted from API audio_features data.
+# This is not exhaustive of the features we have.
+# Other features which aren't included in the API data
+#   are commented out but included here for convenience of reading.
+FEATURES_TO_EXTRACT = {
+  # Sound
+  'acousticness',
+  'danceability',
+  'energy',
+  'instrumentalness',
+  'liveness',
+  'loudness',
+  'speechiness',
+  'valence'
+  # Musical
+  'key',
+  'mode',
+  'tempo',
+  'time_signature',
+  # Meta
+  'duration_ms'
+  # 'num_sections'
+}
+
+track = get_track_id("Taylor Swift", "Love Story (Taylor's Version)")
+features = get_final_features(track)
+print(dumps(features, indent=2))
