@@ -1,5 +1,6 @@
 import os
 import requests
+import json
 from dotenv import load_dotenv
 
 BASE_URL = 'https://api.spotify.com/v1/'
@@ -36,6 +37,9 @@ def get_track_audio_features(track):
   response_json = response.json()
   return response_json
 
-track = get_track_id("Taylor Swift", "Fearless (Taylor's Version)")
+song = "Fearless"
+print(song)
+track = get_track_id("Taylor Swift", song)
 features = get_track_audio_features(track)
-print(features)
+json_formatted_str = json.dumps(features, indent=4)
+print(json_formatted_str)
