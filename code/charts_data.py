@@ -5,8 +5,8 @@ BASE_URL = 'https://www.officialcharts.com/search/singles/'
 CHARTING_THRESHOLD = 40
 
 def scrape(url: str) -> list:
-    reponse = get(url)
-    html = BeautifulSoup(reponse.content, 'html.parser')
+    response = get(url)
+    html = BeautifulSoup(response.content, 'html.parser')
 
     table = html.find('tbody', class_='chart-results-content')
     rows = table.find_all('tr')
