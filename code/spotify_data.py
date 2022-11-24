@@ -81,3 +81,14 @@ FEATURES_TO_EXTRACT = {
   'duration_ms'
   # 'num_sections'
 }
+
+def get_genre_seeds():
+  response = requests.get(BASE_URL + 'recommendations/available-genre-seeds', headers=headers)
+  response_json = response.json()
+  return response_json
+
+REC_LIMIT=100
+def get_recommendations(seed_artists = '', seed_genres = '', seed_tracks=''):
+  response = requests.get(BASE_URL + f'recommendations?seed_artists={seed_artists}&seed_genres={seed_genres}&seed_tracks={seed_tracks}&limit={REC_LIMIT}', headers=headers)
+  response_json = response.json()
+  return response_json['tracks']
