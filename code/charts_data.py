@@ -45,7 +45,7 @@ def has_charted(track_name: str, artist_name: str) -> bool:
     top_pos = get_top_position(track_name, artist_name)
 
     if top_pos > 0:
-        print(f'Top position: {top_pos}')
+        #print(f'Top position: {top_pos}')
         if top_pos < CHARTING_THRESHOLD:
             return True
 
