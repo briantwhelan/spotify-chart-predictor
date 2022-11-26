@@ -1,0 +1,11 @@
+track,artist,charted,danceability,energy,loudness,mode,speechiness,acousticness,instrumentalness,liveness,tempo,duration_ms,time_signature,num_sections
+Love Story,Taylor Swift,True,0.618,0.741,-3.95,1,0.031,0.17,0,0.0822,118.984,235267,4,10
+You Belong With Me,Taylor Swift,True,0.687,0.783,-4.44,1,0.0386,0.162,1.35e-05,0.114,129.964,231133,4,10
+22,Taylor Swift,True,0.642,0.695,-5.62,1,0.0281,0.000443,1.02e-05,0.0753,103.984,230960,4,9
+Style,Taylor Swift,True,0.598,0.786,-5.572,1,0.0383,0.00253,0.0016,0.117,95.019,231000,4,11
+Blank Space,Taylor Swift,True,0.753,0.678,-5.421,1,0.0644,0.085,1.64e-06,0.13,96.006,231827,4,10
+Crazier,Taylor Swift,False,0.452,0.544,-5.423,1,0.0277,0.0631,5.33e-06,0.104,133.042,191947,3,9
+Eyes Open,Taylor Swift,False,0.598,0.724,-7.225,1,0.0345,0.00678,0.00182,0.0839,137.115,244587,4,11
+The Lakes,Taylor Swift,False,0.313,0.258,-11.532,1,0.0383,0.842,1.3e-06,0.0948,179.947,211813,4,12
+August,Taylor Swift,False,0.532,0.623,-9.208,1,0.0331,0.538,7.28e-05,0.0925,89.937,261923,4,12
+Carolina,Taylor Swift,False,0.476,0.189,-13.777,0,0.0329,0.904,4.52e-06,0.254,115.851,264439,4,13
