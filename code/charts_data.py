@@ -4,6 +4,7 @@ from requests import get
 BASE_URL = 'https://www.officialcharts.com/search/singles/'
 CHARTING_THRESHOLD = 40
 
+# Scrape officialcharts.com to find chart information on specified track in specified URL.
 def scrape(url: str) -> list:
     response = get(url)
     html = BeautifulSoup(response.content, 'html.parser')
@@ -27,6 +28,7 @@ def scrape(url: str) -> list:
 
     return results
 
+# Get the top chart position for the specified track.
 def get_top_position(track_name: str, artist_name: str) -> int:
     url = BASE_URL + track_name
     results = scrape(url)
@@ -38,11 +40,12 @@ def get_top_position(track_name: str, artist_name: str) -> int:
 
     return max
 
+# Check whether the specified track has charted.
 def has_charted(track_name: str, artist_name: str) -> bool:
     top_pos = get_top_position(track_name, artist_name)
 
     if top_pos > 0:
-        print(f'Top position: {top_pos}')
+        #print(f'Top position: {top_pos}')
         if top_pos < CHARTING_THRESHOLD:
             return True
 

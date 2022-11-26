@@ -1,7 +1,6 @@
 import os
 import requests
 from dotenv import load_dotenv
-from json import dumps
 
 BASE_URL = 'https://api.spotify.com/v1/'
 

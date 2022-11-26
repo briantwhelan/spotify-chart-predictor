@@ -3,4 +3,5 @@ services:
   app:
     build: .
     volumes:
-      - ./:/code
+      - ./code/:/app/code
+      - ./data/:/app/data
