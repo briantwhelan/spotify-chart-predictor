@@ -5,9 +5,11 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import classification_report
 
 # Import the data.
-df = pd.read_csv("./data/data.csv")
-X = df.iloc[:, 3:]
-y = df.iloc[:, 2]
+charted = pd.read_csv("./data/charted_songs.csv")
+uncharted = pd.read_csv("./data/uncharted_songs.csv")
+songs = charted.iloc[:100].append(uncharted.iloc[:100])
+X = songs.iloc[:, 3:]
+y = songs.iloc[:, 2]
 
 # Split data into training and validation data.
 X_train, X_validate, y_train, y_validate = train_test_split(X, y, test_size=0.2, random_state=9801)
