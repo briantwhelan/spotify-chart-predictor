@@ -10,6 +10,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import classification_report
+from sklearn.metrics import roc_curve
 
 # Import the data.
 charted = pd.read_csv("./data/charted_songs.csv")
@@ -98,3 +99,28 @@ kNN_model.fit(X_train, y_train)
 kNN_preds = kNN_model.predict(X_validate)
 print(confusion_matrix(y_validate, kNN_preds))
 print(classification_report(y_validate, kNN_preds))
+
+# Plot ROC curves for baseline, logistic regression classifier, kNN classifier.
+fig = plt.figure()
+plt.rc("font", size=10)
+plt.rcParams["figure.constrained_layout.use"] = True
+
+probs = lrl2_model.predict_proba(X_validate)
+fpr, tpr, _ = roc_curve(y_validate, probs[:, 1])
+plt.plot(fpr, tpr, color="blue", label="Logistic Regression Classifier")
+
+probs = kNN_model.predict_proba(X_validate)  
+fpr, tpr, _ = roc_curve(y_validate, probs[:, 1])
+plt.plot(fpr, tpr, color="orange", label="kNN Classifier")
+
+probs = baseline_model.predict_proba(X_validate)  
+fpr, tpr, _ = roc_curve(y_validate, probs[:, 1])
+plt.plot(fpr, tpr, color="red", label="Baseline Classifier")
+
+plt.plot([0,1], [0,1], color="green", linestyle="--", label="Random Classifier")
+
+plt.xlabel("False Positive Rate")
+plt.ylabel("True Positive Rate")
+plt.title("ROC Curves")
+plt.legend()
+plt.savefig("./plots/ROC-curves.png")
