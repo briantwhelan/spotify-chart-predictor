@@ -4,4 +4,5 @@ services:
     build: .
     volumes:
       - ./code/:/app/code
-      - ./data/:/app/data      - ./plots:/app/plots
+      - ./data/:/app/data      
+      - ./plots:/app/plots
