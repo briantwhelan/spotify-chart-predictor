@@ -7,20 +7,23 @@ GENRES = 'alternative,blues,british,classical,club,country,dance,disco,disney,du
 GENRES = GENRES.split(',')
 recs = []
 
-set_of_five = ''
-for i, g in enumerate(GENRES):
-    if (i % 5 == 0 and i != 0):
-        print(f'i = {i} : {set_of_five}')
-        recs.append(get_recommendations(seed_genres=set_of_five))
-        set_of_five = g
-    elif i == len(GENRES) - 1:
-        set_of_five += f',{g}'
-        print(f'i = {i} : {set_of_five}')
-        recs.append(get_recommendations(seed_genres=set_of_five))
-    elif i != 0:
-        set_of_five += f',{g}'
-    else:
-        set_of_five += g
+iterations = 100
+for iteration in range(iterations):
+  set_of_five = ''
+  for i, g in enumerate(GENRES):
+      if (i % 5 == 0 and i != 0):
+          #print(f'i = {i} : {set_of_five}')
+          recs.append(get_recommendations(seed_genres=set_of_five))
+          set_of_five = g
+      elif i == len(GENRES) - 1:
+          set_of_five += f',{g}'
+          #print(f'i = {i} : {set_of_five}')
+          recs.append(get_recommendations(seed_genres=set_of_five))
+      elif i != 0:
+          set_of_five += f',{g}'
+      else:
+          set_of_five += g
+  print(f'{iteration + 1}/{iterations} completed')
 
 print('Requests complete')
     
