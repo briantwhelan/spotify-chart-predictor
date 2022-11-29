@@ -42,9 +42,12 @@ def _get_top_position(track_name: str, artist_name: str) -> int:
     return max
 
 # Check whether the specified track has charted.
-def has_charted(track_name: str, artist_name: str) -> bool:
+def has_charted(track_name: str, artist_name: str) -> tuple:
+    """
+    returns: tuple (found, charted)
+    """
     top_pos = _get_top_position(remove_featured_artists(track_name), artist_name)
-    return {
-        'found': top_pos > 0,
-        'charted': top_pos < CHARTING_THRESHOLD
-    }
+    return (
+        top_pos > 0,
+        top_pos < CHARTING_THRESHOLD
+    )
