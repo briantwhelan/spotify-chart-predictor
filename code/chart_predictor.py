@@ -7,6 +7,7 @@ from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_val_score
 from sklearn.dummy import DummyClassifier
 from sklearn.linear_model import LogisticRegression
+from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import classification_report
 
@@ -71,3 +72,29 @@ lrl2_model.fit(X_train, y_train)
 lrl2_preds = lrl2_model.predict(X_validate)
 print(confusion_matrix(y_validate, lrl2_preds))
 print(classification_report(y_validate, lrl2_preds))
+# Perform cross validation to select k.
+mean_error = []
+std_error = []
+k_range = [1, 5, 10, 20, 50, 100]
+kf = KFold(n_splits=5)
+for k in k_range:
+  from sklearn.neighbors import KNeighborsClassifier
+  model = KNeighborsClassifier(n_neighbors=k)
+  scores = cross_val_score(model, X_train, y_train, cv=kf, scoring="f1")
+  mean_error.append(np.array(scores).mean())
+  std_error.append(np.array(scores).std())
+plt.rc("font", size=18)
+plt.rcParams["figure.constrained_layout.use"] = True
+plt.errorbar(k_range, mean_error, yerr=std_error, linewidth=3)
+plt.xlabel("k")
+plt.ylabel("F1 Score")
+plt.title("k Cross Validation for kNN Model")
+plt.legend()
+plt.savefig("./plots/kNN-k-cross-validation.png")
+
+# Train kNN classifier with k selected from cross-validation.
+kNN_model = KNeighborsClassifier(n_neighbors=5)
+kNN_model.fit(X_train, y_train)
+kNN_preds = kNN_model.predict(X_validate)
+print(confusion_matrix(y_validate, kNN_preds))
+print(classification_report(y_validate, kNN_preds))
