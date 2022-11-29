@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report
 # Import the data.
 charted = pd.read_csv("./data/charted_songs.csv")
 uncharted = pd.read_csv("./data/uncharted_songs.csv")
-songs = charted.iloc[:100].append(uncharted.iloc[:100])
+songs = pd.concat([charted.iloc[:100], uncharted.iloc[:100]])
 X = songs.iloc[:, 3:]
 y = songs.iloc[:, 2]
 
