@@ -53,11 +53,11 @@ def get_track_sections(track_id: str):
 # Extract desired features from data returned from API.
 def extract_features(track_id: str):
   features = get_track_audio_features(track_id)
-  sections = get_track_sections(track_id)
+  # sections = get_track_sections(track_id)
 
   return {
-    **{key:value for key,value in features.items() if key in FEATURES_TO_EXTRACT},
-    'num_sections': len(sections)
+    **{key:value for key,value in features.items() if key in FEATURES_TO_EXTRACT}
+    # 'num_sections': len(sections)
   }
 
 # Other features which aren't included in the API data
@@ -71,7 +71,7 @@ FEATURES_TO_EXTRACT = {
   'liveness',
   'loudness',
   'speechiness',
-  'valence'
+  'valence',
   # Musical
   'key',
   'mode',
