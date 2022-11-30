@@ -18,7 +18,8 @@ for song in songs:
     track = song[1]
     artist = song[3]
     print(f'{track} by {artist}')
-    if has_charted(track, artist):
+    found, charted = has_charted(track, artist)
+    if found and charted:
         print(f"YES - Has charted in Top {CHARTING_THRESHOLD}")
         #track_id = get_track_id(track, artist)
         track_features = extract_features(track_id)
@@ -27,7 +28,7 @@ for song in songs:
             track_features['mode'],track_features['speechiness'],track_features['acousticness'],
             track_features['instrumentalness'],track_features['liveness'],track_features['tempo'],
             track_features['duration_ms'],track_features['time_signature'],track_features['num_sections']])
-    else:
+    elif found:
         print(f"NO - Has not charted in Top {CHARTING_THRESHOLD}")
         #track_id = get_track_id(track, artist)
         track_features = extract_features(track_id)
