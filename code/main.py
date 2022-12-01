@@ -24,7 +24,7 @@ def classify_training_tracks(in_filename: str, out_charted_filename: str, out_un
 
     # Fields for writing to csv file.
     # fields = ["track","artist","charted",*(FEATURES_TO_EXTRACT)] 
-    fields = ["track","artist","charted"] 
+    fields = ["track","charted"] 
 
     # Extract features from Spotify and classification from officialcharts.
     charted_songs = []
