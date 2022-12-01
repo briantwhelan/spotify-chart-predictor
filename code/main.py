@@ -11,6 +11,32 @@ def remove_duplicates(filename_in: str, filename_out: str) -> None:
     no_dupes = data.drop_duplicates()
     no_dupes.to_csv(filename_out, index=False)
 
+def combine_csvs() -> None:
+    charted = []
+    uncharted = []
+
+    combined_file = './data/classifications.csv'
+    # combined_uncharted_file = './data/uncharted/uncharted_combined/csv'
+
+    for i in range(2000, 20000, 2000):
+        charted_file = f'./data/charted/charted_{i}.csv'
+        uncharted_file = f'./data/uncharted/uncharted_{i}.csv'
+
+        if not (os.path.exists(charted_file) and os.path.exists(charted_file)):
+            continue
+
+        df_charted = pd.read_csv(charted_file)
+        charted.extend(df_charted.to_numpy())
+        df_uncharted = pd.read_csv(uncharted_file)
+        uncharted.extend(df_uncharted.to_numpy())
+
+    with open(combined_file, 'w') as csvfile:
+        csvwriter = csv.writer(csvfile, lineterminator='\n')
+        csvwriter.writerow(['track_id','charted'])
+        csvwriter.writerows(charted)
+        csvwriter.writerows(uncharted)
+
+
 # Classify tracks in specified file as charted or not
 def classify_training_tracks(in_filename: str, out_charted_filename: str, out_uncharted_filename: str) -> None:
     # Import list of songs.
@@ -89,3 +115,4 @@ if __name__ == '__main__':
         out_charted_filename=f"./data/charted/charted_{file_to_classify}.csv",
         out_uncharted_filename=f"./data/uncharted/uncharted_{file_to_classify}.csv"
     )
+    # combine_csvs()
