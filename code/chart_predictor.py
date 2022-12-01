@@ -5,6 +5,7 @@ from sklearn.preprocessing import PolynomialFeatures
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_val_score
+from sklearn.svm import SVC
 from sklearn.dummy import DummyClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
@@ -15,9 +16,10 @@ from sklearn.metrics import roc_curve
 # Import the data.
 charted = pd.read_csv("./data/charted_songs.csv")
 uncharted = pd.read_csv("./data/uncharted_songs.csv")
-songs = pd.concat([charted.iloc[:100], uncharted.iloc[:100]])
-X = songs.iloc[:, 3:]
-y = songs.iloc[:, 2]
+songs = pd.concat([charted.iloc[:len(uncharted.axes[0])], uncharted.iloc[:len(charted.axes[0])]])
+print(songs)
+X = songs.iloc[:, [1,3,4,5,6,11]]
+y = songs.iloc[:, 15]
 
 # Split data into training and validation data.
 X_train, X_validate, y_train, y_validate = train_test_split(X, y, test_size=0.2, random_state=9801)
@@ -73,6 +75,7 @@ lrl2_model.fit(X_train, y_train)
 lrl2_preds = lrl2_model.predict(X_validate)
 print(confusion_matrix(y_validate, lrl2_preds))
 print(classification_report(y_validate, lrl2_preds))
+
 # Perform cross validation to select k.
 mean_error = []
 std_error = []
@@ -100,10 +103,24 @@ kNN_preds = kNN_model.predict(X_validate)
 print(confusion_matrix(y_validate, kNN_preds))
 print(classification_report(y_validate, kNN_preds))
 
+# Perform cross validation to select C.
+
+# Perform cross validation to select gamma.
+
+# Train kernalised SVM classifier with hyperparameters from cross-validation.
+svm_model = SVC(C=100, kernel="rbf", gamma=2, probability=True).fit(X_train, y_train)
+svm_preds = svm_model.predict(X_validate)
+print(confusion_matrix(y_validate, svm_preds))
+print(classification_report(y_validate, svm_preds))
+
 # Plot ROC curves for baseline, logistic regression classifier, kNN classifier.
 fig = plt.figure()
 plt.rc("font", size=10)
 plt.rcParams["figure.constrained_layout.use"] = True
+
+probs = baseline_model.predict_proba(X_validate)  
+fpr, tpr, _ = roc_curve(y_validate, probs[:, 1])
+plt.plot(fpr, tpr, color="red", label="Baseline Classifier")
 
 probs = lrl2_model.predict_proba(X_validate)
 fpr, tpr, _ = roc_curve(y_validate, probs[:, 1])
@@ -113,9 +130,9 @@ probs = kNN_model.predict_proba(X_validate)
 fpr, tpr, _ = roc_curve(y_validate, probs[:, 1])
 plt.plot(fpr, tpr, color="orange", label="kNN Classifier")
 
-probs = baseline_model.predict_proba(X_validate)  
+probs = svm_model.predict_proba(X_validate)  
 fpr, tpr, _ = roc_curve(y_validate, probs[:, 1])
-plt.plot(fpr, tpr, color="red", label="Baseline Classifier")
+plt.plot(fpr, tpr, color="purple", label="Kernalized SVM Classifier")
 
 plt.plot([0,1], [0,1], color="green", linestyle="--", label="Random Classifier")
 
