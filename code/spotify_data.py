@@ -2,6 +2,7 @@ import os
 import requests
 from dotenv import load_dotenv
 from json import dumps
+from math import ceil
 
 BASE_URL = 'https://api.spotify.com/v1/'
 
@@ -37,6 +38,16 @@ def get_track_audio_features(track_id: str):
   response_json = response.json()
   return response_json
 
+def get_batch_audio_features(track_ids: str) -> list:
+  """
+  params: (str) comma separated list of track ids to get features for
+
+  return: (list<dict>) list of audio features for input tracks
+  """
+  response = requests.get(BASE_URL + f'audio-features?ids={track_ids}', headers=headers)
+  response_json = response.json()
+  return response_json['audio_features']
+
 # Only using for sections. Most other content is in audio_features.
 def get_track_audio_analysis(track_id: str):
   response = requests.get(BASE_URL + 'audio-analysis/' + track_id, headers=headers)
@@ -59,6 +70,37 @@ def extract_features(track_id: str):
     **{key:value for key,value in features.items() if key in FEATURES_TO_EXTRACT}
     # 'num_sections': len(sections)
   }
+
+def batch_features(track_ids: list) -> list:
+  """
+  Makes as many API calls as necessary to get features for tracks in input list.
+
+  Each API call returns features for up to 100 tracks, so be weary of API rate limits for larger input lists.
+
+  params:
+    track_ids: list<str> -> list of any number of track IDs.
+
+  return: list<dict> -> list of track features for each ID in input list 
+  """
+  features = []
+  print(f'Starting {ceil(len(track_ids) / 100)} API calls to get features for {len(track_ids)} tracks...\nThis may take a while...')
+
+  ids_processed = 0
+  while ids_processed < len(track_ids):
+    offset = min(100, len(track_ids) - ids_processed)
+    ids_processed += offset
+    
+    print(f'Getting features for {ids_processed - offset} to {ids_processed - 1}')
+    curr = track_ids[ids_processed - offset : ids_processed]
+    
+    ids_string = curr[0]
+    for id in curr[1:]:
+      ids_string += f',{id}'
+    
+    # features.append(*get_batch_audio_features(ids_string))
+    features.extend(get_batch_audio_features(ids_string))
+
+  return features
 
 # Other features which aren't included in the API data
 #   are commented out but included here for convenience of reading.
