@@ -36,7 +36,7 @@ def __scrape(url: str) -> list:
 # Get the top chart position for the specified track.
 def _get_top_position(track_name: str, artist_name: str) -> int:
     # Remove forward slashes from URL
-    url = BASE_URL + track_name.replace('/',' ')
+    url = BASE_URL + track_name.replace('/','_slash_')
     results = __scrape(url)
     max = -1
 
