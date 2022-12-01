@@ -1,572 +1,786 @@
-track,artist,charted,danceability,energy,loudness,mode,speechiness,acousticness,instrumentalness,liveness,tempo,duration_ms,time_signature,num_sections
-I Will Follow You into the Dark,Death Cab for Cutie,False,0.517,0.206,-12.233,1,0.0421,0.924,0,0.118,80.401,189187,4,7
-"Becoming one of ""The People"" Becoming one with Neytiri",James Horner,False,0.0993,0.0902,-26.307,1,0.0428,0.692,0.85,0.0745,71.062,463707,3,16
-"Piano Sonata No.12 In F, K.332: 2. Adagio",Wolfgang Amadeus Mozart,False,0.479,0.0312,-26.821,1,0.0658,0.995,0.912,0.0812,72.657,284000,4,15
-Flicker,Porter Robinson,False,0.589,0.713,-3.756,0,0.0976,0.0331,0.000411,0.178,92.018,279000,4,14
-Give Me Back My Wig,Stevie Ray Vaughan,False,0.512,0.753,-10.36,1,0.0671,0.000326,0.416,0.0725,109.427,247293,4,10
-She's Not Afraid,One Direction,False,0.486,0.918,-4.002,1,0.126,0.00908,0,0.171,167.635,190720,4,7
-Time,Hans Zimmer,False,0.286,0.0968,-16.806,1,0.0323,0.178,0.696,0.0861,62.881,275556,4,8
-"3 Pieces for piano, Op. 2: No. 1. Etude in C Sharp Minor",Alexander Scriabin,False,0.336,0.0255,-28.163,0,0.0525,0.994,0.891,0.186,63.586,165496,5,8
-Gypsy Woman,Muddy Waters,False,0.655,0.373,-8.61,1,0.0314,0.937,0.00199,0.0863,82.837,153760,4,6
-Ain't No Sunshine,Buddy Guy,False,0.666,0.421,-8.553,0,0.0421,0.535,0.0143,0.112,79.918,204773,4,12
-Breathe,The Prodigy,False,0.679,0.822,-6.117,1,0.0498,0.0091,0.871,0.0388,130.036,334800,4,11
-Hurricane,MS MR,False,0.564,0.68,-6.487,1,0.0357,0.231,0.000179,0.247,89.938,226373,4,10
-Bangarang (feat. Sirah),Skrillex,False,0.716,0.972,-2.302,1,0.196,0.0145,3.22e-05,0.317,110.026,215253,4,10
-Sun Goes Down (feat. Jasmine Thompson) - Radio Mix,Robin Schulz,False,0.548,0.723,-6.002,1,0.0375,0.0969,1.28e-05,0.337,125.088,179960,4,7
-"From the Bohemian Forest, Op. 68, B. 182: No. 5, Silent Woods",Antonín Dvořák,False,0.0727,0.0185,-31.899,1,0.045,0.962,0.776,0.105,78.46,398827,5,20
-Nightcall,Kavinsky,False,0.532,0.874,-5.183,0,0.0482,0.00842,0.012,0.452,91.038,258413,4,9
-"Monteverdi: L'incoronazione di Poppea, SV 308, Act 3: ""Pur ti miro"" (Neron, Popea)",Claudio Monteverdi,False,0.259,0.0625,-21.294,1,0.0483,0.983,3.59e-06,0.1,76.588,251213,3,12
-I Miss You,blink-182,False,0.653,0.774,-6.366,1,0.0341,0.00132,6.98e-06,0.0835,109.997,227253,4,10
-They Don't Know About Us,One Direction,False,0.512,0.754,-6.031,1,0.0549,0.135,0,0.0881,147.89,201693,4,7
-Bad Penny,Rory Gallagher,False,0.246,0.81,-5.249,0,0.0902,0.056,0.0127,0.0679,199.784,238960,4,11
-Quatuor pour la fin du temps (Quartet for the End of Time) (2008 - Remaster): Louange à l'éternité de Jésus,Olivier Messiaen,False,0.121,0.0238,-28.614,1,0.04,0.978,0.91,0.0771,95.821,420040,4,20
-"Shake for Me - Live at Steamboat 1874, Austin, TX - April 1980",Stevie Ray Vaughan,False,0.519,0.841,-9.142,0,0.0362,0.00149,0.00177,0.987,124.388,228800,4,11
-Over My Head (Cable Car),The Fray,False,0.591,0.699,-5.221,1,0.0449,0.0204,0,0.0614,116.029,236373,4,11
-A New Error,Moderat,False,0.719,0.461,-11.338,0,0.037,0.0298,0.801,0.0634,110.991,367307,4,20
-Sweet Little Angel,B.B. King,False,0.51,0.501,-8.202,1,0.0299,0.378,0.00238,0.0319,105.668,181560,4,8
-Still A Fool,Muddy Waters,False,0.572,0.2,-9.879,1,0.043,0.942,0.000685,0.114,181.878,196773,3,11
-Miserere,Gregorio Allegri,False,0.15,0.037,-26.859,0,0.046,0.974,0.00266,0.123,73.132,719133,4,31
-Brigg Fair,Frederick Delius,False,0.111,0.0306,-23.118,1,0.0403,0.972,0.924,0.228,79.186,947373,4,31
-"Serenade in E Major for Strings, Op. 22: II. Menuetto",Antonín Dvořák,False,0.184,0.0878,-19.386,1,0.0409,0.74,0.883,0.225,81.679,432533,3,21
-Don't Panic,Coldplay,False,0.602,0.612,-8.409,1,0.0335,0.206,0.00607,0.107,122.062,136867,4,9
-Water from the Same Source,Rachel's,False,0.527,0.363,-12.053,1,0.0271,0.53,0.872,0.923,126.798,378067,3,10
-Young Folks,Peter Bjorn and John,False,0.699,0.812,-6.005,1,0.0377,0.0164,0.000763,0.105,138.185,276693,4,10
-Sleeping Lotus,Joep Beving,False,0.341,0.0296,-26.526,0,0.0402,0.994,0.901,0.112,65.942,152000,4,6
-Price Tag,Jessie J,False,0.447,0.839,-3.948,1,0.254,0.0304,1.76e-06,0.189,174.959,221240,4,9
-Si No Te Quisiera,Juan Magán,False,0.707,0.869,-2.727,0,0.0706,0.181,0,0.0669,128.0,185480,4,7
-Got My Mojo Working - Live,Muddy Waters,False,0.417,0.939,-8.797,1,0.316,0.0893,0.015,0.617,139.573,192640,4,7
-Foxey Lady,Jimi Hendrix,False,0.494,0.838,-6.028,1,0.0387,0.0613,0.26,0.405,98.019,198293,4,7
-I Can't Stop,Flux Pavilion,False,0.524,0.601,-13.399,0,0.0335,0.00108,0.601,0.398,139.972,305786,4,12
-Rock the Casbah - Remastered,The Clash,False,0.797,0.872,-6.727,0,0.0575,0.291,0,0.284,129.885,222427,4,12
-Slide,The Goo Goo Dolls,False,0.371,0.845,-4.199,1,0.0399,0.00753,0,0.0556,112.198,213200,4,12
-Back Door Man,Howlin' Wolf,False,0.509,0.802,-7.534,0,0.0642,0.787,1.75e-06,0.165,156.609,169507,4,6
-"Cello Suite No. 5 in C Minor, BWV 1011: II. Allemande",Johann Sebastian Bach,False,0.115,0.0637,-23.81,0,0.0425,0.935,0.897,0.0883,168.953,322307,4,16
-Rock Me,Muddy Waters,False,0.501,0.833,-6.765,1,0.0496,0.677,0.805,0.252,120.522,233964,1,11
-Crossroads - Live,Cream,False,0.378,0.725,-12.145,1,0.0638,0.439,0.0261,0.862,131.641,255707,4,10
-Revolution (feat. Faustix & Imanos and Kai),Diplo,False,0.634,0.724,-5.842,0,0.0546,0.00499,0.000193,0.0732,148.024,263716,4,11
-Lose Yourself to Dance (feat. Pharrell Williams),Daft Punk,False,0.832,0.659,-7.828,0,0.057,0.0839,0.00114,0.0753,100.163,353893,4,17
-Always Where I Need To Be,The Kooks,False,0.331,0.961,-4.627,1,0.0663,0.000146,0,0.322,168.355,161720,4,10
-Carmen Suite No. 2: III. Nocturne,Georges Bizet,False,0.0665,0.0495,-28.199,1,0.0455,0.926,0.762,0.0934,66.142,309560,4,15
-Start Me Up - Remastered,The Rolling Stones,False,0.695,0.817,-8.406,1,0.0341,0.154,0.171,0.144,122.003,212927,4,10
-Wake Me Up,Ed Sheeran,False,0.616,0.209,-13.43,1,0.406,0.902,0,0.139,86.891,229613,1,11
-Get Lucky (feat. Pharrell Williams & Nile Rodgers) - Radio Edit,Daft Punk,False,0.794,0.811,-8.966,0,0.038,0.0426,1.07e-06,0.101,116.047,248413,4,13
-Shake It Out,Florence + The Machine,False,0.527,0.804,-4.168,1,0.0358,0.0104,0,0.105,107.486,277720,4,9
-Come On In My Kitchen,Robert Johnson,False,0.556,0.0643,-15.305,0,0.175,0.927,2.37e-06,0.0991,81.673,172307,4,9
-Ten Long Years,Eric Clapton,False,0.678,0.551,-7.332,1,0.0261,0.266,0.00322,0.254,97.767,280453,3,13
-Ruby Tuesday,The Rolling Stones,False,0.394,0.465,-11.755,1,0.0501,0.835,0,0.155,105.006,194040,4,10
-Pictures At An Exhibition: Promenade - 1,Modest Mussorgsky,False,0.301,0.066,-20.052,1,0.0414,0.963,0.881,0.249,80.091,107893,4,5
-I'm A Man - Single Version,Bo Diddley,False,0.594,0.747,-7.624,1,0.0424,0.28,0,0.704,84.923,179907,4,7
-Scary Monsters and Nice Sprites,Skrillex,False,0.523,0.944,-3.581,0,0.0837,0.00336,0.557,0.119,139.997,243354,4,8
-Don't Answer The Door,B.B. King,False,0.362,0.519,-6.953,1,0.0375,0.632,0.00261,0.252,167.161,311960,3,16
-Lucky Man - Remastered,The Verve,False,0.402,0.658,-7.541,1,0.0302,0.3,0.000166,0.114,76.012,289787,4,10
-Some Nights,fun.,False,0.672,0.738,-7.045,1,0.0506,0.0178,6.75e-05,0.0927,107.938,277040,4,10
-China Girl - 2002 Remaster,David Bowie,False,0.646,0.633,-10.09,1,0.0274,0.0155,0.0282,0.107,134.357,257000,4,12
-Baby Please Don’t Go,Muddy Waters,False,0.644,0.395,-15.291,1,0.0338,0.978,0.529,0.289,127.006,197120,4,11
-White Wedding - Part 1 - 2001- Remaster,Billy Idol,False,0.634,0.804,-6.74,1,0.0329,0.00363,0.00499,0.347,147.335,250760,4,12
-Kill Your Heroes,AWOLNATION,False,0.577,0.951,-6.351,1,0.0677,0.00768,0.000102,0.755,96.076,178840,4,8
-Ain't Gone 'N' Give up on Love,Stevie Ray Vaughan,False,0.448,0.393,-12.006,1,0.0374,0.169,0.473,0.0804,148.606,367067,3,18
-Purple Haze,Jimi Hendrix,False,0.529,0.898,-5.249,1,0.0786,0.00627,0.728,0.0668,108.599,171427,4,7
-Seven Nation Army,The White Stripes,False,0.745,0.466,-7.62,0,0.0864,0.00666,0.35,0.272,123.889,231920,4,8
-Warsaw Concerto,Richard Addinsell,False,0.213,0.145,-19.339,1,0.0345,0.982,0.908,0.105,76.19,540067,3,25
-The Sky Is Crying - 1984 Version,Stevie Ray Vaughan,False,0.248,0.431,-11.074,0,0.0437,0.0051,0.137,0.294,182.001,250867,3,9
-"Serenade In G Major ""Eine Kleine Nachtmusik"", K. 525: I. Allegro",Wolfgang Amadeus Mozart,False,0.389,0.0448,-24.181,1,0.0493,0.728,0.000198,0.238,147.991,466133,4,26
-Never Say Never,Basement Jaxx,False,0.753,0.789,-7.469,0,0.0274,0.00779,0.111,0.325,126.008,263053,4,11
-I'm a Steady Rollin' Man,Robert Johnson,False,0.697,0.168,-13.181,1,0.0552,0.982,0.0263,0.109,102.005,154733,4,11
-Live for the Night,Krewella,False,0.499,0.843,-2.224,1,0.113,0.0138,0,0.124,127.932,206480,4,8
-"Piano Concerto in A Minor, Op. 7: II. Romanze: Andante non troppo con grazia",Clara Schumann,False,0.198,0.0138,-30.715,1,0.039,0.989,0.931,0.131,69.315,269973,4,13
-Flying Spaghetti Monster,Doctor P,False,0.665,0.913,-2.299,1,0.0461,0.000148,0.412,0.384,100.005,249600,4,9
-All Time Chump,Alan Menken,False,0.118,0.176,-22.061,0,0.0503,0.984,0.0813,0.173,167.24,37973,4,3
-Okie From Muskogee,Merle Haggard,False,0.602,0.371,-14.033,1,0.0286,0.64,1.15e-05,0.243,139.664,166000,4,12
-Beats Knockin (feat. Fly Boi Keno),Jack Ü,False,0.814,0.951,-1.981,1,0.0715,0.0118,0,0.628,104.003,173077,4,10
-Like a Boss,Eptic,False,0.587,0.92,-2.251,1,0.0736,0.00103,0.583,0.102,70.017,274751,4,12
-I Can Still Make Cheyenne,George Strait,False,0.585,0.39,-10.233,1,0.0266,0.68,0.000769,0.0919,109.514,256067,4,15
-Chevrolet DJ,Cole Swindell,False,0.521,0.717,-4.081,1,0.0292,0.157,0,0.21,136.046,223507,4,10
-Cracks Feat. Belle Humble (Flux Pavilion Rmx),Freestylers,False,0.499,0.826,-7.082,0,0.0534,0.00095,0.029,0.122,140.007,281083,4,8
-Werewolf - VIP Edit,Figure,False,0.62,0.739,-5.993,1,0.341,0.00519,0.00574,0.0982,145.173,216628,4,10
-Firestone,Kygo,False,0.486,0.652,-7.226,0,0.052,0.408,6.63e-05,0.077,113.055,273684,4,15
-Take Your Time (Do It Right),The S.O.S Band,False,0.868,0.717,-8.533,0,0.0613,0.0265,0.011,0.0835,118.951,457880,4,18
-I'll Name the Dogs,Blake Shelton,False,0.348,0.87,-5.86,1,0.137,0.171,4.4e-06,0.202,83.392,183640,4,8
-The Court of Miracles,Paul Kandel,False,0.699,0.288,-18.767,1,0.573,0.804,0,0.153,51.47,87507,4,4
-Sexual Healing - Kygo Radio Edit,Marvin Gaye,False,0.659,0.796,-7.29,0,0.0347,0.567,0.0506,0.141,100.975,184760,4,7
-If I Can't Have You - 2007 Remastered Version Saturday Night Fever,Yvonne Elliman,False,0.606,0.848,-4.509,1,0.0386,0.236,0,0.43,109.252,180587,4,8
-There’s A Girl,Trent Harmon,False,0.526,0.793,-5.869,1,0.0376,0.196,0,0.0778,97.107,214360,4,8
-Relight My Fire - Single Version,Dan Hartman,False,0.759,0.871,-7.034,1,0.0391,0.0687,0,0.342,120.43,224333,4,10
-Fortune Days,The Glitch Mob,False,0.598,0.67,-9.205,0,0.095,0.383,0.805,0.0781,104.964,382813,4,14
-New year's day,Charlie Robison,False,0.607,0.609,-7.332,1,0.026,0.235,0,0.358,130.09,234240,4,10
-Alright,Darius Rucker,False,0.601,0.806,-4.579,1,0.0345,0.0527,0,0.185,89.87,231920,4,9
-Evil Beauty,Blackmill,False,0.652,0.581,-8.511,1,0.0353,0.337,0.000101,0.0857,139.982,228004,4,7
-Firepower,Datsik,False,0.467,0.83,-5.197,1,0.0574,0.000723,0.0172,0.406,140.028,309577,4,12
-T.S.O.P. (The Sound of Philadelphia) (feat. The Three Degrees),MFSB,False,0.707,0.854,-8.231,0,0.0286,0.149,0.117,0.0987,114.022,222347,4,8
-She Got the Best of Me,Luke Combs,False,0.533,0.907,-3.793,1,0.0406,0.0292,0,0.386,150.99,183160,4,8
-Love You Too Late,Cole Swindell,False,0.542,0.797,-4.45,0,0.0379,0.00111,0,0.0906,113.95,204720,4,8
-Bird Machine,DJ Snake,False,0.719,0.668,-6.35,1,0.0479,0.000352,0.498,0.0851,99.995,198000,4,10
-Louisiana Saturday Night,Mel McDaniel,False,0.686,0.622,-7.31,1,0.0857,0.532,0,0.0511,163.245,144187,4,7
-The Hun's Attack,Jerry Goldsmith,False,0.289,0.248,-17.329,0,0.0369,0.845,0.87,0.0675,106.738,269907,4,14
-Bang It To The Curb,Far East Movement,False,0.811,0.84,-5.792,1,0.255,0.000492,0.00381,0.0647,99.876,186000,4,11
-Chasing Time,Vicetone,False,0.397,0.818,-2.859,1,0.166,0.377,0,0.0636,127.545,203715,4,7
-We Found Love,Rihanna,False,0.755,0.74,-4.951,1,0.0407,0.0225,0.00139,0.124,127.98,215760,4,12
-Instinct,BB Diamond,False,0.765,0.743,-5.229,0,0.0809,0.0108,0.000369,0.465,123.939,233061,4,11
-Louder (feat. Sian Evans) - Doctor P & Flux Pavillion Remix,DJ Fresh,False,0.545,0.948,-0.889,0,0.0631,0.00111,0.0657,0.367,69.961,235533,4,11
-Boogie Wonderland (with The Emotions),"Earth, Wind & Fire",False,0.801,0.824,-9.494,0,0.0332,0.0801,0.0144,0.0236,131.807,287867,4,14
-"Moves Like Jagger - Studio Recording From ""The Voice"" Performance",Maroon 5,False,0.722,0.758,-4.477,0,0.0471,0.0111,0,0.308,128.047,201160,4,9
-Stayin' Alive - Remastered Version,Bee Gees,False,0.675,0.899,-6.124,0,0.0418,0.0696,0.000139,0.33,103.683,285200,4,12
-Whistle While You Work - Soundtrack,Adriana Caselotti,False,0.453,0.351,-11.36,1,0.0488,0.81,0.25,0.136,207.5,203747,4,11
-The Weekend,Brantley Gilbert,False,0.511,0.812,-4.763,0,0.0464,0.0496,1.64e-06,0.0829,81.992,187760,4,8
-Funky Town,Lipps Inc.,False,0.906,0.63,-8.071,1,0.0575,0.000547,0.616,0.0994,122.458,239253,4,15
-Giving It All,Bondax,False,0.76,0.916,-3.017,0,0.0521,0.186,1.17e-06,0.0885,109.993,191653,4,10
-Lean On (feat. MØ & DJ Snake),Major Lazer,False,0.723,0.809,-3.081,0,0.0625,0.00346,0.00123,0.565,98.007,176561,4,9
-Gunpoint - Edit,Pegboard Nerds,False,0.54,0.988,-5.609,0,0.11,0.000635,0.29,0.318,140.042,216000,4,11
-Your Man,Josh Turner,False,0.744,0.637,-4.483,1,0.0241,0.337,0.000222,0.0696,100.511,211893,4,12
-Follow Your Arrow,Kacey Musgraves,False,0.448,0.649,-5.925,1,0.0434,0.418,0,0.0976,195.925,199640,4,9
-Drift Away,Uncle Kracker,False,0.583,0.66,-5.078,1,0.0377,0.181,0,0.0979,151.956,255560,4,11
-Reflection,Lea Salonga,False,0.255,0.174,-19.217,1,0.0379,0.805,0.00911,0.335,80.707,146760,4,7
-Right In,Skrillex,False,0.636,0.802,-2.168,1,0.167,0.00631,4.14e-05,0.059,139.815,180400,4,9
-Bang That,Disclosure,False,0.729,0.843,-6.0,1,0.0482,0.000373,0.678,0.355,125.0,324541,4,12
-GAMMA GAMMA - Brillz Remix,Tritonal,False,0.462,0.987,-3.62,1,0.132,0.000283,0.107,0.17,139.957,270857,4,13
-Bassmentality,Zeds Dead,False,0.525,0.848,-5.158,0,0.0591,0.000549,0.0232,0.363,140.064,168433,4,7
-Estragando O Acampamento (Trashing The Camp),Gabriela Teissier,False,0.764,0.728,-8.167,1,0.177,0.178,0.0404,0.473,97.055,135467,4,5
-Decisions,Borgore,False,0.552,0.911,-1.652,0,0.069,0.00224,0,0.344,139.979,194143,4,9
-Get Down On It,Kool & The Gang,False,0.854,0.574,-8.618,1,0.0473,0.106,5.5e-06,0.044,111.542,291280,4,16
-When Love Takes Over (feat. Kelly Rowland),David Guetta,False,0.658,0.863,-4.64,1,0.0255,0.0144,0.000193,0.2,129.972,189000,4,9
-I've Been Meaning to Call,Adam Sanders,False,0.702,0.408,-8.146,1,0.0307,0.735,0,0.0974,125.953,230440,4,11
-You Were Right,RÜFÜS DU SOL,False,0.708,0.802,-5.427,0,0.0379,0.0122,0.00299,0.117,121.973,238646,4,10
-Marketplace,Alan Menken,False,0.382,0.0394,-24.124,1,0.0347,0.826,0.0742,0.268,142.667,157213,4,10
-Reflection - Pop Version,Christina Aguilera,False,0.504,0.226,-18.574,1,0.0276,0.261,0,0.113,95.793,216333,4,12
-Can’t Get Enough Of Your Love Babe,Barry White,False,0.733,0.79,-6.25,1,0.0591,0.186,4.37e-05,0.265,111.935,269827,4,13
-All Is Fair in Love and Brostep,Skrillex,False,0.581,0.925,-3.213,1,0.151,0.00112,0,0.406,139.982,249120,4,10
-How Deep Is Your Love (2007 Remastered Saturday Night Fever LP Version),Bee Gees,False,0.63,0.357,-9.392,0,0.026,0.0999,0,0.128,104.965,245200,4,14
-Finally Friday,George Jones,False,0.656,0.728,-12.39,1,0.0277,0.0214,0.000107,0.242,134.431,164693,4,7
-I.D.G.A.F.O.S.,Dillon Francis,False,0.666,0.93,-3.826,0,0.0406,0.00168,0.000397,0.341,110.018,248727,4,12
-19 Somethin' - Greatest Hits Version,Mark Wills,False,0.58,0.816,-5.165,1,0.0726,0.132,0,0.0776,89.938,200467,4,8
-Goodbye Says It All,BlackHawk,False,0.646,0.479,-9.823,1,0.0265,0.056,0,0.0517,137.703,204160,4,9
-Give It To Me Baby,Rick James,False,0.775,0.726,-6.731,1,0.0495,0.0529,0.000407,0.095,119.891,247133,4,9
-Archangel,Burial,False,0.624,0.852,-10.184,1,0.153,0.428,0.656,0.114,135.223,238427,4,9
-A Guy Like You,Charles Kimbrough,False,0.399,0.181,-17.657,1,0.0489,0.74,0,0.113,101.521,173960,4,8
-STREET,NGHTMRE,False,0.444,0.968,-4.112,1,0.0582,0.00711,0.77,0.162,149.999,160000,4,8
-You Are the Music in Me,Troy,False,0.604,0.757,-4.516,1,0.043,0.373,0,0.0989,101.967,208653,4,9
-Wish You Were Mine - Radio Edit,Philip George,False,0.654,0.83,-4.006,0,0.0283,0.0115,0.038,0.0905,122.948,177561,4,8
-Fire Hive,Knife Party,False,0.686,0.98,-2.966,0,0.228,0.000304,0.703,0.171,140.054,278361,4,8
-Delta Dawn,Tanya Tucker,False,0.619,0.507,-7.677,1,0.0335,0.71,0,0.258,77.995,175200,4,7
-Party For Two - Country Version With Intro,Shania Twain,False,0.74,0.706,-4.726,1,0.0457,0.102,0,0.39,121.467,212640,4,13
-Gangnam Style (강남스타일),PSY,False,0.727,0.938,-2.872,0,0.288,0.00432,0,0.0911,132.077,219493,4,8
-"Puppet Theatre (feat. Peter, Bjorn and John)",Claptone,False,0.936,0.648,-6.72,1,0.0404,0.0753,0.0509,0.104,115.026,254641,4,11
-The Way I Talk,Morgan Wallen,False,0.604,0.879,-3.389,1,0.0323,0.0498,0,0.0936,137.993,208280,4,10
-Better in Boots,Tyler Farr,False,0.614,0.805,-5.34,1,0.0439,0.00445,2.98e-05,0.0604,80.02,176093,4,10
-Trust - Mia Dora Remix,Romanthony,False,0.745,0.76,-6.717,1,0.0416,0.000509,0.358,0.358,119.995,456086,4,11
-Wit Me Dub,Zeds Dead,False,0.383,0.912,-1.87,1,0.345,0.00396,0.00245,0.411,72.51,205241,4,11
-Take A Back Road,Rodney Atkins,False,0.581,0.856,-4.0,1,0.0783,0.183,0,0.0871,169.902,209427,4,8
-Ffun,Con Funk Shun,False,0.934,0.64,-9.011,0,0.0739,0.187,0.00587,0.193,111.87,252733,4,12
-Swing On This,Alice In Chains,False,0.427,0.759,-8.045,1,0.041,0.0438,0.106,0.352,129.395,244373,4,11
-The Kill (Bury Me),Thirty Seconds To Mars,False,0.179,0.912,-3.881,0,0.0791,0.0014,0.000294,0.582,182.99,231533,3,10
-Can't Be Saved,Senses Fail,False,0.329,0.975,-3.405,1,0.0905,7.44e-06,0.000394,0.299,170.033,187933,4,9
-Hot Damn! (feat. John McCallum),The Haggis Horns,False,0.669,0.825,-8.351,0,0.0432,0.0584,6.81e-05,0.0341,105.888,272347,4,14
-Reunion,M83,False,0.431,0.82,-5.007,1,0.0477,5.37e-05,0.000208,0.109,124.028,235387,4,10
-Wagon Wheel,Old Crow Medicine Show,False,0.621,0.403,-8.211,1,0.0359,0.581,0,0.114,145.523,232133,4,14
-Atlas Hands,Benjamin Francis Leftwich,False,0.516,0.247,-14.504,1,0.0376,0.906,0.00412,0.0499,82.434,171334,4,7
-Daughter's Lament,Carolina Chocolate Drops,False,0.643,0.159,-16.494,1,0.209,0.886,0,0.12,83.27,166693,4,10
-Blow Up The Outside World,Soundgarden,False,0.33,0.529,-10.043,1,0.0358,0.000807,0.214,0.126,140.156,345667,4,15
-Get Lucky (feat. Pharrell Williams & Nile Rodgers) - Radio Edit,Daft Punk,False,0.794,0.811,-8.966,0,0.038,0.0426,1.07e-06,0.101,116.047,248413,4,13
-Weightless,All Time Low,False,0.479,0.931,-4.474,1,0.134,0.00309,0,0.121,181.069,198000,4,10
-Confusion,Alice In Chains,False,0.251,0.734,-7.43,1,0.0397,0.00666,4.73e-05,0.116,149.831,344080,4,11
-It's All in Sound,Bullion,False,0.812,0.621,-9.357,0,0.0931,0.217,0.335,0.0792,159.109,211493,4,9
-Flying Spaghetti Monster,Doctor P,False,0.665,0.913,-2.299,1,0.0461,0.000148,0.412,0.384,100.005,249600,4,9
-Knockin' em Down (Feat. Bruce Briney & Kurt Kupcho),Phat Phunktion,False,0.852,0.82,-5.541,0,0.065,0.0543,0.0194,0.202,107.981,282227,4,16
-Antidote - Extended,Swedish House Mafia,False,0.733,0.821,-6.021,1,0.0991,0.000643,0.367,0.0617,128.013,374125,4,12
-You're Not Alone,Saosin,False,0.458,0.845,-4.384,0,0.0422,0.000948,1.99e-06,0.359,119.994,238053,4,12
-Battles,Hudson Taylor,False,0.398,0.65,-5.452,0,0.039,0.048,0,0.094,124.334,214317,4,9
-Something In The Way,Nirvana,False,0.427,0.201,-13.044,1,0.0317,0.745,0.263,0.109,105.218,232147,4,8
-Heartbeats,José González,False,0.552,0.15,-16.746,1,0.0347,0.974,0.731,0.0698,87.485,160240,4,8
-Big Empty,Stone Temple Pilots,False,0.335,0.716,-7.023,1,0.0406,0.0346,0,0.107,121.791,293987,4,10
-Get Lucky (feat. Pharrell Williams & Nile Rodgers),Daft Punk,False,0.81,0.793,-9.404,0,0.0403,0.0378,1.77e-06,0.072,116.05,369627,4,20
-The Boxer,Simon & Garfunkel,False,0.445,0.486,-14.521,1,0.0616,0.76,0.000658,0.189,93.019,307667,4,11
-Cold Act Ill - Wolfgang Gartner Monster Mix,Classixx,False,0.741,0.931,-5.527,1,0.0851,0.0002,0.67,0.149,127.991,466453,4,17
-Montezuma,Fleet Foxes,False,0.314,0.308,-9.117,1,0.0283,0.854,0.0117,0.0993,99.214,217120,4,11
-Adam's Song,blink-182,False,0.514,0.771,-5.756,1,0.0364,0.039,0,0.262,136.058,249754,4,12
-Hopeless Wanderer,Mumford & Sons,False,0.345,0.601,-7.421,0,0.0364,0.0196,0.00348,0.107,78.459,307853,4,10
-Love Thine Enemy,Cass McCombs,False,0.605,0.712,-10.787,1,0.0275,0.61,0.766,0.19,123.935,236227,4,10
-Sleepyhead,Passion Pit,False,0.575,0.971,-3.261,1,0.11,0.425,3.4e-06,0.105,106.052,175080,4,9
-Fight the Power - Pt. 1 & 2,The Isley Brothers,False,0.792,0.745,-7.78,0,0.164,0.0702,0.00664,0.0886,126.433,320093,4,17
-Pick Up On Your Line,Jurassik Funk,False,0.698,0.687,-6.185,1,0.0673,0.115,1.48e-06,0.0858,114.353,286433,4,15
-The Mixed Tape,Jack's Mannequin,False,0.461,0.907,-4.784,1,0.0601,0.021,0,0.145,100.963,194267,4,8
-The Cisco Kid,War,False,0.849,0.858,-6.649,0,0.12,0.256,0.00673,0.0422,141.75,226360,4,9
-Truth,Amos Lee,False,0.637,0.668,-5.268,0,0.0328,0.26,0,0.0435,114.103,182787,4,9
-Slippery When Wet,Commodores,False,0.723,0.866,-7.064,1,0.101,0.0451,2.8e-05,0.0992,101.436,197093,4,8
-High Time,Ole Børud,False,0.85,0.78,-5.427,0,0.0609,0.0593,8.16e-05,0.0205,107.01,202080,4,7
-Play Crack the Sky,Brand New,False,0.549,0.367,-11.509,1,0.0362,0.654,0,0.133,118.069,327880,3,10
-Decode - Twilight Soundtrack Version,Paramore,False,0.282,0.866,-4.223,0,0.0588,0.000705,0.0055,0.101,163.987,261960,4,9
-Get Down On It,Kool & The Gang,False,0.889,0.646,-6.366,1,0.0668,0.195,3.19e-05,0.0502,110.842,213427,4,13
-Hunger Strike,Temple Of The Dog,False,0.373,0.567,-10.835,1,0.032,0.0236,3.47e-06,0.0916,137.789,246267,4,8
-East Harlem,Beirut,False,0.505,0.645,-7.738,1,0.0375,0.864,0.0227,0.105,91.84,238547,4,8
-Ready,Jacques Greene,False,0.789,0.884,-11.722,1,0.0632,0.0329,0.87,0.116,130.031,386275,4,14
-Nine in the Afternoon - Single Mix,Panic! At The Disco,False,0.405,0.689,-5.75,1,0.0365,0.0843,0,0.207,155.189,191560,4,8
-Pieces,Sum 41,False,0.417,0.83,-5.257,1,0.0347,0.00825,0.00774,0.313,99.927,181653,4,7
-Venice,The Lighthouse And The Whaler,False,0.665,0.571,-8.157,1,0.0261,0.303,7.64e-06,0.0605,104.03,199907,4,9
-Dirty Little Secret,The All-American Rejects,False,0.465,0.954,-4.251,1,0.044,0.000346,5.38e-06,0.573,143.85,193653,4,9
-Creature Fear,Bon Iver,False,0.389,0.121,-15.847,1,0.0504,0.928,0.00396,0.324,103.985,186120,3,7
-The Feel Good Drag,Anberlin,False,0.342,0.677,-11.906,0,0.0568,0.0013,0.00671,0.201,188.6,207360,4,10
-In The Midnight,Langhorne Slim,False,0.525,0.829,-7.191,1,0.0559,0.351,0.00152,0.122,142.233,129640,4,7
-It's All Okay,Julia Stone,False,0.697,0.465,-12.55,0,0.0628,0.572,0.0838,0.098,112.986,234003,4,11
-Society,Eddie Vedder,False,0.64,0.329,-10.844,0,0.0323,0.896,0.000536,0.113,80.687,236307,4,8
-Technologic,Daft Punk,False,0.812,0.516,-6.963,1,0.224,0.000369,1.09e-05,0.0991,127.498,284280,4,14
-I Will Play My Game Beneath the Spin Light,Brand New,False,0.52,0.644,-6.63,1,0.0379,0.117,0,0.223,98.264,237200,4,9
-Elderly Woman Behind the Counter in a Small Town - Remastered,Pearl Jam,False,0.281,0.493,-9.461,1,0.0284,0.0519,9.15e-06,0.101,60.772,196187,4,11
-Wildcat,Ratatat,False,0.703,0.718,-7.522,1,0.0669,0.0479,0.432,0.0415,115.993,260173,4,7
-Ghosts That We Knew,Mumford & Sons,False,0.366,0.301,-11.643,1,0.0417,0.532,0.00479,0.112,159.101,339720,4,16
-If It Means a Lot to You,A Day To Remember,False,0.584,0.536,-8.158,1,0.0279,0.112,0,0.456,126.996,243227,4,9
-Shame In You,Alice In Chains,False,0.317,0.597,-7.959,1,0.0268,0.000838,0.0223,0.119,140.824,335933,4,15
-"A Little Less Sixteen Candles, A Little More ""Touch Me""",Fall Out Boy,False,0.544,0.897,-3.224,1,0.0615,0.00526,0,0.18,133.083,170280,4,9
-Move on Up - Extended Version,Curtis Mayfield,False,0.584,0.975,-6.534,0,0.0651,0.141,0.501,0.101,138.341,535333,4,21
-Smile In Your Sleep,Silverstein,False,0.434,0.952,-3.177,0,0.18,0.00301,1.6e-05,0.406,184.048,193920,4,10
-He Doesn't Know Why,Fleet Foxes,False,0.507,0.556,-5.53,1,0.0297,0.256,4.56e-05,0.339,93.951,200493,4,8
-Shake Your Rump To The Funk,The Bar-Kays,False,0.726,0.907,-5.604,1,0.0377,0.0157,2.47e-05,0.0339,113.45,256387,4,11
-I Slept With Someone In Fall Out Boy And All I Got Was This Stupid Song Written About Me,Fall Out Boy,False,0.392,0.956,-3.271,1,0.0961,0.00159,0,0.847,196.133,211493,4,10
-Doomsday,NERO,False,0.323,0.839,-4.592,1,0.152,0.000213,0.00224,0.276,120.19,251649,4,10
-Paint The Toon (feat. Connie Lush),6ix Toys,False,0.782,0.967,-4.406,1,0.113,0.0255,0.000945,0.0321,119.322,308213,4,11
-Polish Girl,Neon Indian,False,0.633,0.884,-4.158,0,0.0369,0.00501,1.93e-05,0.134,111.98,264000,4,10
-"Swing, Swing",The All-American Rejects,False,0.54,0.691,-5.888,1,0.0306,7.78e-05,0.331,0.0413,127.946,233267,4,12
-Emily,From First To Last,False,0.484,0.405,-11.089,1,0.032,0.659,0,0.0893,148.551,158960,4,8
-Monotony,Willis Earl Beal,False,0.731,0.076,-14.836,1,0.0623,0.994,0.00594,0.133,116.064,237240,4,13
-Black Water,Timber Timbre,False,0.568,0.304,-8.511,0,0.0286,0.672,0.0122,0.437,141.66,359827,4,9
-Alive,Krewella,False,0.663,0.822,-2.909,1,0.0557,0.00413,0.00318,0.234,128.002,290760,4,12
-I And Love And You,The Avett Brothers,False,0.424,0.264,-9.984,1,0.0298,0.831,7.08e-05,0.0763,139.593,300840,4,16
-Can''t Fight The Funk,Doctorfunk,False,0.766,0.878,-5.257,0,0.0673,0.0549,0.000273,0.0309,101.875,241707,4,11
-We Found Love,Rihanna,False,0.755,0.74,-4.951,1,0.0407,0.0225,0.00139,0.124,127.98,215760,4,12
-Your Decision,Alice In Chains,False,0.469,0.631,-5.872,0,0.0262,4.42e-05,0.000375,0.09,99.96,283173,4,13
-False Pretense,The Red Jumpsuit Apparatus,False,0.509,0.93,-2.689,0,0.0474,0.00137,0,0.152,154.95,149640,4,9
-Frances Farmer Will Have Her Revenge On Seattle,Nirvana,False,0.482,0.723,-10.08,0,0.0425,5.66e-05,0.000432,0.0939,117.051,250013,4,10
-Don't Stop (feat. Tiffany Austin),Orgone,False,0.778,0.88,-4.515,0,0.0324,0.0803,0.000141,0.0254,111.944,335693,4,16
-Fire on the Bayou,The Meters,False,0.764,0.61,-12.159,1,0.0566,0.0433,0.0303,0.0548,98.466,250067,4,10
-I'm Just A Kid,Simple Plan,False,0.527,0.834,-5.531,1,0.0447,0.00107,0.000102,0.0993,110.065,198333,4,7
-Last Kiss,Pearl Jam,False,0.618,0.741,-5.18,1,0.0277,0.336,0,0.103,112.029,196667,4,8
-Angry Chair (2022 Remaster),Alice In Chains,False,0.325,0.936,-6.295,1,0.0848,0.0419,0,0.0415,106.988,287800,4,12
-Little People (Black City),Matthew Dear,False,0.648,0.84,-6.28,1,0.0453,0.00414,0.36,0.312,112.006,560600,4,20
-Head Down,Soundgarden,False,0.304,0.707,-10.923,1,0.0352,0.000168,0.0629,0.173,164.781,368960,4,12
-Think (About It),Lyn Collins,False,0.76,0.608,-8.594,1,0.275,0.152,8.62e-05,0.0467,112.97,199867,4,7
-Tiger Mountain Peasant Song,Fleet Foxes,False,0.642,0.151,-11.99,1,0.0321,0.923,0.00168,0.0916,130.712,208973,3,10
-Surfer King,A.A. Bondy,False,0.408,0.325,-9.955,1,0.0291,0.523,0.0418,0.0972,140.738,240933,4,10
-Got Me Wrong,Alice In Chains,False,0.489,0.915,-4.925,1,0.0568,0.14,0.000969,0.197,83.352,250200,4,10
-Modern Driveway,Luke Abbott,False,0.512,0.401,-12.192,1,0.0907,0.727,0.949,0.126,127.955,333172,3,12
-The Cave,Mumford & Sons ,False,0.592,0.499,-9.463,1,0.0374,0.0536,4.4e-05,0.113,141.938,215627,4,9
-Toulouse - Original Mix,Nicky Romero,False,0.76,0.91,-3.842,0,0.101,0.0338,0.69,0.218,128.001,365626,4,14
-Away in a Manger,The Platters,False,0.574,0.295,-9.435,1,0.0239,0.354,0,0.189,81.132,172800,3,8
-Moonlight in Vermont,Jo Stafford,False,0.291,0.134,-16.865,0,0.0366,0.972,0.00112,0.188,97.806,187867,1,10
-Baby It's Cold Outside,Tom Jones,False,0.342,0.645,-6.747,0,0.088,0.458,0,0.272,99.26,219773,4,9
-They Can't Take That Away From Me,Ella Fitzgerald,False,0.536,0.188,-15.217,1,0.0776,0.639,0,0.108,100.378,279733,4,11
-Chasing Summers (Miami) - Original Mix,Tiësto,False,0.718,0.71,-7.806,0,0.0447,0.0329,0.885,0.281,127.983,396006,4,18
-The Girl From Ipanema - Stereo Version,Stan Getz,False,0.657,0.122,-19.444,0,0.0444,0.891,0.000463,0.117,129.993,322360,4,14
-You're A Wolf,Sea Wolf,False,0.675,0.666,-7.689,1,0.0268,0.651,0.118,0.147,120.994,215547,4,12
-Where Angels Fear To Tread,Disclosure,False,0.679,0.735,-6.218,0,0.136,0.23,0.602,0.148,107.998,225907,4,10
-Get Up (Rattle) - Vocal Edit,Bingo Players,False,0.801,0.985,-2.69,1,0.0645,0.0205,6.86e-06,0.296,127.99,166933,4,6
-Your Best American Girl,Mitski,False,0.316,0.257,-9.802,1,0.0331,0.0168,0.00484,0.244,77.009,212184,4,9
-Águas De Março,Antônio Carlos Jobim,False,0.649,0.365,-14.807,1,0.116,0.815,0,0.117,143.639,214867,4,9
-Dixieland Band From Santa Claus Land - Remastered,Jimmy Dorsey & His Dorsey Land Band,False,0.434,0.446,-8.81,1,0.058,0.928,6.98e-05,0.406,166.276,162422,4,8
-Silent Night,Jo Stafford,False,0.22,0.135,-16.379,1,0.0386,0.98,3.57e-06,0.118,77.132,128267,3,4
-The Gypsy,Charlie Parker,False,0.545,0.0442,-14.903,1,0.0382,0.992,0.874,0.126,100.229,180580,3,7
-New Year's Resolution,Otis Redding,False,0.546,0.203,-16.588,0,0.0309,0.668,1.65e-06,0.0962,156.807,204213,3,11
-Don't Dream It's Over,The Head And The Heart,False,0.433,0.73,-4.933,1,0.0315,0.0824,2.01e-06,0.105,84.138,219517,4,9
-Santa Claus Is Comin' To Town,King Sisters,False,0.736,0.254,-14.791,0,0.0618,0.975,0.0331,0.07,108.838,157880,4,8
-Baby Blue,King Krule,False,0.468,0.331,-11.052,1,0.036,0.613,0.00108,0.129,102.448,215507,4,9
-White Christmas,Cliff Richard,False,0.178,0.212,-17.052,1,0.0317,0.684,0,0.132,83.731,193467,4,7
-Master Of None,Beach House,False,0.499,0.347,-15.256,1,0.026,0.621,0.548,0.0942,86.51,199413,4,10
-Midnight Blue - Remastered,Kenny Burrell,False,0.652,0.356,-13.733,0,0.0419,0.546,0.000103,0.132,148.822,242347,4,14
-Blue Cheese,2 Chainz,False,0.804,0.583,-5.335,1,0.245,0.0693,0,0.578,130.001,308733,4,14
-Birdland,Buddy Rich,False,0.481,0.678,-9.609,1,0.0323,0.16,0.00324,0.191,89.224,401966,4,16
-Auld Lang Syne,Guy Lombardo,False,0.207,0.0889,-14.605,1,0.0337,0.975,0.105,0.113,67.39,151920,3,8
-Fear & Force,Vagabon,False,0.596,0.223,-11.288,1,0.0275,0.736,0.00182,0.108,141.848,213607,4,10
-You Make Me Feel so Young,Michael Bublé,False,0.508,0.537,-4.732,1,0.0441,0.702,0,0.362,129.865,185693,4,10
-NEW ORLEANS,BROCKHAMPTON,False,0.639,0.815,-4.962,0,0.252,0.232,0,0.299,159.903,243280,4,11
-The First Noel,Dick Haymes,False,0.258,0.174,-14.609,1,0.0298,0.944,0.0674,0.137,83.942,177880,3,9
-Free,6LACK,False,0.755,0.535,-5.088,1,0.0476,0.00292,4.99e-06,0.104,123.961,263013,4,13
-Tomorrow 'Til Infinity (feat. Gunna),Young Thug,False,0.855,0.516,-6.972,1,0.0524,0.0261,2.74e-05,0.302,135.97,228307,4,13
-All Eyez (feat. Jeremih) [Bonus Track],The Game,False,0.419,0.655,-6.679,1,0.247,0.0571,0,0.0962,76.835,215297,3,10
-Get Happy,Rebecca Ferguson,False,0.436,0.7,-4.663,1,0.178,0.303,0,0.141,202.152,168573,4,9
-What They Want,Russ,False,0.71,0.404,-10.04,0,0.379,0.484,0,0.0953,139.553,165853,4,10
-Aquarium,Nosaj Thing,False,0.635,0.655,-9.521,1,0.0484,0.15,0.553,0.129,91.026,184000,4,9
-Blue Blocks,Jason Moran,False,0.391,0.513,-13.444,0,0.0328,0.805,0.914,0.131,92.734,275800,3,10
-Rudolph The Red Nose Reindeer,Spike Jones & His City Slickers,False,0.617,0.464,-6.043,1,0.102,0.735,0,0.247,115.426,207387,4,10
-"Let It Snow, Let It Snow, Let It Snow",Debbie Reynolds,False,0.522,0.203,-14.934,1,0.0378,0.658,0,0.0442,127.705,172627,4,9
-Under The Pressure,The War On Drugs,False,0.323,0.713,-6.535,1,0.0294,0.306,0.201,0.121,134.371,530707,4,17
-Rolling Stones T-Shirt - Radio Edit,Dada Life,False,0.693,0.662,-6.155,0,0.0576,0.000539,0.00222,0.0803,127.964,202507,3,4
-Young Dumb & Broke REMIX (feat. Rae Sremmurd & Lil Yachty),Khalid,False,0.795,0.56,-5.773,1,0.0479,0.184,0,0.158,136.988,263277,4,13
-Rattle - Original Mix,Bingo Players,False,0.744,0.956,-4.797,1,0.052,0.00161,0.85,0.339,127.996,286907,4,10
-The End (Original Mix),Tommy Trash,False,0.869,0.756,-2.951,1,0.134,0.00385,0.301,0.0831,127.976,330000,4,12
-Blue Rondo à la Turk,Dave Brubeck,False,0.585,0.387,-12.666,0,0.0398,0.815,0.182,0.112,113.298,403693,4,19
-Strobe,deadmau5,False,0.436,0.524,-7.754,0,0.038,0.00947,0.901,0.114,128.02,634151,4,26
-Clarinet Marmalade,Bix Beiderbecke,False,0.779,0.452,-10.351,1,0.0504,0.991,0.818,0.0828,125.229,192773,4,8
-Noticed,Lil Mosey,False,0.699,0.558,-7.622,1,0.0603,0.462,0,0.116,79.992,165000,4,6
-Self-Portrait In Three Colours,Charles Mingus,False,0.224,0.0937,-15.641,1,0.0343,0.98,0.784,0.107,168.418,186707,3,9
-Grillz,Nelly,False,0.863,0.514,-7.243,0,0.249,0.0419,0,0.301,82.985,271160,4,13
-Guala,G-Eazy,False,0.837,0.538,-8.921,1,0.288,0.0637,0,0.0791,109.943,313987,4,13
-Winter Wonderland,Shirley Horn,False,0.602,0.203,-17.267,1,0.0736,0.921,0.000117,0.127,133.664,247800,4,11
-Cleopatra,The Lumineers,False,0.535,0.763,-6.751,1,0.0407,0.253,7.79e-05,0.0956,151.437,201413,4,10
-"So What (feat. John Coltrane, Cannonball Adderley & Bill Evans)",Miles Davis,False,0.532,0.151,-17.266,1,0.0376,0.706,0.00136,0.116,136.759,562640,4,27
-Silver Bells - Remastered 1993,Al Martino,False,0.358,0.189,-17.242,1,0.0287,0.756,0.000336,0.144,86.607,160200,3,6
-Random,G-Eazy,False,0.603,0.783,-6.891,1,0.138,0.00353,0,0.216,87.154,180333,4,9
-Hello - Feat. Dr. Dre And MC Ren,Ice Cube,False,0.902,0.612,-6.217,0,0.283,0.135,0,0.374,91.386,232533,4,12
-"You're A Mean One, Mr. Grinch",Thurl Ravenscroft,False,0.517,0.484,-10.93,0,0.318,0.952,0.0075,0.129,141.914,315707,3,16
-Cascade - Original Mix,Tommy Trash,False,0.704,0.962,-3.095,1,0.115,0.0058,0.128,0.22,127.997,377153,4,18
-Sunflower - Spider-Man: Into the Spider-Verse,Post Malone,False,0.753,0.498,-5.61,1,0.0504,0.551,0,0.0706,89.95,158053,4,8
-Acid,Ray Barretto,False,0.561,0.647,-8.578,1,0.0559,0.0336,0.872,0.0741,157.626,307760,4,14
-The Breeze,Dr. Dog,False,0.609,0.554,-7.801,1,0.0395,0.77,3.36e-05,0.672,90.098,239067,4,14
-Mele Kalikimaka,The Puppini Sisters,False,0.62,0.606,-6.995,1,0.251,0.651,0,0.0727,205.554,176933,4,9
-City of Dreams (feat. Ruben Haze),Dirty South & Alesso,False,0.472,0.829,-5.073,1,0.0418,0.00329,0.00944,0.301,127.953,279375,4,11
-Someday My Prince Will Come,Wynton Kelly,False,0.558,0.327,-17.102,1,0.0395,0.562,7.93e-06,0.0832,114.097,186137,4,6
-Pair of Dice (Radio Edit),Tiësto,False,0.493,0.918,-4.37,1,0.0583,0.000136,0.909,0.887,128.022,185500,4,7
-Oye Como Va,Tito Puente,False,0.696,0.728,-6.937,1,0.034,0.743,0.0537,0.0835,124.092,272547,4,9
-"BIG BANK (feat. 2 Chainz, Big Sean, Nicki Minaj)",YG,False,0.745,0.346,-7.709,1,0.331,0.00552,0,0.0881,203.911,237240,4,12
-God Bless the Child,Sonny Rollins,False,0.493,0.0421,-18.071,1,0.0347,0.913,0.173,0.0777,102.074,447560,4,23
-Adrenaline Rush,Twista,False,0.617,0.884,-6.739,0,0.0672,0.0971,1.2e-05,0.111,129.435,223467,4,10
-Young Blood,The Naked And Famous,False,0.579,0.865,-4.692,1,0.0302,5.63e-05,0.000221,0.649,104.99,246600,4,12
-Party In The Dark,Mogwai,False,0.482,0.937,-4.917,1,0.0605,0.000589,0.395,0.467,130.109,242293,4,10
-(No One Knows Me) Like the Piano,Sampha,False,0.621,0.199,-13.788,1,0.0344,0.976,0.00186,0.107,128.905,218160,4,9
-Gloomy Sunday (with Teddy Wilson & His Orchestra) - Take 1,Billie Holiday,False,0.484,0.0823,-11.273,0,0.0364,0.98,2.47e-06,0.159,127.089,190800,3,10
-LMK,Kelela,False,0.595,0.61,-7.007,0,0.033,0.091,0,0.16,99.529,218319,4,9
-Emperor Jones,Joe Lovano,False,0.336,0.328,-15.005,0,0.0386,0.93,0.732,0.111,184.007,314493,3,10
-Merry Christmas Baby,Chuck Berry,False,0.635,0.259,-12.685,1,0.0358,0.895,0.0515,0.12,96.431,193107,3,9
-Man from Mars,Artie Shaw,False,0.611,0.532,-11.411,0,0.0531,0.74,0.812,0.08,114.426,217760,4,9
-sweet sweet,Travis Scott,False,0.733,0.578,-5.245,0,0.0417,0.0859,1.19e-06,0.403,142.028,222318,4,10
-Lights & Music,Cut Copy,False,0.612,0.939,-4.206,0,0.0412,0.0763,0.119,0.749,125.981,277360,4,11
-Indian Summer,Beat Happening,False,0.445,0.577,-10.079,1,0.0271,0.362,0,0.0522,139.773,185040,4,7
-Blue Ridge Mountains,Fleet Foxes,False,0.524,0.446,-7.823,0,0.0275,0.688,0.000745,0.101,97.856,265773,4,13
-Generation 303 (Original Mix),Nicky Romero,False,0.774,0.918,-2.012,0,0.131,0.0688,0.21,0.395,128.01,330471,4,17
-Don't Be That Way,Benny Goodman,False,0.689,0.267,-11.567,0,0.0728,0.87,0.866,0.0766,162.677,201587,4,12
-There's a Christmas Tree in Heaven,Eddy Howard,False,0.479,0.122,-12.045,1,0.0308,0.969,4.96e-06,0.17,75.288,177659,4,9
-Fair Weather - Remastered,Art Farmer,False,0.615,0.204,-16.075,1,0.0439,0.872,0.382,0.071,96.47,344067,4,18
-Santa Baby,Eartha Kitt,False,0.722,0.0767,-16.467,1,0.0551,0.969,1.48e-06,0.127,84.854,211240,4,10
-Talk Is Cheap,Chet Faker,False,0.652,0.583,-8.52,0,0.173,0.465,0.000208,0.146,140.024,218553,4,9
-Memories (feat. Kid Cudi),David Guetta,False,0.546,0.898,-3.938,1,0.232,0.00158,6.43e-06,0.229,130.002,210840,4,8
-Don't Hurt Me,Mustard,False,0.704,0.46,-10.559,1,0.416,0.0872,0,0.0833,126.388,192995,5,10
-The Christmas Song,Paul Anka,False,0.257,0.2,-15.321,0,0.0353,0.928,0.00427,0.277,128.172,238077,4,11
-Goodmorning,Bleachers,False,0.629,0.448,-9.534,1,0.102,0.579,0,0.131,79.993,193413,4,5
-"You Mine (feat. Trey Songz, Jeremih & Future)",DJ Khaled,False,0.516,0.906,-3.148,1,0.302,0.417,0,0.153,135.751,240027,4,9
-Dinosaur Christmas,Wee Hairy Beasties,False,0.52,0.62,-7.933,1,0.0717,0.3,0,0.15,177.346,189253,4,6
-Through Oblivion,In Flames,False,0.52,0.653,-5.77,1,0.0623,0.00742,0.00415,0.162,169.948,217267,4,11
-The Monkey Dance,The Wiggles,False,0.627,0.855,-3.883,1,0.083,0.156,0,0.297,130.736,154720,4,8
-April sick,lalasweet,False,0.662,0.122,-12.095,1,0.0345,0.907,0.000168,0.34,111.87,281800,3,9
-Heaven and Hell,Black Sabbath,False,0.32,0.529,-13.7,0,0.03,0.112,0.0163,0.117,89.882,415933,4,12
-"F*** U (feat. Deepflow, J-Kwondo of 45 RPM)",J-Dogg,False,0.767,0.75,-5.604,1,0.0548,0.00482,4.27e-06,0.116,100.018,252828,4,10
-새벽속으로의 외출,STi,False,0.669,0.533,-7.294,0,0.0344,0.438,0,0.0841,140.006,81680,4,4
-Baby Don't Cry,BIGBANG,False,0.646,0.75,-5.408,1,0.0315,0.0321,0,0.38,95.01,271760,4,12
-I Wish I Had A Horse - Remastered,Alvin & The Chipmunks,False,0.855,0.438,-9.354,1,0.0347,0.574,0.0436,0.224,111.946,121360,4,5
-Dirty,Miryo,False,0.848,0.82,-3.984,1,0.0443,0.131,0,0.179,115.001,213499,4,8
-2HOT,G.NA,False,0.691,0.915,-2.193,1,0.101,0.0883,0,0.0661,133.011,186053,4,6
-The Goldfish,The Laurie Berkner Band,False,0.628,0.519,-4.079,1,0.139,0.702,0,0.121,105.357,214960,3,11
-Speechless (feat. RKCB),Candyland,False,0.682,0.824,-5.832,1,0.0329,0.00568,5.27e-06,0.0679,123.023,194573,4,12
-I Need a Girl (Taeyang Solo) [feat. G-Dragon],BIGBANG,False,0.635,0.557,-6.809,1,0.0509,0.429,0,0.0986,57.494,220133,4,7
-BABY GOOD NIGHT,GD&TOP,False,0.667,0.679,-5.994,1,0.0887,0.435,0,0.104,90.03,210477,4,7
-Tómame o Déjame - Remasterizado,Mocedades,False,0.408,0.59,-5.687,1,0.0304,0.455,0.00095,0.216,78.764,187000,4,8
-Ahora Lloras Tú (feat. CNCO),Ana Mena,False,0.718,0.9,-4.31,0,0.0549,0.016,0.000171,0.0572,115.982,207000,4,11
-Flawless,Disciples,False,0.773,0.832,-4.958,1,0.059,0.000483,0.778,0.13,120.986,333713,4,13
-너와의 추억을 팔아,STi,False,0.381,0.193,-14.309,1,0.0501,0.982,0.138,0.109,76.234,162960,4,6
-Mother,Danzig,False,0.365,0.763,-9.45,0,0.0591,0.00726,0.000457,0.0865,148.366,204867,4,12
-Bad Idea,Sara Bareilles,False,0.587,0.889,-5.541,1,0.0704,0.0168,0,0.0806,167.936,206200,3,10
-Hollow,Tori Kelly,False,0.462,0.527,-6.986,1,0.0347,0.0407,1.75e-05,0.473,126.086,210613,4,10
-Deceiver of the Gods,Amon Amarth,False,0.262,0.991,-5.373,0,0.167,4.09e-05,0.204,0.15,192.858,259173,4,12
-911,Feid,False,0.792,0.848,-4.28,1,0.0983,0.0495,0.000132,0.137,103.007,222547,4,9
-Still Alive,BIGBANG,False,0.667,0.929,-2.913,0,0.271,0.0318,0,0.0669,109.954,198533,4,8
-Time After Time,Radha,False,0.542,0.28,-8.254,1,0.0351,0.848,0,0.117,121.628,248227,4,12
-Lola Montez,Volbeat,False,0.513,0.875,-4.819,1,0.0336,0.000139,3.28e-05,0.0715,151.986,267680,4,9
-Quantum Flux,Northlane,False,0.53,0.907,-3.066,1,0.0589,0.00254,3.91e-05,0.1,109.997,243939,4,9
-Háblame de Ti,Pecos,False,0.708,0.802,-6.853,1,0.0477,0.318,0,0.151,124.641,207307,4,9
-Mejor Me Alejo,Banda MS de Sergio Lizárraga,False,0.823,0.378,-6.906,1,0.0431,0.206,3.95e-06,0.106,124.084,201960,4,10
-Ambiente,J Balvin,False,0.789,0.731,-6.245,0,0.101,0.139,1.92e-06,0.635,81.009,248827,4,10
-$ (feat. Donnie Trumpet),DRAM,False,0.441,0.725,-6.436,1,0.24,0.0578,0,0.084,105.101,203373,4,7
-begin again (HEALTH Remix),Purity Ring,False,0.573,0.522,-8.185,1,0.0369,0.00306,0.0553,0.0875,100.005,257277,4,11
-The Window,Trout Fishing in America,False,0.708,0.279,-13.877,1,0.0943,0.887,3.47e-05,0.0769,141.995,202005,4,9
-Monster,BIGBANG,False,0.643,0.786,-4.251,1,0.0413,0.00584,0,0.369,128.003,231293,4,9
-Obsesssion (악몽) (GD),GD&TOP,False,0.645,0.886,-3.402,0,0.0456,0.0035,0,0.308,128.326,315528,4,9
-Still Counting,Volbeat,False,0.307,0.923,-3.139,1,0.0598,0.000449,0.00024,0.408,103.832,261813,4,14
-U&I,BTOB,False,0.727,0.554,-5.6,1,0.036,0.528,0,0.267,127.947,202227,3,10
-Death Row,Jimi Charles Moody,False,0.414,0.353,-10.17,1,0.0364,0.396,0.000426,0.12,82.413,225139,4,11
-Recomecar (Once Again),Pudditorium,False,0.616,0.418,-13.208,1,0.0378,0.661,0.00528,0.119,95.048,341627,4,12
-"아무도, 아무것도",lalasweet,False,0.385,0.393,-5.925,1,0.0266,0.598,8.79e-05,0.189,85.629,279240,4,10
-Instinct,RITUAL,False,0.715,0.494,-9.349,1,0.0566,0.354,0.00111,0.128,131.975,188919,4,8
-Secrets,Jacob Whitesides,False,0.617,0.9,-5.088,1,0.0589,0.0315,0,0.119,108.017,254720,4,11
-Laid to Rest,Lamb of God,False,0.359,0.959,-3.685,1,0.104,0.000216,0.00343,0.435,103.038,230227,3,11
-Culpable Tu,Alta Consigna,False,0.508,0.361,-7.538,1,0.0286,0.675,1.42e-05,0.147,135.102,231760,4,12
-Let's Shake,Dan Zanes,False,0.683,0.617,-10.576,0,0.0886,0.0355,3.57e-06,0.499,130.984,292720,4,12
-Duro y Suave,Leslie Grace,False,0.769,0.721,-4.483,0,0.153,0.111,5.9e-05,0.0505,94.978,207720,4,8
-Rainbow in the Dark,Dio,False,0.512,0.947,-5.659,0,0.0401,0.000692,0.114,0.0283,117.461,256933,4,9
-Reggaeton Ton,Alexis y Fido,False,0.859,0.846,-3.415,0,0.205,0.296,0,0.154,92.031,156747,4,6
-Storm the Sorrow,Epica,False,0.51,0.887,-5.569,0,0.0799,0.0194,0,0.225,134.029,312413,4,11
-Hasta la Victoria Siempre,Suni Paz,False,0.572,0.0669,-17.227,1,0.0789,0.838,0.0133,0.115,85.999,158707,4,5
-The Answer,Savages,False,0.358,0.815,-5.645,1,0.0417,0.000764,0.00279,0.348,96.079,210067,4,8
-La Mordidita (feat. Yotuel),Ricky Martin,False,0.725,0.903,-2.955,1,0.0658,0.0344,0,0.183,142.006,211680,4,9
-Prohibida,El Komander,False,0.582,0.47,-5.812,1,0.205,0.0912,0,0.169,148.58,207804,3,10
-Hot,POWERS,False,0.454,0.881,-4.537,1,0.0412,8.73e-05,4.21e-06,0.379,107.962,303787,4,10
-What I Never Knew I Always Wanted,Carrie Underwood,False,0.505,0.782,-2.256,1,0.0404,0.682,0,0.173,76.004,215467,4,10
-You,Lost Kings,False,0.668,0.893,-4.349,1,0.0366,0.178,0.00382,0.114,105.928,213780,4,11
-Te Lo Pido por Favor,Jaguares,False,0.648,0.659,-6.369,1,0.0259,0.115,0.000307,0.19,106.196,206133,4,9
-Witch Doctor - Remastered 1999,Alvin & The Chipmunks,False,0.832,0.579,-9.68,0,0.0518,0.681,1.41e-05,0.0414,130.928,122000,4,8
-I Am the Best (내가 제일 잘 나가),2NE1,False,0.821,0.847,-3.721,1,0.0387,0.00772,0.0032,0.0482,127.986,210733,4,13
-Ruins,Ella Isaacson,False,0.391,0.8,-4.756,1,0.0544,0.0871,0,0.162,123.25,274181,4,12
-Sprained Ankle,Julien Baker,False,0.343,0.174,-14.471,1,0.0359,0.807,0.47,0.113,96.884,142046,4,4
-No digas nada,Mario Bautista,False,0.549,0.621,-6.567,0,0.0601,0.273,0.000321,0.0792,89.985,193241,4,8
-대마왕,더더 밴드(TheThE Band),False,0.488,0.989,-2.888,1,0.171,0.117,3.88e-06,0.329,147.857,261059,4,12
-Star,Jay Park,False,0.642,0.612,-5.464,0,0.029,0.742,1.75e-06,0.143,99.978,194213,3,11
-Love pop (Acoustic ver.),Shin Goeun,False,0.785,0.174,-10.493,1,0.0339,0.767,0.00172,0.112,110.038,192507,4,11
-Nobody Cares,LÉON,False,0.683,0.899,-5.382,0,0.0286,0.102,0,0.0868,110.996,226773,4,8
-We Are The Dinosaurs,The Laurie Berkner Band,False,0.694,0.25,-9.056,1,0.0526,0.692,0.000141,0.0668,120.022,137067,4,7
-Sin documentos,Los Rodriguez,False,0.387,0.972,-2.84,0,0.101,0.565,4.83e-06,0.0921,192.392,285093,4,13
-Arranca en Fa,Sonora Carruseles,False,0.76,0.661,-10.165,0,0.0434,0.353,0.366,0.318,117.905,216093,4,10
-La Gota Fría,Carlos Vives,False,0.719,0.809,-10.201,1,0.0511,0.0893,0,0.183,100.839,215493,4,11
-Brindemos,Anuel AA,False,0.812,0.66,-3.353,0,0.0854,0.308,0,0.0617,140.048,216857,4,16
-About That Life,Attila,False,0.381,0.903,-3.883,1,0.0758,0.000538,9.57e-06,0.344,126.532,185790,4,9
-HIGH HIGH,GD&TOP,False,0.7,0.864,-4.505,1,0.0645,0.00734,0,0.0707,130.001,186175,4,10
-Fire,2NE1,False,0,0,-9.764,0,0,0,0,0,0,3056,0,0
-La fórmula (feat. Chris Jedi),De La Ghetto,False,0.691,0.813,-3.208,0,0.0721,0.15,5.04e-05,0.242,172.047,232973,4,15
-Turn! Turn! Turn!,Dan Zanes,False,0.624,0.294,-11.95,1,0.0319,0.937,0.000125,0.107,113.8,249290,4,12
-I Still Miss Someone,Hushabye Baby,False,0.704,0.104,-18.841,1,0.0382,0.726,0.865,0.115,93.968,189733,4,8
-Crazy Train - 2002 Version,Ozzy Osbourne,False,0.465,0.902,-4.628,1,0.0587,0.0184,0.00114,0.348,137.272,289467,4,13
-10분만 걸으면 (With 리치) (inst.),크리스,False,0.643,0.859,-6.838,1,0.0267,0.00167,0.265,0.04,128.014,223556,4,8
-Everyone Asked About You,Bob McGrath,False,0.854,0.576,-10.12,1,0.118,0.361,1.72e-06,0.113,122.0,240267,4,12
-Sitcom,Coleman Hell,False,0.674,0.73,-5.503,1,0.132,0.00196,0,0.233,100.013,177253,4,7
-Stay Together,2NE1,False,0,0,-9.764,0,0,0,0,0,0,3056,0,0
-You've Got Another Thing Comin',Judas Priest,False,0.512,0.814,-7.12,0,0.047,0.00491,4.23e-06,0.0919,138.226,309847,4,10
-Try (밑바닥에서) [feat. Bumkey],Tablo,False,0.645,0.602,-8.647,0,0.158,0.0773,0,0.545,160.152,208827,4,6
-Nemo,Nightwish,False,0.497,0.737,-6.291,1,0.0353,0.0002,7.55e-05,0.0744,125.045,276120,4,11
-Volando Voy,Camaron De La Isla,False,0.581,0.793,-5.565,1,0.0346,0.633,0.0045,0.121,127.535,203200,4,9
-Ants,Banana Slug String Band,False,0.963,0.737,-6.232,0,0.0482,0.143,1.25e-06,0.119,126.642,279667,4,12
-Stranglehold,Ted Nugent,False,0.484,0.711,-7.784,1,0.0331,0.0183,0.173,0.0941,148.189,503067,4,21
-Wolfpack,TĀLĀ,False,0.69,0.497,-8.4,0,0.215,0.00196,3.46e-06,0.177,108.116,210787,4,10
-What do you want (어쩌란 말이냐 (GD)),GD&TOP,False,0.737,0.92,-1.85,1,0.1,0.173,0,0.253,126.064,203320,4,10
-Por Voce (For You),Pudditorium,False,0.625,0.314,-13.998,1,0.0307,0.777,4.34e-05,0.067,120.036,281347,4,14
-El Préstamo,Maluma,False,0.74,0.74,-3.647,0,0.0686,0.205,0,0.107,93.95,219600,4,8
-Shape of You (feat. Zion & Lennox) - Latin Remix,Ed Sheeran,False,0.787,0.872,-1.397,0,0.0871,0.168,1.51e-06,0.0408,95.995,237664,4,9
-"Toot Toot, Chugga Chugga, Big Red Car",The Wiggles,False,0.742,0.762,-4.293,1,0.0701,0.249,0,0.0584,140.002,143240,4,8
-"Monteverdi: L'incoronazione di Poppea, SV 308, Act 3: ""Pur ti miro"" (Neron, Popea)",Claudio Monteverdi,False,0.259,0.0625,-21.294,1,0.0483,0.983,3.59e-06,0.1,76.588,251213,3,12
-Purple Haze,Jimi Hendrix,False,0.529,0.898,-5.249,1,0.0786,0.00627,0.728,0.0668,108.599,171427,4,7
-"My Love (feat. Major Lazer, WizKid, Dua Lipa)",Wale,False,0.728,0.811,-4.278,1,0.0564,0.0453,2.07e-06,0.362,114.995,228707,4,12
-Closer,The Chainsmokers,False,0.748,0.524,-5.599,1,0.0338,0.414,0,0.111,95.01,244960,4,11
-Kickstart My Heart,Mötley Crüe,False,0.361,0.98,-3.635,0,0.33,0.00141,0.00268,0.294,179.138,282709,4,10
-"Giordano: Fedora, Act 2: ""Amor ti vieta di non amar"" (Loris)",Umberto Giordano,False,0.164,0.359,-11.356,1,0.0387,0.987,0.24,0.139,84.967,131520,3,7
-"Il Trionfo del Tempo a del Disinganno, Oratorio in two parts HWV 46 a (1707), Part Two: Aria: ""Lasci la spina"" (Piacere)",George Frideric Handel,False,0.198,0.0426,-24.582,1,0.0509,0.986,0.145,0.115,94.111,389040,5,20
-"Le Nozze di Figaro (The Marriage of Figaro), K. 492., Act: Non Piu Andrai (Figaro)",Wolfgang Amadeus Mozart,False,0.545,0.377,-10.728,1,0.0496,0.898,0.00561,0.104,128.278,225000,4,10
-"Panis Angelicus, Op.12",César Franck,False,0.207,0.214,-14.315,1,0.036,0.986,0.00169,0.0767,95.239,242000,3,12
-I Will Follow You into the Dark,Death Cab for Cutie,False,0.517,0.206,-12.233,1,0.0421,0.924,0,0.118,80.401,189187,4,7
-La La La,Naughty Boy,False,0.754,0.677,-4.399,0,0.0316,0.112,0,0.111,124.988,220779,4,12
-Still Counting,Volbeat,False,0.309,0.919,-3.131,1,0.0609,0.00039,0.000225,0.423,103.891,261813,4,14
-You Gotta Not,Little Mix,False,0.61,0.803,-4.523,1,0.035,0.0107,2.92e-05,0.0386,89.997,191027,4,9
-All The Stars (with SZA),Kendrick Lamar,False,0.698,0.633,-4.946,1,0.0597,0.0605,0.000194,0.0926,96.924,232187,4,12
-London Calling - Remastered,The Clash,False,0.651,0.801,-7.34,1,0.0514,0.123,0,0.0825,133.769,200480,4,9
-House On Fire,Rise Against,False,0.427,0.95,-2.187,1,0.0886,0.00155,0,0.459,169.006,194507,4,10
-Need You Now,Lady A,False,0.588,0.724,-4.379,1,0.0315,0.0348,9.52e-05,0.239,107.986,236787,4,11
-My Generation - Stereo Version,The Who,False,0.412,0.782,-9.186,0,0.058,0.308,0.00822,0.0775,96.732,198707,4,9
-Sogno - Extended Version,Giuseppe Vessicchio,False,0.257,0.322,-8.589,1,0.0349,0.872,3.07e-05,0.0951,122.134,240267,4,13
-Girls,The 1975,False,0.657,0.913,-4.984,1,0.0528,0.00392,0.00149,0.466,108.036,254620,4,11
-Body Say,Demi Lovato,False,0.628,0.74,-4.836,0,0.0358,0.00415,0,0.277,86.983,193893,4,8
-Notte 'e piscatore,Massimo Morante,False,0.158,0.426,-8.288,1,0.0432,0.981,0.0175,0.345,176.005,303813,3,14
-We Will Rock You - Remastered 2011,Queen,False,0.692,0.497,-7.316,1,0.119,0.676,0,0.259,81.308,122067,4,6
-"Purcell: Dido and Aeneas, Z. 626, Act III: Song. ""When I Am Laid in Earth"" (Dido)",Henry Purcell,False,0.166,0.0248,-22.6,0,0.0512,0.922,0.000346,0.304,80.084,234400,3,11
-Wish You Were Here,Avril Lavigne,False,0.46,0.866,-3.864,0,0.0559,0.0268,0,0.19,165.956,225680,4,11
-Your Love,The Outfield,False,0.579,0.654,-12.421,0,0.0553,0.121,3.62e-06,0.0673,129.537,216467,4,7
-Who Do You Love?,YG,False,0.676,0.415,-9.752,1,0.508,0.0281,0,0.0915,193.206,233507,4,11
-"Massenet: Werther, Act 3: ""Pourquoi me réveiller""",Jules Massenet,False,0.233,0.189,-14.369,0,0.0394,0.976,0.0429,0.494,67.272,143600,4,5
-Happier,Marshmello,False,0.687,0.792,-2.749,1,0.0452,0.191,0,0.167,100.015,214290,4,9
-Bubbly,Colbie Caillat,False,0.697,0.474,-6.663,1,0.0351,0.603,0,0.11,127.904,196280,4,9
-Mary Jane's Last Dance,Tom Petty and the Heartbreakers,False,0.402,0.814,-4.954,1,0.14,0.0383,1.19e-06,0.266,170.02,272267,4,14
-Footsteps,Pop Evil,False,0.641,0.732,-7.57,1,0.0795,0.0139,2.61e-06,0.062,92.057,262107,4,12
-Oblivion,Bastille,False,0.422,0.321,-8.952,1,0.0294,0.76,2.33e-06,0.429,78.533,196347,4,9
-"Nabucco: Chorus Of The Hebrew Slaves (Va', Pensiero, Sull'ali Dorate)",London Philharmonic Orchestra,False,0.224,0.0945,-16.475,1,0.0426,0.989,0.764,0.102,124.206,299253,3,11
-Necessary Evil (feat. Jonathan Davis),Motionless In White,False,0.579,0.946,-2.732,0,0.054,0.000128,2.38e-05,0.335,99.937,228053,4,10
-"Another Brick in the Wall, Pt. 2",Pink Floyd,False,0.693,0.394,-15.882,1,0.0428,0.0782,0.000694,0.247,104.114,238747,4,10
-Kiss Me Slowly,Parachute,False,0.47,0.801,-6.426,1,0.0352,0.0758,3.53e-05,0.218,173.92,235813,4,8
-"Mozart: Die Zauberflöte, K. 620, Act 1: ""Der Vogelfänger bin ich ja"" (Papageno)",Wolfgang Amadeus Mozart,False,0.427,0.144,-21.568,1,0.0609,0.967,5.06e-05,0.113,132.472,168867,4,11
-Every Step That I Take (feat. Portugal. The Man & Whethan),Tom Morello,False,0.53,0.765,-6.171,1,0.218,0.0115,1.18e-06,0.453,140.114,222229,4,10
-Last Young Renegade,All Time Low,False,0.582,0.843,-5.596,1,0.0401,0.00111,0,0.102,128.994,214093,4,5
-Problem,Ariana Grande,False,0.603,0.805,-5.363,0,0.259,0.0178,1.02e-05,0.133,102.734,193893,4,9
-"Lehár: Die lustige Witwe, Act 2: Vilja-Lied (Hanna)",Franz Lehár,False,0.212,0.104,-19.668,1,0.0517,0.985,0.00376,0.303,175.93,293920,3,14
-Because - Live,Guy d' Hardelot,False,0.204,0.291,-13.424,1,0.0397,0.944,0.0418,0.709,73.377,140852,3,7
-When We Were Young,Andy Black,False,0.398,0.629,-6.249,1,0.0309,0.137,1.12e-05,0.109,141.866,285507,4,13
-Rise,Jonas Blue,False,0.69,0.784,-4.653,1,0.032,0.323,0,0.203,106.066,194408,4,9
-Pour Some Sugar On Me (2012),Def Leppard,False,0.497,0.849,-5.352,1,0.0612,0.00985,0,0.106,169.937,261532,4,10
-Bad To The Bone,George Thorogood & The Destroyers,False,0.459,0.727,-11.777,1,0.0303,0.00614,0.0652,0.384,149.231,292173,1,16
-Get Lucky (feat. Pharrell Williams & Nile Rodgers) - Radio Edit,Daft Punk,False,0.794,0.811,-8.966,0,0.038,0.0426,1.07e-06,0.101,116.047,248413,4,13
-Just A Kiss,Lady A,False,0.593,0.639,-5.826,1,0.0307,0.446,0,0.0998,142.881,218840,4,11
-Weak,AJR,False,0.673,0.637,-4.518,1,0.0429,0.137,0,0.184,123.98,201160,4,8
-Aleluya,Leonard Cohen,False,0.299,0.202,-11.293,0,0.0359,0.927,0.00288,0.115,98.052,199573,3,12
-Holy Grail,JAY-Z,False,0.683,0.537,-6.945,0,0.0878,0.0619,1.01e-05,0.247,145.089,338413,4,13
-Heartbeats,José González,False,0.552,0.15,-16.746,1,0.0347,0.974,0.731,0.0698,87.485,160240,4,8
-"Puccini: Tosca, Act 2: ""Vissi d'arte"" (Tosca)",Giacomo Puccini,False,0.318,0.218,-17.485,1,0.0497,0.968,2.02e-05,0.0564,89.129,185893,4,7
-"""Là ci darem la mano""",Wolfgang Amadeus Mozart,False,0.364,0.329,-7.813,1,0.0339,0.953,0,0.2,98.021,190520,4,8
-Dose,Avenged Sevenfold,False,0.455,0.938,-6.206,1,0.062,4.5e-05,0.362,0.155,135.087,298532,4,13
-Marry Me,Train,False,0.366,0.269,-8.456,1,0.0287,0.829,1.67e-05,0.108,86.577,205453,4,9
-"Norma - ""Casta Diva",Maria Callas,False,0.185,0.142,-15.921,1,0.0407,0.993,0.315,0.153,85.64,528240,4,23
-I'm a Mess,Ed Sheeran,False,0.697,0.377,-7.755,1,0.0397,0.556,0,0.0999,138.754,244573,4,12
-Song #3,Stone Sour,False,0.481,0.945,-5.468,1,0.0813,0.00264,0,0.135,157.059,256533,4,11
-Payphone,Maroon 5,False,0.738,0.744,-4.757,1,0.042,0.0222,0,0.331,110.0,231467,4,8
-Waiting - Original Mix,Dash Berlin,False,0.636,0.636,-9.219,1,0.0527,0.0195,2.02e-05,0.0689,136.033,568942,4,23
-(It's) Hairspray,James Marsden,False,0.495,0.793,-5.39,0,0.112,0.76,0,0.432,67.705,140107,4,5
-Bring Him Home,Hugh Jackman,False,0.191,0.151,-16.498,1,0.0369,0.918,3.83e-06,0.372,159.899,217667,4,12
-Master Blaster (Jammin'),Stevie Wonder,False,0.838,0.547,-11.015,0,0.0483,0.0617,0.00059,0.177,131.112,307627,4,11
-Mister Cellophane,John C. Reilly,False,0.452,0.164,-13.214,1,0.0963,0.581,0,0.287,85.161,237707,4,7
-Riverside (Let's Go!) - Radio Edit,Sidney Samson,False,0.8,0.962,-2.029,0,0.0423,0.000519,0.778,0.13,126.003,145773,4,8
-Who Am I?,Les Misérables-Original London Cast,False,0.412,0.249,-10.368,1,0.0451,0.882,0.00011,0.0806,79.838,168667,4,8
-Shake It Out,Florence + The Machine,False,0.527,0.804,-4.168,1,0.0358,0.0104,0,0.105,107.486,277720,4,9
-The Age Of Love - Jam & Spoon Watch Out For Stella Mix,Age Of Love,False,0.737,0.469,-15.214,1,0.057,0.0131,0.821,0.0776,130.001,408773,4,18
-Feels So Good,Armin van Buuren,False,0.703,0.624,-7.406,1,0.0356,0.00404,1.99e-06,0.0496,129.993,189003,4,12
-Seasons of Love B,Cast Of The Motion Picture Rent,False,0.585,0.526,-5.785,1,0.0331,0.148,0,0.0651,88.996,69520,4,3
-Full Moon Party - Original Mix,Paul Oakenfold,False,0.532,0.994,-4.348,1,0.0543,6.41e-05,0.793,0.211,137.976,473143,4,16
-L.E.D. There Be Light - Extended Mix,Rank 1,False,0.672,0.818,-9.393,0,0.0384,0.0104,0.92,0.222,131.98,460927,4,17
-You Got Me,The Roots,False,0.735,0.443,-8.09,0,0.278,0.161,0,0.188,81.031,259293,4,10
-Beam Me Up (Kill Mode) (Radio Edit),CAZZETTE,False,0.568,0.878,-3.156,1,0.0447,0.00838,3.3e-06,0.0896,125.967,203810,4,11
-Chocolate,The 1975,False,0.591,0.94,-4.341,1,0.0522,0.00391,0,0.383,100.043,224640,4,5
-Five Hours,Deorro,False,0.88,0.821,-2.545,0,0.118,0.0197,0.661,0.234,127.907,326888,4,13
-Firestarter,The Prodigy,False,0.532,0.948,-5.153,1,0.0818,0.00325,0.449,0.14,141.513,279800,4,10
-Super Freak,Rick James,False,0.835,0.796,-8.313,1,0.0542,0.206,0,0.0407,132.448,204413,4,7
-Sun In Your Eyes,Above & Beyond,False,0.276,0.395,-11.585,0,0.0377,0.931,0.906,0.0835,183.967,291027,5,14
-Animals - Radio Edit,Martin Garrix,False,0.589,0.923,-5.461,1,0.0353,0.00118,0.338,0.071,128.041,176120,4,8
-Love Heals - Bonus Track,Cast Of The Motion Picture Rent,False,0.387,0.611,-4.619,1,0.0322,0.191,0,0.257,101.626,276773,4,15
-Fantine’s Death,Anne Hathaway,False,0.401,0.0241,-23.81,1,0.046,0.934,9.63e-06,0.111,129.136,172013,5,9
-Cracks Feat. Belle Humble (Flux Pavilion Rmx),Freestylers,False,0.499,0.826,-7.082,0,0.0534,0.00095,0.029,0.122,140.007,281083,4,8
-Wizard - Radio Edit,Martin Garrix,False,0.565,0.916,-4.715,0,0.052,0.00439,0.488,0.617,127.844,202413,4,11
-Thing Called Love,Above & Beyond,False,0.485,0.867,-6.711,0,0.0349,0.00148,0.0144,0.327,133.979,329333,4,14
-The Devil's Den,Skrillex,False,0.616,0.946,-2.876,1,0.0687,0.00075,0.0777,0.355,127.992,292907,4,12
-Mmm Yeah,Austin Mahone,False,0.725,0.939,-2.519,0,0.0416,0.00244,1.39e-06,0.285,126.019,231627,4,10
-"Hold On, I'm Comin'",Sam & Dave,False,0.803,0.338,-14.029,1,0.0349,0.196,0.038,0.097,106.841,155707,4,8
-Jubel - Radio Edit,Klingande,False,0.686,0.524,-7.251,1,0.0343,0.649,0.0569,0.14,124.938,201627,4,9
-Payphone,Maroon 5,False,0.738,0.744,-4.757,1,0.042,0.0222,0,0.331,110.0,231467,4,8
-"Poor Fool, He Makes Me Laugh",Andrew Lloyd Webber,False,0.507,0.176,-13.414,1,0.111,0.757,0.000376,0.12,105.578,186493,4,10
-Castle On A Cloud,Isabelle Allen,False,0.399,0.0625,-22.683,1,0.0617,0.906,0,0.265,114.777,71600,4,3
-Everything To Lose - Armin van Buuren Remix,Dido,False,0.566,0.76,-8.232,0,0.031,2.13e-05,0.501,0.153,134.991,478093,4,14
-Maximal Crazy (Radio Edit),Tiësto,False,0.625,0.918,-4.708,1,0.042,0.0011,0.878,0.0369,129.991,256607,4,10
-The World (Is Going Up In Flames),Charles Bradley,False,0.715,0.6,-7.728,0,0.0264,0.0714,0.00165,0.0876,86.989,202492,4,9
-Air For Life,Above & Beyond,False,0.645,0.754,-7.714,0,0.114,0.000275,0.279,0.0722,132.01,482320,4,19
-Crave You (Adventure Club Remix),Flight Facilities,False,0.634,0.692,-5.646,0,0.0997,0.00586,0.000116,0.0726,140.029,236931,4,11
-Good Morning Baltimore,Nikki Blonsky,False,0.631,0.842,-4.297,1,0.0634,0.206,0,0.152,133.027,234093,4,9
-Move Your Hands Up - Radio Mix,Clubraiders,False,0.605,0.995,-3.008,0,0.0409,0.0024,0.471,0.16,139.999,238893,4,8
-In And Out Of Love,Armin van Buuren,False,0.547,0.544,-10.163,0,0.0318,0.0196,0.0225,0.0862,134.988,361133,4,19
-Doomsday,NERO,False,0.323,0.839,-4.592,1,0.152,0.000213,0.00224,0.276,120.19,251649,4,10
-Love Is a Crime,Anastacia,False,0.557,0.808,-5.482,0,0.0887,0.123,0,0.902,204.02,199467,4,7
-Professional Griefers,deadmau5,False,0.729,0.486,-6.278,1,0.0728,8.93e-05,0.266,0.245,128.015,246295,4,9
-I Just Called To Say I Love You - Single Version,Stevie Wonder,False,0.742,0.542,-9.147,1,0.0235,0.241,4.1e-06,0.0836,113.552,261773,4,14
-Summer Nights - From “Grease” Soundtrack,John Travolta,False,0.733,0.743,-6.148,1,0.055,0.663,4.18e-05,0.158,124.287,214920,4,6
-I Second That Emotion,Smokey Robinson & The Miracles,False,0.655,0.649,-8.092,1,0.0331,0.183,0,0.0969,95.818,166453,4,12
-On My Own,Samantha Barks,False,0.357,0.109,-15.667,1,0.0526,0.889,0,0.133,83.778,191413,3,7
-Alone,Armin van Buuren,False,0.55,0.861,-6.526,1,0.0402,0.00592,0.00143,0.107,127.987,244067,4,12
-Tango: Maureen,Tracie Thoms,False,0.799,0.621,-4.992,1,0.0599,0.314,0,0.153,128.002,235040,4,9
-Broken Tonight,Armin van Buuren,False,0.553,0.811,-7.592,0,0.0584,6.66e-05,9.13e-05,0.856,131.02,175907,4,6
-Rebound - Original Mix,Various Artists,False,0.574,0.869,-7.832,1,0.0604,6.44e-05,0.797,0.429,132.079,334987,4,11
-Russia Privet - UK Version,Basshunter,False,0.663,0.971,-7.29,1,0.0657,0.0347,0.726,0.172,135.003,243027,4,11
-No Place Like London,Johnny Depp,False,0.314,0.177,-14.871,1,0.0383,0.864,0.011,0.0958,110.188,331960,3,13
-One Day More,Les Misérables-Original London Cast,False,0.221,0.477,-7.463,1,0.0316,0.87,9.13e-05,0.173,78.604,216133,4,8
-California Gurls,Katy Perry,False,0.791,0.754,-3.729,1,0.0569,0.00446,0,0.163,125.014,234653,4,9
-Didn't I Blow Your Mind This Time,The Delfonics,False,0.53,0.454,-10.265,1,0.028,0.714,8.57e-06,0.107,140.586,200933,4,12
-Animus Vox,The Glitch Mob,False,0.68,0.533,-10.572,0,0.0391,0.161,0.753,0.319,99.946,404080,4,11
-Moment Of Truth,Gang Starr,False,0.532,0.819,-5.282,0,0.256,0.0157,0,0.371,90.215,247333,4,9
-Miami 2 Ibiza,Swedish House Mafia,False,0.727,0.936,-5.347,0,0.0737,0.00416,1.94e-05,0.7,124.989,204661,4,9
-Stay The Night - featuring Hayley Williams of Paramore,Zedd,False,0.607,0.74,-3.116,1,0.0387,0.101,0,0.0924,127.955,217080,4,12
-Rescue Me - Single Version,Fontella Bass,False,0.679,0.548,-9.464,0,0.0314,0.646,1.3e-05,0.103,122.691,170720,4,7
-Master of the House,Les Misérables-Original London Cast,False,0.575,0.521,-10.374,1,0.265,0.868,0,0.143,145.949,299107,4,15
-Toulouse - Original Mix,Nicky Romero,False,0.76,0.91,-3.842,0,0.101,0.0338,0.69,0.218,128.001,365626,4,14
-Ain't Nobody,Chaka Khan,False,0.8,0.878,-7.109,1,0.0434,0.189,0.000104,0.14,104.282,280853,4,9
-Omigod You Guys,Original Cast Recording,False,0.573,0.48,-9.724,1,0.6,0.487,1.44e-06,0.408,159.654,346581,4,17
-All I Ever Wanted - Radio Edit,Basshunter,False,0.645,0.984,-7.051,1,0.0508,0.164,0.00701,0.164,144.954,176453,4,7
-Stand By Me,Ben E. King,False,0.642,0.156,-16.998,1,0.0376,0.114,0.000103,0.105,119.743,182533,4,9
-Bang Bang,Jessie J,False,0.707,0.752,-4.401,0,0.0885,0.269,0,0.377,150.061,199373,4,9
-Love That Girl,Raphael Saadiq,False,0.71,0.674,-5.393,1,0.0352,0.0136,1.73e-05,0.0366,124.033,184413,4,8
-Derezzed,Daft Punk,False,0.7,0.728,-7.299,0,0.109,0.138,0.877,0.264,127.98,303947,4,8
-When Love Takes Over (feat. Kelly Rowland),David Guetta,False,0.658,0.863,-4.64,1,0.0255,0.0144,0.000193,0.2,129.972,189000,4,9
-Sirens Of The Sea,Oceanlab,False,0.535,0.805,-9.79,0,0.0333,0.202,0.708,0.106,131.994,356827,4,14
-Just The Two Of Us,"Grover Washington, Jr.",False,0.787,0.326,-14.809,1,0.0836,0.42,0.0265,0.0514,95.892,237667,4,10
-How Can You Mend a Broken Heart,Al Green,False,0.457,0.298,-12.059,1,0.0481,0.517,2.39e-05,0.0677,146.883,383493,3,19
+track_id,speechiness,duration_ms,tempo,energy,acousticness,valence,key,instrumentalness,liveness,loudness,danceability,time_signature,mode,track,charted
+5u7JGFtQNT0Zj7TOykBS7s,0.0649,178667,135.926,0.684,0.114,0.908,9,0.00785,0.364,-5.64,0.572,4,1,5u7JGFtQNT0Zj7TOykBS7s,False
+4E5PB55vLwQPIO1OvpU53S,0.043,236440,148.008,0.755,0.000102,0.519,0,0.00226,0.0927,-4.943,0.534,4,1,4E5PB55vLwQPIO1OvpU53S,False
+4NwJWJ7rIZBnv8TwNRhGG2,0.0462,173631,101.99,0.877,0.462,0.802,3,0.00943,0.083,-4.465,0.697,4,1,4NwJWJ7rIZBnv8TwNRhGG2,False
+7c3nNKoU8YQZP0b9iY1DPr,0.152,206835,81.208,0.932,9.51e-05,0.212,2,0.125,0.372,-3.272,0.201,4,0,7c3nNKoU8YQZP0b9iY1DPr,False
+5MsZIaCYY6Tsdph0LiB0hE,0.0559,203413,90.013,0.915,0.0013,0.606,4,3.74e-05,0.206,-3.713,0.552,4,1,5MsZIaCYY6Tsdph0LiB0hE,False
+0CwYG1UnRmOx8Q1EzElCIL,0.0333,222067,100.011,0.796,0.00107,0.182,0,0.0,0.106,-4.501,0.46,4,0,0CwYG1UnRmOx8Q1EzElCIL,False
+23oxJmDc1V9uLUSmN2LIvx,0.0638,198267,173.734,0.904,3.43e-05,0.786,6,2.83e-05,0.0947,-3.751,0.486,4,0,23oxJmDc1V9uLUSmN2LIvx,False
+3LpnzPxkMI6XS4JCbhNeek,0.045,231133,90.264,0.817,0.00228,0.0992,6,0.00417,0.372,-7.282,0.396,4,1,3LpnzPxkMI6XS4JCbhNeek,False
+76aadnUFFANRNDs6L3aqxw,0.036,282947,105.754,0.753,0.0417,0.434,3,0.0,0.389,-4.618,0.545,4,0,76aadnUFFANRNDs6L3aqxw,False
+0OYcEfskah1egYHjYRvbg1,0.0292,290360,110.007,0.393,0.00479,0.0641,11,0.0107,0.107,-7.813,0.534,4,1,0OYcEfskah1egYHjYRvbg1,False
+1Er5JMNcguoBMFXxwZ7BWH,0.0267,147027,124.964,0.534,0.437,0.649,6,3.33e-06,0.328,-9.054,0.629,4,0,1Er5JMNcguoBMFXxwZ7BWH,False
+30uJNlHIjfDeE4vr8g9fpf,0.0336,193030,130.014,0.638,0.249,0.872,5,0.0,0.116,-6.455,0.728,4,0,30uJNlHIjfDeE4vr8g9fpf,False
+1dv3ePjze9tPq2pk8eWJdR,0.0309,270773,118.65,0.616,0.463,0.509,1,0.0408,0.173,-8.128,0.63,4,0,1dv3ePjze9tPq2pk8eWJdR,False
+0UAB340gAcSMk3r0a8PTag,0.0315,229107,151.809,0.715,0.0607,0.225,0,0.0,0.274,-4.446,0.498,4,1,0UAB340gAcSMk3r0a8PTag,False
+4vvK7kQ42AAXabZAXiGsDH,0.0254,261440,88.04,0.706,0.173,0.319,0,0.00015,0.209,-8.01,0.425,4,1,4vvK7kQ42AAXabZAXiGsDH,False
+5CMjjywI0eZMixPeqNd75R,0.057,353893,100.163,0.659,0.0839,0.674,10,0.00114,0.0753,-7.828,0.832,4,0,5CMjjywI0eZMixPeqNd75R,False
+6X0WsSsMMwam5AzVxlUUzo,0.0355,313388,127.005,0.88,0.0021,0.459,5,0.837,0.661,-5.47,0.509,4,1,6X0WsSsMMwam5AzVxlUUzo,False
+3AdrTMuTUgK4ygcBD6u938,0.045,219693,104.049,0.949,0.501,0.0926,5,0.833,0.153,-4.31,0.653,4,0,3AdrTMuTUgK4ygcBD6u938,False
+1EQUFBHa4jDUyQSCxRFkEz,0.0783,291162,175.953,0.538,0.14,0.802,11,0.117,0.095,-9.366,0.525,4,0,1EQUFBHa4jDUyQSCxRFkEz,False
+3sCOSNH82pkeCMqudYibjb,0.0378,232220,128.015,0.71,0.00374,0.265,7,5.26e-05,0.152,-6.988,0.552,4,0,3sCOSNH82pkeCMqudYibjb,False
+0QIYINh2AwmOmdu8CRYvlw,0.0867,272078,174.031,0.944,0.000117,0.589,1,0.00345,0.353,-3.029,0.536,4,1,0QIYINh2AwmOmdu8CRYvlw,False
+3Ctlrt6kzdlo7nuh0oVR7m,0.353,315094,123.658,0.805,0.172,0.834,5,0.000231,0.357,-5.24,0.683,4,1,3Ctlrt6kzdlo7nuh0oVR7m,False
+5wKVFoSD7ppsjTvsniDGes,0.0482,324541,125.0,0.843,0.000373,0.648,11,0.678,0.355,-6.0,0.729,4,1,5wKVFoSD7ppsjTvsniDGes,False
+25KybV9BOUlvcnv7nN3Pyo,0.0714,235653,168.022,0.68,0.0796,0.539,7,0.0,0.0465,-4.993,0.505,3,1,25KybV9BOUlvcnv7nN3Pyo,False
+111tBBFXU1jMJTi4InLakh,0.0738,295693,125.857,0.682,0.0516,0.901,6,0.000237,0.234,-7.426,0.776,4,1,111tBBFXU1jMJTi4InLakh,False
+41ZXQFAywncRjnDvtTMYPw,0.0637,215124,122.961,0.798,0.014,0.409,4,5.7e-05,0.111,-7.652,0.677,4,1,41ZXQFAywncRjnDvtTMYPw,False
+65CwDAHBtAuhPmIEbX3Rn7,0.0478,206327,97.479,0.792,0.121,0.732,11,0.0,0.158,-4.043,0.598,3,0,65CwDAHBtAuhPmIEbX3Rn7,False
+4NSAqKiT1jtmoz9jMzLGw7,0.816,292760,199.727,0.643,0.247,0.945,5,0.0,0.106,-6.874,0.525,4,0,4NSAqKiT1jtmoz9jMzLGw7,False
+1S7VWDpdcFFzNVg6ZQNpRg,0.0359,263027,130.435,0.633,0.0195,0.625,6,0.00011,0.4,-5.963,0.803,4,1,1S7VWDpdcFFzNVg6ZQNpRg,False
+4PQA5I8Qf99He3SBKtl4Tf,0.0551,192667,128.03,0.879,0.0119,0.638,11,3.5e-05,0.367,-3.336,0.725,4,0,4PQA5I8Qf99He3SBKtl4Tf,False
+5tXyNhNcsnn7HbcABntOSf,0.0973,222160,119.932,0.878,0.03,0.669,7,0.0,0.0828,-2.85,0.666,4,0,5tXyNhNcsnn7HbcABntOSf,False
+4B2jOTUZBnlrjLHK1ertFR,0.0353,183520,148.882,0.586,0.182,0.899,7,0.0,0.332,-10.991,0.496,4,1,4B2jOTUZBnlrjLHK1ertFR,False
+6oWpGuwokWJ4EcWgVQPdUt,0.041,212893,138.8,0.853,0.00587,0.74,2,2.38e-06,0.0875,-5.419,0.491,4,1,6oWpGuwokWJ4EcWgVQPdUt,False
+6rhVKeUhQTGLIRmQOfc9Wo,0.0833,628547,117.809,0.815,0.0326,0.785,9,0.00102,0.0498,-8.998,0.668,4,0,6rhVKeUhQTGLIRmQOfc9Wo,False
+5MTQbjkMmE6WsDQ8JlyEVo,0.087,197507,177.98,0.875,0.000652,0.759,2,0.0,0.239,-3.499,0.471,4,1,5MTQbjkMmE6WsDQ8JlyEVo,False
+3IPnBzGRMg6BfViFxxa0Gq,0.0735,124733,100.033,0.637,0.262,0.537,6,0.0,0.319,-6.308,0.737,4,0,3IPnBzGRMg6BfViFxxa0Gq,False
+2OFpzfsXAvTOKJtvEkiqMP,0.094,217467,104.083,0.885,0.00343,0.713,9,0.0,0.191,-5.008,0.805,4,0,2OFpzfsXAvTOKJtvEkiqMP,False
+7r6ubHsaieaig4kORmmsDy,0.11,190933,143.849,0.953,0.00635,0.799,8,0.0,0.12,-3.491,0.638,4,0,7r6ubHsaieaig4kORmmsDy,False
+4zaSY4zsQTQHJJhXbMT8uw,0.0438,274867,139.833,0.689,0.00806,0.237,11,0.000921,0.117,-4.639,0.505,4,0,4zaSY4zsQTQHJJhXbMT8uw,False
+3LK9g77hd41jzbGh1Etj44,0.0534,222823,139.937,0.928,0.000241,0.614,7,0.444,0.0674,-2.488,0.535,4,1,3LK9g77hd41jzbGh1Etj44,False
+1fc12F23NDBAN1Y75GEc1v,0.0363,310411,139.928,0.827,0.00138,0.0402,8,0.865,0.68,-4.292,0.675,4,0,1fc12F23NDBAN1Y75GEc1v,False
+2zG4TZ8svAfITRul1jta7n,0.0379,223867,140.002,0.782,0.00121,0.202,11,0.0,0.186,-4.728,0.583,4,0,2zG4TZ8svAfITRul1jta7n,False
+2HHiH52OPxe8qyVO7N4uH7,0.0375,212613,143.003,0.777,0.0157,0.94,5,0.00829,0.0755,-5.496,0.663,4,0,2HHiH52OPxe8qyVO7N4uH7,False
+5pewxEBnMo72rY6pGH0HJz,0.052,403088,128.01,0.707,0.00429,0.341,5,0.00273,0.746,-7.755,0.779,3,1,5pewxEBnMo72rY6pGH0HJz,False
+0UB1ORB5L02Yb4PtXgLDj1,0.0362,204591,119.952,0.885,0.103,0.432,5,1.25e-06,0.0685,-3.086,0.522,4,1,0UB1ORB5L02Yb4PtXgLDj1,False
+38z6jaLE0F13dxv28n3wlq,0.0435,232067,139.51,0.751,0.000491,0.605,1,2.22e-06,0.158,-5.46,0.522,3,1,38z6jaLE0F13dxv28n3wlq,False
+2soeSOXg6lO7NA1crYT78x,0.134,198000,181.069,0.931,0.00309,0.618,2,0.0,0.121,-4.474,0.479,4,1,2soeSOXg6lO7NA1crYT78x,False
+5jZ1Z2GFTf2gwmFc3qiUxs,0.0435,208693,98.122,0.904,0.00143,0.541,7,0.0,0.193,-3.001,0.541,4,1,5jZ1Z2GFTf2gwmFc3qiUxs,False
+4CjSIhFpTYKVLyw2vDTS6n,0.0307,176072,128.994,0.681,0.743,0.888,6,0.031,0.0756,-7.361,0.616,4,1,4CjSIhFpTYKVLyw2vDTS6n,False
+0DyhPTzYDD7WmhyWNT9y1I,0.0519,208034,155.829,0.858,0.0563,0.843,9,0.0,0.0729,-3.911,0.519,4,1,0DyhPTzYDD7WmhyWNT9y1I,False
+2ZQyksYO4zzhyHNcueL0CP,0.0335,209227,121.001,0.792,0.0215,0.293,0,0.0,0.159,-5.884,0.592,4,1,2ZQyksYO4zzhyHNcueL0CP,False
+1UzofFX5AkfTDnwjcBkM4J,0.0467,178533,108.145,0.834,0.795,0.661,0,0.148,0.309,-5.238,0.551,4,1,1UzofFX5AkfTDnwjcBkM4J,False
+1lqMLr9Wj7SM2F9AikGcxN,0.0782,512733,135.601,0.827,0.0409,0.743,0,0.0,0.12,-7.715,0.509,4,1,1lqMLr9Wj7SM2F9AikGcxN,False
+4nxIFMBhf2N1Xcd3tintuW,0.0386,202387,163.418,0.206,0.839,0.137,5,0.0,0.701,-17.137,0.313,4,1,4nxIFMBhf2N1Xcd3tintuW,False
+4Gg7js0Xz6yvnTc3QkWkTu,0.0377,256387,113.45,0.907,0.0157,0.784,4,2.47e-05,0.0339,-5.604,0.726,4,1,4Gg7js0Xz6yvnTc3QkWkTu,False
+4XsH9zBWPOCdXoH9ZDdS8r,0.11,233600,120.11,0.708,0.457,0.748,2,7.5e-05,0.0913,-9.141,0.784,4,1,4XsH9zBWPOCdXoH9ZDdS8r,False
+3Ho35OJixLg20qshXRgfBs,0.0814,312507,105.258,0.762,0.112,0.839,5,0.00549,0.296,-10.445,0.856,4,1,3Ho35OJixLg20qshXRgfBs,False
+13v3siPyvy5TTEZYmGPPse,0.0456,248133,119.55,0.727,0.114,0.965,11,7.7e-05,0.174,-8.714,0.706,4,1,13v3siPyvy5TTEZYmGPPse,False
+4PpZWJBUq6oRSm4XhtsrHl,0.0371,298560,187.56,0.779,0.000133,0.504,2,5.87e-05,0.116,-6.96,0.233,4,0,4PpZWJBUq6oRSm4XhtsrHl,False
+7CqLYoS03lJ3M8lM6ElOzj,0.0356,311880,93.35,0.721,0.00878,0.419,7,0.0,0.965,-7.784,0.318,4,1,7CqLYoS03lJ3M8lM6ElOzj,False
+31OFRDvP2RxpZKH4NpJZCr,0.0352,302427,110.911,0.933,2.02e-05,0.411,6,1.96e-05,0.114,-3.664,0.554,4,0,31OFRDvP2RxpZKH4NpJZCr,False
+1P4NeCeT76MGWkgVV8uRxP,0.0686,360360,181.009,0.931,0.0076,0.228,7,0.455,0.104,-10.009,0.236,4,1,1P4NeCeT76MGWkgVV8uRxP,False
+0VutyLEoI1f7HzWLQ9LF4Y,0.0556,274973,83.682,0.864,3.62e-05,0.223,5,1.08e-05,0.127,-6.012,0.186,4,1,0VutyLEoI1f7HzWLQ9LF4Y,False
+0o995gJCGebaza0LWybToU,0.0378,255000,99.739,0.768,0.169,0.232,9,0.0,0.103,-3.592,0.457,4,1,0o995gJCGebaza0LWybToU,False
+1xZdjsAGrY4BUIbIlYy3EX,0.254,285413,96.338,0.895,0.181,0.727,10,1.8e-05,0.108,-4.212,0.712,4,0,1xZdjsAGrY4BUIbIlYy3EX,False
+4F1yvJfQ7gJkrcgFJQDjOr,0.119,191680,156.572,0.584,0.339,0.676,1,0.0,0.297,-5.768,0.689,4,0,4F1yvJfQ7gJkrcgFJQDjOr,False
+5TvcggVu3s2P1fMAS8BupX,0.109,463733,112.877,0.576,0.0987,0.907,11,0.0023,0.195,-13.256,0.91,4,0,5TvcggVu3s2P1fMAS8BupX,False
+51rXHuKN8Loc4sUlKPODgH,0.299,229670,137.133,0.705,0.000813,0.376,1,0.0,0.128,-5.008,0.645,4,1,51rXHuKN8Loc4sUlKPODgH,False
+44KKhCyI0BGS6LvVyDqJtH,0.168,181714,139.93,0.505,0.0229,0.691,11,0.0,0.0867,-7.648,0.934,4,1,44KKhCyI0BGS6LvVyDqJtH,False
+4xkOaSrkexMciUUogZKVTS,0.186,297787,171.447,0.847,0.0622,0.1,1,0.0,0.0816,-3.237,0.548,4,1,4xkOaSrkexMciUUogZKVTS,False
+1B87ZDrD3Pno9hS4stamWO,0.475,254370,108.761,0.481,0.29,0.33,1,0.0,0.118,-7.775,0.628,5,1,1B87ZDrD3Pno9hS4stamWO,False
+6wWaVoUOzLQJHd3bWAUpdZ,0.284,194732,132.055,0.686,0.0677,0.886,1,0.0,0.193,-5.415,0.753,4,0,6wWaVoUOzLQJHd3bWAUpdZ,False
+27oFpFktCq9JIXjJQRuv7a,0.176,166852,161.9,0.584,0.0524,0.365,10,0.0,0.0658,-7.255,0.728,4,0,27oFpFktCq9JIXjJQRuv7a,False
+6FwiZxKXipsyGw2CVZOzol,0.209,202214,153.047,0.503,0.0144,0.0636,10,1.52e-06,0.124,-5.646,0.725,4,1,6FwiZxKXipsyGw2CVZOzol,False
+3aGibUHhQyBsyumYHylw0K,0.3,212653,77.878,0.651,0.000739,0.646,1,0.0,0.235,-7.601,0.546,4,1,3aGibUHhQyBsyumYHylw0K,False
+4yCRkUKqemOzWg9P08DDSG,0.0386,191960,164.844,0.226,0.95,0.245,1,0.931,0.0988,-15.141,0.275,3,1,4yCRkUKqemOzWg9P08DDSG,False
+4th1RQAelzqgY7wL53UGQt,0.0439,278480,127.059,0.724,0.04,0.526,0,4.07e-05,0.142,-3.278,0.59,4,1,4th1RQAelzqgY7wL53UGQt,False
+6hP5pQIkRH3BueyEVypmUe,0.202,261721,109.991,0.92,0.00515,0.2,9,0.0973,0.063,-3.277,0.585,4,1,6hP5pQIkRH3BueyEVypmUe,False
+6PXI5uBTl3UykGqNo6jmy1,0.0709,375187,127.986,0.948,0.0719,0.0584,6,0.0776,0.0719,-2.142,0.697,4,0,6PXI5uBTl3UykGqNo6jmy1,False
+2jnvdMCTvtdVCci3YLqxGY,0.168,167773,159.821,0.86,0.00043,0.578,11,1.68e-05,0.0783,-4.824,0.439,4,0,2jnvdMCTvtdVCci3YLqxGY,False
+3n69hLUdIsSa1WlRmjMZlW,0.0343,227080,150.093,0.658,0.096,0.293,5,0.000911,0.205,-7.299,0.615,4,1,3n69hLUdIsSa1WlRmjMZlW,False
+3pcCifdPTc2BbqmWpEhtUd,0.0297,220609,148.937,0.847,0.303,0.62,11,0.271,0.109,-6.52,0.541,4,1,3pcCifdPTc2BbqmWpEhtUd,False
+1onfcprzpSGh2LqrBh17AA,0.0543,200627,173.94,0.591,0.494,0.195,1,0.511,0.0788,-8.772,0.523,4,1,1onfcprzpSGh2LqrBh17AA,False
+4sNG6zQBmtq7M8aeeKJRMQ,0.0287,252307,121.079,0.617,0.0941,0.665,4,1.27e-05,0.0898,-5.213,0.687,4,1,4sNG6zQBmtq7M8aeeKJRMQ,False
+4mdyVTV7Tr5YDFnD2kvSM4,0.0587,241467,185.183,0.554,0.0175,0.838,0,0.0221,0.101,-7.08,0.579,4,1,4mdyVTV7Tr5YDFnD2kvSM4,False
+01Mpj13vURSO3cCLprPt5T,0.168,254400,88.777,0.995,0.000489,0.0379,1,0.331,0.128,-4.383,0.294,4,0,01Mpj13vURSO3cCLprPt5T,False
+5RHG4SQ6iJ1qQJmt3EFJCX,0.0503,219667,149.186,0.924,0.0127,0.922,4,0.0,0.162,-6.299,0.502,4,1,5RHG4SQ6iJ1qQJmt3EFJCX,False
+3amR3pxfJIBJTFLdOCcf6k,0.0738,179760,106.244,0.911,0.00512,0.671,2,0.0123,0.355,-2.97,0.504,4,1,3amR3pxfJIBJTFLdOCcf6k,False
+4FXv0p8WvZc7eUyDzsi39p,0.047,309847,138.226,0.814,0.00491,0.533,11,4.23e-06,0.0919,-7.12,0.512,4,0,4FXv0p8WvZc7eUyDzsi39p,False
+2PpNgmrS9mAyrkRAwn6YPq,0.0401,256933,117.461,0.947,0.000692,0.612,9,0.114,0.0283,-5.659,0.512,4,0,2PpNgmrS9mAyrkRAwn6YPq,False
+4fj8NzcAJfVYelreg3I32V,0.0405,212458,175.292,0.486,0.322,0.407,10,4.16e-05,0.101,-14.852,0.34,4,1,4fj8NzcAJfVYelreg3I32V,False
+0QRxtcxL31dRAeiUUuENPu,0.127,287480,153.091,0.946,0.000275,0.303,2,0.0304,0.136,-6.233,0.332,4,1,0QRxtcxL31dRAeiUUuENPu,False
+3Jx5QwNzHYxIr6wW2XHUbB,0.0513,252173,125.579,0.706,0.0157,0.807,0,0.000504,0.319,-10.398,0.486,4,1,3Jx5QwNzHYxIr6wW2XHUbB,False
+57fqmDaokbxZ3TaB0jp39q,0.0975,353787,91.955,0.901,0.0642,0.109,8,0.158,0.0557,-6.751,0.476,4,1,57fqmDaokbxZ3TaB0jp39q,False
+3gLlcZQMvpwgtV9THHXrGp,0.0656,216733,95.59,0.88,0.0206,0.527,1,0.000191,0.185,-5.769,0.432,4,0,3gLlcZQMvpwgtV9THHXrGp,False
+7pTMHN7QnzmnwGQa3mTRNv,0.0353,276120,125.045,0.737,0.0002,0.351,3,7.55e-05,0.0744,-6.291,0.497,4,1,7pTMHN7QnzmnwGQa3mTRNv,False
+7txxAtOMwLLnQTpKeBL6bp,0.0591,204867,148.366,0.763,0.00726,0.342,11,0.000457,0.0865,-9.45,0.365,4,0,7txxAtOMwLLnQTpKeBL6bp,False
+38510fWvtOkrFjg2EDkJtT,0.177,231813,104.458,0.777,0.119,0.812,7,0.0,0.425,-5.764,0.495,4,1,38510fWvtOkrFjg2EDkJtT,False
+7kD0Y5jtaX8zIsYHyxRNKW,0.0337,216878,137.0,0.827,0.00196,0.636,9,3.13e-06,0.0878,-6.155,0.567,4,0,7kD0Y5jtaX8zIsYHyxRNKW,False
+1xugsCboIm1yILqpLvH9aD,0.037,292333,118.086,0.136,0.673,0.0981,10,0.000157,0.107,-12.162,0.25,4,1,1xugsCboIm1yILqpLvH9aD,False
+5kyd6oKvKmj6mWCaAaHoN4,0.378,220964,97.092,0.58,0.153,0.428,0,0.0,0.109,-7.741,0.741,4,1,5kyd6oKvKmj6mWCaAaHoN4,False
+0fgZUSa7D7aVvv3GfO0A1n,0.0432,226581,97.448,0.676,0.0697,0.701,10,0.0,0.208,-5.655,0.733,4,0,0fgZUSa7D7aVvv3GfO0A1n,False
+04ZTP5KsCypmtCmQg5tH9R,0.0253,195519,97.005,0.694,0.00281,0.216,11,0.0,0.0719,-6.257,0.63,4,0,04ZTP5KsCypmtCmQg5tH9R,False
+2of5xn0GU0TdFneR1saRLH,0.241,193902,159.869,0.812,0.0184,0.72,10,0.000375,0.21,-5.776,0.461,4,0,2of5xn0GU0TdFneR1saRLH,False
+2igbKtoBMXdYgYPkCpl0V4,0.0372,236453,102.028,0.693,0.00166,0.868,5,0.0,0.0398,-5.148,0.655,4,0,2igbKtoBMXdYgYPkCpl0V4,False
+6Nle9hKrkL1wQpwNfEkxjh,0.237,210285,110.134,0.503,0.874,0.473,0,0.0,0.112,-5.732,0.776,4,0,6Nle9hKrkL1wQpwNfEkxjh,False
+1E1uGhNdBe6Dddbgs2KqtZ,0.0373,238560,127.052,0.61,0.00849,0.235,11,0.162,0.205,-8.329,0.62,4,0,1E1uGhNdBe6Dddbgs2KqtZ,False
+1uDjaezEbalGyGnuH80zDK,0.508,233507,193.206,0.415,0.0281,0.146,9,0.0,0.0915,-9.752,0.676,4,1,1uDjaezEbalGyGnuH80zDK,False
+1Eck97uRMlprKOOJN9oO1E,0.213,225526,168.385,0.771,0.00464,0.573,1,0.0,0.0568,-5.22,0.565,4,1,1Eck97uRMlprKOOJN9oO1E,False
+0YammaEkYSeo9vQYZ1OwS6,0.123,198947,95.031,0.66,0.137,0.79,10,0.0,0.192,-5.119,0.703,4,0,0YammaEkYSeo9vQYZ1OwS6,False
+3nodtPfXcok53E8Uze8gvD,0.155,187589,178.018,0.659,0.309,0.54,8,0.0,0.302,-4.92,0.635,4,1,3nodtPfXcok53E8Uze8gvD,False
+17JYzDCW1UTndfURuTydF2,0.047,231847,117.016,0.756,0.00632,0.712,11,0.00577,0.106,-7.099,0.736,4,1,17JYzDCW1UTndfURuTydF2,False
+5HeKOKc4phmLn8e4I7EkzD,0.0432,229120,108.999,0.723,0.0563,0.674,1,0.022,0.0977,-6.609,0.749,4,1,5HeKOKc4phmLn8e4I7EkzD,False
+4AhSkRYioEIfGvCV19peYN,0.153,189493,90.027,0.639,0.107,0.344,7,0.000657,0.118,-6.897,0.695,4,0,4AhSkRYioEIfGvCV19peYN,False
+6WhzFzROw3aq3rPWjgYlxr,0.344,225882,113.049,0.412,0.615,0.408,8,0.0025,0.134,-9.343,0.6,5,1,6WhzFzROw3aq3rPWjgYlxr,False
+2Z8WuEywRWYTKe1NybPQEW,0.0393,214507,74.989,0.713,0.00835,0.566,6,0.0,0.113,-5.355,0.645,4,1,2Z8WuEywRWYTKe1NybPQEW,False
+42T2QQv3xgBlpQxaSP7lnK,0.0346,238240,126.602,0.677,0.00841,0.195,2,0.00366,0.341,-5.83,0.386,4,1,42T2QQv3xgBlpQxaSP7lnK,False
+6jrMVRReY24qzCfe1BRrww,0.0413,191400,138.986,0.763,0.000728,0.814,6,6.79e-06,0.071,-3.952,0.556,4,0,6jrMVRReY24qzCfe1BRrww,False
+5vCE0xRLIEG1Zej2tgWFDb,0.111,174760,168.893,0.989,0.00141,0.323,10,0.000167,0.0911,-4.945,0.297,4,1,5vCE0xRLIEG1Zej2tgWFDb,False
+2KCJYwlBWxdlwyIYckIf6V,0.0558,265693,93.448,0.954,0.583,0.583,4,0.0,0.139,-3.947,0.579,4,1,2KCJYwlBWxdlwyIYckIf6V,False
+16gpk3oHK8Ela7QbRNGjJd,0.0505,189440,153.732,0.913,0.0314,0.0634,6,0.000247,0.113,-4.07,0.27,4,1,16gpk3oHK8Ela7QbRNGjJd,False
+6XEPmHllDGDaO4w84Xjtgi,0.057,223947,108.003,0.833,0.112,0.278,11,0.000462,0.121,-5.134,0.646,4,1,6XEPmHllDGDaO4w84Xjtgi,False
+1brpdmqkx3kSxyqzqXfW7J,0.0635,201400,124.324,0.866,0.00376,0.785,0,3.1e-05,0.312,-6.053,0.679,4,1,1brpdmqkx3kSxyqzqXfW7J,False
+1etiUDkISHELzQGMY79ryt,0.0598,201799,155.131,0.821,0.275,0.458,8,0.0,0.0418,-3.356,0.504,4,1,1etiUDkISHELzQGMY79ryt,False
+2ORySgkn0CbUMFbEoP1wwE,0.0597,325907,131.446,0.93,0.0525,0.445,4,0.0,0.227,-6.572,0.436,4,0,2ORySgkn0CbUMFbEoP1wwE,False
+6crBy2sODw2HS53xquM6us,0.0681,248053,94.174,0.767,0.181,0.422,9,0.000856,0.0942,-6.185,0.365,4,0,6crBy2sODw2HS53xquM6us,False
+11dCfArPrM7kzYpUrFHal9,0.108,212640,141.258,0.987,0.00135,0.298,8,0.000195,0.0697,-5.391,0.515,4,1,11dCfArPrM7kzYpUrFHal9,False
+2CJtimCSGAn8x6RE3irZFV,0.0389,216507,157.102,0.871,0.195,0.69,3,0.0,0.146,-7.678,0.552,4,0,2CJtimCSGAn8x6RE3irZFV,False
+4An0hbjs1THl9cQprYrN6G,0.0389,160373,112.424,0.722,0.382,0.654,1,0.0,0.049,-6.593,0.547,4,0,4An0hbjs1THl9cQprYrN6G,False
+2lwwrWVKdf3LR9lbbhnr6R,0.0293,208467,100.975,0.888,0.013,0.553,6,2.23e-06,0.0888,-4.807,0.649,4,1,2lwwrWVKdf3LR9lbbhnr6R,False
+5anCkDvJ17aznvK5TED5uo,0.0387,305907,118.004,0.916,0.000297,0.683,3,0.0259,0.126,-4.358,0.58,4,0,5anCkDvJ17aznvK5TED5uo,False
+5Q7cE6wGHMehLFo2ppkk5D,0.0602,208360,162.407,0.872,0.00402,0.834,6,0.00909,0.047,-6.294,0.445,4,0,5Q7cE6wGHMehLFo2ppkk5D,False
+4DWzGxXc3shAzDGy2UIaL5,0.0283,241933,116.769,0.784,0.167,0.945,0,8.94e-05,0.239,-9.252,0.662,4,1,4DWzGxXc3shAzDGy2UIaL5,False
+4XwpTrEYq63Aolu1TtICWS,0.0463,234253,129.732,0.961,0.0294,0.512,9,0.00184,0.407,-5.211,0.516,4,1,4XwpTrEYq63Aolu1TtICWS,False
+36482hNESSwELpr9sS3NbE,0.175,241307,129.998,0.619,0.00959,0.516,5,3.18e-06,0.0896,-5.741,0.761,4,0,36482hNESSwELpr9sS3NbE,False
+5vTPxzm4h2bY9rYyVrGEU5,0.0852,201600,121.017,0.728,0.123,0.851,7,0.0,0.185,-3.602,0.706,4,1,5vTPxzm4h2bY9rYyVrGEU5,False
+1LzNfuep1bnAUR9skqdHCK,0.0275,295600,157.143,0.33,0.245,0.175,9,0.000679,0.0677,-13.925,0.42,3,1,1LzNfuep1bnAUR9skqdHCK,False
+0i5el041vd6nxrGEU8QRxy,0.0354,208960,148.0,0.948,0.0191,0.878,10,0.0,0.0536,-3.364,0.457,4,1,0i5el041vd6nxrGEU8QRxy,False
+64XaqRfp8sxAWM5qd6t7jG,0.0308,214587,113.968,0.616,0.0624,0.166,3,0.0,0.108,-5.026,0.657,4,1,64XaqRfp8sxAWM5qd6t7jG,False
+7bG6SQBGZthPDG5QJL5Gf7,0.175,110987,77.124,0.342,0.536,0.684,7,0.0,0.59,-9.536,0.5,1,1,7bG6SQBGZthPDG5QJL5Gf7,False
+0bTnB8YDYijhQbSWwpQYDU,0.0371,224387,139.849,0.624,0.0235,0.215,7,0.0,0.5,-6.513,0.505,4,1,0bTnB8YDYijhQbSWwpQYDU,False
+3WGaUa5pfM8vPMYhYplWL4,0.132,393307,177.326,0.781,0.2,0.835,1,0.0246,0.358,-7.682,0.374,3,0,3WGaUa5pfM8vPMYhYplWL4,False
+1Rw5xHOtxzB1MH186j5ICU,0.0401,200360,113.793,0.518,0.125,0.77,4,0.0,0.418,-7.982,0.782,4,0,1Rw5xHOtxzB1MH186j5ICU,False
+3trS6e40JCVUOpPVt5OdHj,0.175,193147,179.063,0.576,0.0543,0.235,11,4.07e-05,0.187,-5.693,0.625,4,0,3trS6e40JCVUOpPVt5OdHj,False
+6zttKhN0rUFfAOzn4HctNU,0.134,192307,104.641,0.779,0.0134,0.88,7,0.0992,0.285,-9.851,0.747,4,1,6zttKhN0rUFfAOzn4HctNU,False
+4H9gTvO9RJKNMroiqRxmUi,0.0468,121667,83.753,0.701,0.409,0.527,1,0.0179,0.203,-6.515,0.693,4,1,4H9gTvO9RJKNMroiqRxmUi,False
+2319gHincsCeSmc19Efi2j,0.0603,245307,117.984,0.867,0.145,0.592,0,0.000333,0.105,-4.595,0.773,4,1,2319gHincsCeSmc19Efi2j,False
+0Nf3vtVBfiayZL7c8r4KBO,0.127,207267,97.516,0.54,0.0299,0.443,10,0.0,0.12,-7.864,0.845,4,0,0Nf3vtVBfiayZL7c8r4KBO,False
+5iSEsR6NKjlC9SrIJkyL3k,0.0414,295293,115.277,0.605,0.484,0.266,0,9.29e-05,0.298,-8.951,0.63,4,1,5iSEsR6NKjlC9SrIJkyL3k,False
+3e0yTP5trHBBVvV32jwXqF,0.054,321280,140.034,0.844,0.00173,0.34,10,0.0,0.24,-6.578,0.472,4,1,3e0yTP5trHBBVvV32jwXqF,False
+3sNVsP50132BTNlImLx70i,0.0465,229147,148.913,0.665,0.145,0.31,1,0.0,0.113,-2.821,0.367,4,1,3sNVsP50132BTNlImLx70i,False
+5GicVH0OTGMTR5bwYoXDwo,0.0254,254413,168.807,0.647,0.0314,0.576,5,0.0,0.0591,-6.546,0.546,4,1,5GicVH0OTGMTR5bwYoXDwo,False
+6i7fGIyktBDlEe4PlpiU0Q,0.0692,316867,127.991,0.804,0.0191,0.275,1,0.0729,0.245,-6.374,0.591,4,0,6i7fGIyktBDlEe4PlpiU0Q,False
+1RJZLVGpBG9nNZiHRQSWTp,0.141,237680,104.018,0.93,0.0236,0.132,5,0.0,0.578,-2.912,0.658,4,0,1RJZLVGpBG9nNZiHRQSWTp,False
+6FmSCambSeWTMvWSUco4EO,0.0541,295027,140.035,0.9,0.000514,0.0993,6,0.902,0.111,-5.171,0.6,4,1,6FmSCambSeWTMvWSUco4EO,False
+2Oj5BXOY01EDuJhVYNlEoq,0.0309,192693,117.952,0.783,0.000189,0.836,0,0.0173,0.0889,-4.829,0.652,5,1,2Oj5BXOY01EDuJhVYNlEoq,False
+0dEUdptrttDvLSWlDa8EvI,0.0406,226305,142.035,0.972,0.0129,0.929,7,0.244,0.255,-3.912,0.587,4,1,0dEUdptrttDvLSWlDa8EvI,False
+1fwmpaKObFM51Nw1g5uJyt,0.0873,241347,131.883,0.955,0.0177,0.0385,0,0.827,0.161,-10.831,0.52,4,1,1fwmpaKObFM51Nw1g5uJyt,False
+4MTyVQy3xvgwDJRDgI5RKg,0.0556,532350,137.999,0.992,0.00282,0.341,7,0.909,0.0771,-5.055,0.571,4,1,4MTyVQy3xvgwDJRDgI5RKg,False
+3oVSsJXNADnYAnZWiEWFJH,0.101,171067,95.593,0.706,0.0172,0.623,7,0.000384,0.326,-7.494,0.795,4,1,3oVSsJXNADnYAnZWiEWFJH,False
+6u0x5ad9ewHvs3z6u9Oe3c,0.054,235547,199.866,0.775,0.00433,0.588,11,0.283,0.0676,-3.364,0.35,4,1,6u0x5ad9ewHvs3z6u9Oe3c,False
+1JdKrFyoU05abww0Zv0ayQ,0.0429,220480,131.094,0.831,9.43e-05,0.632,8,0.0,0.141,-3.607,0.528,3,1,1JdKrFyoU05abww0Zv0ayQ,False
+1e5grnGb7YIcX9EuJM1mtB,0.0375,326293,155.766,0.822,4.99e-05,0.448,2,0.00014,0.147,-6.338,0.46,4,1,1e5grnGb7YIcX9EuJM1mtB,False
+2YhapA5E1qTZ1Ykw9Y86ql,0.102,213267,133.996,0.959,0.084,0.34,5,0.000655,0.135,-5.264,0.506,4,0,2YhapA5E1qTZ1Ykw9Y86ql,False
+4dqhnjsX69qGQ7DCMSTY7v,0.0423,218188,117.561,0.568,0.473,0.309,2,0.00028,0.0824,-9.172,0.447,4,1,4dqhnjsX69qGQ7DCMSTY7v,False
+18oWEPapjNt32E6sCM6VLb,0.0296,221000,132.009,0.903,0.000187,0.791,8,0.0939,0.298,-4.46,0.562,4,0,18oWEPapjNt32E6sCM6VLb,False
+39xlKIt3AQlvCwLWhSurQB,0.0351,239373,130.656,0.72,0.0102,0.166,2,0.00171,0.209,-5.748,0.376,4,1,39xlKIt3AQlvCwLWhSurQB,False
+4vDBJeeQCbhP9FaPPMsYkY,0.0331,268333,100.22,0.419,0.602,0.602,11,7.58e-06,0.108,-10.016,0.608,4,1,4vDBJeeQCbhP9FaPPMsYkY,False
+5JJyHrQP9VOHqFlPQ3DwGS,0.0568,253587,140.266,0.866,0.00287,0.248,0,7.78e-05,0.0945,-5.822,0.526,4,1,5JJyHrQP9VOHqFlPQ3DwGS,False
+7zNrf9LvWXYxhdKkVUcjBc,0.0503,179547,198.081,0.663,0.268,0.54,5,1.07e-05,0.119,-10.522,0.299,3,1,7zNrf9LvWXYxhdKkVUcjBc,False
+3GKSfF6c3Rv3a1knSjxnXa,0.146,225533,92.013,0.669,0.175,0.809,6,0.0,0.33,-7.189,0.791,4,0,3GKSfF6c3Rv3a1knSjxnXa,False
+2u5B53qh8UGDnPcdJATcDl,0.0332,206067,135.029,0.833,0.04,0.295,2,0.214,0.132,-3.387,0.635,4,0,2u5B53qh8UGDnPcdJATcDl,False
+6iEFcZI1KxxPaAGlnOVn3y,0.0354,307293,114.762,0.455,0.0296,0.922,5,0.589,0.0398,-15.326,0.837,4,1,6iEFcZI1KxxPaAGlnOVn3y,False
+6yh8yf1jpPrTMA5cezYpbi,0.0505,223293,112.367,0.388,0.0123,0.577,1,7.16e-05,0.0924,-12.135,0.801,4,1,6yh8yf1jpPrTMA5cezYpbi,False
+0fdKj0gnGKvwXFCEJBMcVh,0.0377,218651,128.537,0.861,0.0185,0.606,5,0.0585,0.0389,-6.445,0.844,4,0,0fdKj0gnGKvwXFCEJBMcVh,False
+7nPc4tfJCRvcxxt9Xz3ugx,0.0514,276067,120.778,0.439,0.0356,0.618,9,4.74e-06,0.163,-20.487,0.484,4,0,7nPc4tfJCRvcxxt9Xz3ugx,False
+3lZpRrikvXTFli0qyU7Q9q,0.269,235227,111.753,0.798,0.0493,0.764,4,2.15e-06,0.0412,-7.456,0.904,4,0,3lZpRrikvXTFli0qyU7Q9q,False
+4Jtr2tHsPeysMUWWimvc1d,0.0564,192400,151.977,0.988,0.0251,0.134,0,0.000826,0.305,-5.882,0.553,4,1,4Jtr2tHsPeysMUWWimvc1d,False
+7DETWEnTmY875dC5Q8gvqV,0.22,178600,182.201,0.847,0.0265,0.398,7,0.0,0.221,-3.705,0.405,4,1,7DETWEnTmY875dC5Q8gvqV,False
+0gGjq7TPqnLPkP67lY4AOY,0.102,272267,139.332,0.884,0.0163,0.118,7,0.00438,0.101,-3.44,0.342,4,0,0gGjq7TPqnLPkP67lY4AOY,False
+59iJua476fbi3PbddfPrez,0.044,233693,124.995,0.81,0.00198,0.295,7,0.0,0.846,-2.174,0.528,4,0,59iJua476fbi3PbddfPrez,False
+0u2AIKDVafHwCFQ9LDnqxH,0.0654,246770,140.077,0.951,0.000203,0.0628,1,0.478,0.417,-3.71,0.507,4,1,0u2AIKDVafHwCFQ9LDnqxH,False
+6ZEaDwf50SdJzHcVSQx0vL,0.0349,223264,77.513,0.255,0.872,0.179,7,0.0754,0.141,-11.223,0.477,4,0,6ZEaDwf50SdJzHcVSQx0vL,False
+63IIUzd6eJBfCGIcF8MFnJ,0.113,202093,179.644,0.959,6.93e-06,0.364,2,3.91e-05,0.0825,-4.081,0.357,4,0,63IIUzd6eJBfCGIcF8MFnJ,False
+4yXNMbZrsFJbPTH0WfhwEB,0.0365,204507,94.997,0.853,0.00123,0.676,11,0.000504,0.37,-3.878,0.599,4,0,4yXNMbZrsFJbPTH0WfhwEB,False
+2JGfAzStXQ1VEo6H4l6rSR,0.111,202893,175.347,0.986,0.000157,0.602,4,0.000155,0.236,-5.475,0.418,4,1,2JGfAzStXQ1VEo6H4l6rSR,False
+1Up4RdOBpChNDytatxKDXP,0.0384,258267,106.969,0.802,0.001,0.293,4,0.0,0.314,-4.212,0.533,4,1,1Up4RdOBpChNDytatxKDXP,False
+5KCPpfk3qfw2Gd9DRMCq8Y,0.133,197640,169.088,0.917,0.00143,0.563,8,0.0,0.261,-6.86,0.395,4,1,5KCPpfk3qfw2Gd9DRMCq8Y,False
+3gqP2hxwgi6mb8FhtEe4zU,0.0325,309347,119.159,0.531,0.312,0.507,0,0.00901,0.113,-9.889,0.496,4,0,3gqP2hxwgi6mb8FhtEe4zU,False
+1JQiZTI59vPKwXHaU0md7I,0.038,236733,169.935,0.842,0.00442,0.838,4,0.000142,0.308,-4.468,0.434,4,1,1JQiZTI59vPKwXHaU0md7I,False
+3cMliO9emUSa4d1Ap2MbfW,0.0373,198933,131.463,0.961,0.000789,0.567,4,1.29e-06,0.431,-2.749,0.543,4,1,3cMliO9emUSa4d1Ap2MbfW,False
+2nWjhmRImt6LScZIPQMBnM,0.0463,218293,134.288,0.969,1.52e-06,0.702,9,0.517,0.0513,-3.892,0.397,4,1,2nWjhmRImt6LScZIPQMBnM,False
+1iTzI4NSQNLIETWDJ1WNWi,0.0975,256360,169.806,0.875,4.24e-05,0.156,9,0.00103,0.0957,-7.27,0.15,3,1,1iTzI4NSQNLIETWDJ1WNWi,False
+4mU5iXHeLgbR94siF7p1sY,0.0761,237573,140.035,0.504,0.129,0.244,6,0.0,0.125,-8.219,0.772,4,0,4mU5iXHeLgbR94siF7p1sY,False
+0IVAlb0cFCH1cQ974iR1TU,0.189,223547,90.438,0.589,0.148,0.869,1,0.0,0.164,-4.827,0.782,4,1,0IVAlb0cFCH1cQ974iR1TU,False
+0xl1w2q4VLojeXp4JfazPL,0.397,307593,139.112,0.439,0.0407,0.532,8,0.0,0.138,-11.813,0.903,4,1,0xl1w2q4VLojeXp4JfazPL,False
+6FI3RJ58Ztl0X1VtA6pVs9,0.272,208840,94.64,0.698,0.0327,0.713,10,0.0187,0.108,-7.976,0.866,4,0,6FI3RJ58Ztl0X1VtA6pVs9,False
+2UVbBKQOdFAekPTRsnkzcf,0.269,190288,181.982,0.816,0.00263,0.508,2,0.0,0.159,-5.402,0.817,4,1,2UVbBKQOdFAekPTRsnkzcf,False
+1xYpVRspgaLxdJLOTQkTjg,0.0628,338438,150.009,0.567,0.221,0.113,4,0.0,0.135,-3.738,0.588,4,0,1xYpVRspgaLxdJLOTQkTjg,False
+5P5efUJoM4Ykh4xG1sZT6F,0.0551,211240,84.854,0.0767,0.969,0.484,1,1.48e-06,0.127,-16.467,0.722,4,1,5P5efUJoM4Ykh4xG1sZT6F,False
+2aQx1i3XjtB3TSN4J770Iv,0.0374,287567,119.852,0.847,0.000475,0.482,9,0.0,0.0944,-4.841,0.515,4,1,2aQx1i3XjtB3TSN4J770Iv,False
+33B2QbtAj8mbDpwvGTOnBt,0.0465,250000,119.982,0.709,0.00224,0.565,8,0.00224,0.21,-6.166,0.774,4,1,33B2QbtAj8mbDpwvGTOnBt,False
+4Gw1SXoN1MlAmdM3J1NjmR,0.0286,191933,107.067,0.829,0.0354,0.779,3,0.0,0.0762,-4.613,0.623,4,0,4Gw1SXoN1MlAmdM3J1NjmR,False
+3K94Fd5ZQkPCW8wV6oyk22,0.0273,275227,122.032,0.789,0.0011,0.348,5,0.828,0.368,-6.259,0.604,4,1,3K94Fd5ZQkPCW8wV6oyk22,False
+5zOnoB8FdZudDcPX4O8WqF,0.0344,218160,128.905,0.199,0.976,0.178,10,0.00186,0.107,-13.788,0.621,4,1,5zOnoB8FdZudDcPX4O8WqF,False
+38ieVc88O6Wznw3NxXhE78,0.0355,260560,99.995,0.556,0.63,0.582,11,0.0,0.0833,-7.516,0.739,4,0,38ieVc88O6Wznw3NxXhE78,False
+05l1NMzQPvPivkxTxoxYwk,0.189,348810,115.225,0.962,0.0521,0.603,5,0.0,0.114,-5.254,0.542,4,1,05l1NMzQPvPivkxTxoxYwk,False
+7go4n83IV0OO5Ztd1DlDh2,0.0317,233893,124.96,0.322,0.651,0.109,5,0.000335,0.0994,-9.288,0.286,4,1,7go4n83IV0OO5Ztd1DlDh2,False
+6vN77lE9LK6HP2DewaN6HZ,0.53,142273,119.957,0.346,0.0355,0.562,5,0.0,0.108,-9.309,0.963,4,0,6vN77lE9LK6HP2DewaN6HZ,False
+1vVNlXi8gf8tZ7OhnEs4VE,0.216,226790,121.189,0.792,0.0235,0.524,1,0.0,0.404,-5.38,0.516,5,0,1vVNlXi8gf8tZ7OhnEs4VE,False
+5yuShbu70mtHXY0yLzCQLQ,0.0832,179613,81.967,0.498,0.228,0.127,5,0.0,0.0757,-8.185,0.665,4,1,5yuShbu70mtHXY0yLzCQLQ,False
+6vSwxzO2Qf4BinHSXRwZJe,0.0376,241347,121.876,0.346,0.697,0.359,8,1.07e-05,0.105,-10.497,0.53,4,1,6vSwxzO2Qf4BinHSXRwZJe,False
+5T9G49pXWTV7SHMSksvfL4,0.277,201827,112.889,0.534,0.136,0.836,1,3.4e-06,0.0368,-5.714,0.684,4,1,5T9G49pXWTV7SHMSksvfL4,False
+4UAW2gObi5o6sJla0qZpPn,0.0287,246421,76.012,0.284,0.795,0.172,9,0.000303,0.109,-11.487,0.528,4,1,4UAW2gObi5o6sJla0qZpPn,False
+32lgtADX2cB9I4KFs1Y1py,0.0744,220307,173.998,0.676,0.0324,0.197,8,3.62e-05,0.189,-6.373,0.518,4,0,32lgtADX2cB9I4KFs1Y1py,False
+3cNjgVBKTJ1SvKhunrCdVy,0.0587,210580,84.264,0.768,0.0118,0.235,4,1.94e-05,0.294,-4.868,0.513,4,0,3cNjgVBKTJ1SvKhunrCdVy,False
+74vs7PD7iG2GnWUGnb8Yuq,0.058,174600,130.093,0.749,0.0037,0.397,11,0.0,0.0813,-4.323,0.588,4,0,74vs7PD7iG2GnWUGnb8Yuq,False
+4zIO3ilp5HvTeK3HJHxhMP,0.0708,189467,97.773,0.612,0.216,0.213,2,0.0,0.08,-6.106,0.448,4,1,4zIO3ilp5HvTeK3HJHxhMP,False
+278Ao6KQDxWGGszv24uvhI,0.0898,205440,127.491,0.958,0.000326,0.359,9,2.19e-06,0.432,-5.417,0.499,4,1,278Ao6KQDxWGGszv24uvhI,False
+6Nm8h73ycDG2saCnZV8poF,0.0531,222827,125.03,0.963,8.74e-05,0.609,0,0.000107,0.0781,-6.489,0.591,4,0,6Nm8h73ycDG2saCnZV8poF,False
+3FJuFr00K5IpgvTCDDaqW5,0.0631,223733,152.018,0.817,0.000988,0.28,1,0.0139,0.129,-6.489,0.582,4,0,3FJuFr00K5IpgvTCDDaqW5,False
+5tVA6TkbaAH9QMITTQRrNv,0.0253,256000,84.383,0.449,0.212,0.572,5,0.0,0.0613,-13.333,0.623,4,1,5tVA6TkbaAH9QMITTQRrNv,False
+3kdMzXOcrDIdSWLdONHNK5,0.0698,244573,130.749,0.549,0.000798,0.531,11,0.00485,0.22,-7.843,0.357,4,0,3kdMzXOcrDIdSWLdONHNK5,False
+4ClGNWLK9vZMBtO0CpnyOE,0.0925,287067,114.919,0.991,4.44e-05,0.324,8,0.0729,0.179,-3.703,0.553,4,1,4ClGNWLK9vZMBtO0CpnyOE,False
+78Az0Z1vNJgqv9QSB0ULLV,0.0938,224133,159.508,0.845,0.0139,0.736,5,0.0419,0.359,-7.799,0.504,4,0,78Az0Z1vNJgqv9QSB0ULLV,False
+5O6JuXxnhwG3W5YClY2mEb,0.0319,224880,119.883,0.556,0.136,0.945,9,0.0,0.214,-11.062,0.784,4,0,5O6JuXxnhwG3W5YClY2mEb,False
+2mAVBMMs7M9mAIEk10bvJA,0.056,199773,150.081,0.659,0.000917,0.572,2,0.000185,0.0617,-4.227,0.697,4,1,2mAVBMMs7M9mAIEk10bvJA,False
+3t365tTYiwszqaXZb2LajN,0.0297,310600,94.614,0.752,5.91e-05,0.612,2,0.0129,0.0874,-9.549,0.499,1,0,3t365tTYiwszqaXZb2LajN,False
+5Lf74o9BFFGIZDWNUtAIap,0.0281,151400,105.616,0.32,0.378,0.339,2,9.12e-05,0.122,-11.875,0.583,4,1,5Lf74o9BFFGIZDWNUtAIap,False
+6zJms3MX11Qu1IKF44LoRW,0.0321,292400,82.848,0.305,0.885,0.12,1,0.00271,0.201,-9.495,0.217,4,1,6zJms3MX11Qu1IKF44LoRW,False
+1k2AyzI8PYSIASKaMK5CFp,0.0262,322760,75.08,0.405,0.531,0.232,7,0.0,0.0886,-9.178,0.578,4,1,1k2AyzI8PYSIASKaMK5CFp,False
+6TwfdLbaxTKzQi3AgsZNzx,0.0269,225307,120.007,0.679,0.00246,0.331,2,0.0,0.211,-5.511,0.657,4,1,6TwfdLbaxTKzQi3AgsZNzx,False
+7B3vUR9LHYC6dt2wXKrmvI,0.0553,200249,137.041,0.682,0.028,0.487,5,0.0,0.0495,-6.389,0.813,4,0,7B3vUR9LHYC6dt2wXKrmvI,False
+4IjoD5u5E3Nv6ecnCpeWpy,0.046,168800,117.004,0.655,0.206,0.531,10,0.0,0.126,-4.214,0.822,4,1,4IjoD5u5E3Nv6ecnCpeWpy,False
+4LwrgltRSrddxeyhIPSoqa,0.0305,196773,103.989,0.754,0.283,0.234,7,0.0,0.114,-6.437,0.665,4,1,4LwrgltRSrddxeyhIPSoqa,False
+0bHs3ly4Bv5BlzE3KrePfX,0.0828,231560,100.007,0.558,0.275,0.593,10,1.06e-06,0.0758,-6.232,0.769,4,0,0bHs3ly4Bv5BlzE3KrePfX,False
+0scrtPmtlIVwwk9s4LXJ8n,0.0689,146627,179.686,0.472,0.195,0.761,9,0.0,0.0874,-11.902,0.367,4,1,0scrtPmtlIVwwk9s4LXJ8n,False
+1SyTqslGBzoe45hw3Ov0gp,0.0368,274000,96.107,0.527,0.566,0.229,6,0.000194,0.114,-9.21,0.579,4,0,1SyTqslGBzoe45hw3Ov0gp,False
+1JP779IkUMANQVaPGzc6Ld,0.0289,281196,140.045,0.791,0.00483,0.278,1,0.758,0.739,-4.894,0.529,4,1,1JP779IkUMANQVaPGzc6Ld,False
+5dKBaysNJtfpyNTRa5lqDb,0.0539,137760,174.923,0.821,0.0102,0.842,2,0.0438,0.153,-4.489,0.551,4,1,5dKBaysNJtfpyNTRa5lqDb,False
+3dOAXUx7I1qnzWzxdnsyB8,0.068,193653,166.3,0.872,0.00417,0.607,2,0.00975,0.0997,-7.837,0.356,4,1,3dOAXUx7I1qnzWzxdnsyB8,False
+6nVEdIiB3h5b2TbQhFnQUk,0.061,289694,176.081,0.539,0.121,0.797,11,0.127,0.121,-9.456,0.526,4,0,6nVEdIiB3h5b2TbQhFnQUk,False
+5YuJhe1jfUYb8b3jf2IZM0,0.0823,255520,132.964,0.838,0.0895,0.964,11,0.481,0.0616,-8.349,0.816,4,1,5YuJhe1jfUYb8b3jf2IZM0,False
+6GIrIt2M39wEGwjCQjGChX,0.0635,206520,149.934,0.94,0.00166,0.505,1,0.0,0.178,-4.012,0.423,4,0,6GIrIt2M39wEGwjCQjGChX,False
+6JugKFXssO9L2tN8omeTPt,0.0329,271441,123.019,0.968,0.301,0.635,6,1.88e-06,0.19,-2.444,0.6,4,1,6JugKFXssO9L2tN8omeTPt,False
+2LdG9xtEzCho3jCr58M6cq,0.0895,207357,179.949,0.558,0.0202,0.506,2,1.26e-06,0.212,-6.986,0.579,4,1,2LdG9xtEzCho3jCr58M6cq,False
+1NhPKVLsHhFUHIOZ32QnS2,0.0366,224693,148.021,0.764,0.0717,0.376,2,0.0,0.115,-6.223,0.516,4,1,1NhPKVLsHhFUHIOZ32QnS2,False
+1Q8reqCOXg2yqNr47HGo9X,0.0348,98400,173.914,0.847,5.12e-06,0.859,11,0.0208,0.25,-4.716,0.323,4,1,1Q8reqCOXg2yqNr47HGo9X,False
+5SrnKN9CdGLLHIOUQMHNod,0.111,174760,168.894,0.989,0.00141,0.324,10,0.000167,0.0911,-4.945,0.296,4,1,5SrnKN9CdGLLHIOUQMHNod,False
+29N4xnL6SpjkQiuPaTvQXA,0.0264,159933,111.252,0.315,0.288,0.441,0,0.0,0.599,-8.958,0.605,3,1,29N4xnL6SpjkQiuPaTvQXA,False
+4tvGhuwJYE0ALzBUNLmacQ,0.0401,186827,146.138,0.502,0.799,0.5,9,0.000116,0.138,-8.83,0.683,4,1,4tvGhuwJYE0ALzBUNLmacQ,False
+0VD69ricQ3Flm3apWr4FQS,0.139,239201,141.95,0.934,0.00131,0.541,2,0.0,0.365,-5.504,0.511,4,1,0VD69ricQ3Flm3apWr4FQS,False
+1qfYG2JrchEyJiqKnkE7YQ,0.0407,189693,139.048,0.753,0.000665,0.841,6,7.74e-06,0.0921,-4.003,0.55,4,0,1qfYG2JrchEyJiqKnkE7YQ,False
+3CAvPsgqfGkCaxkdgqNf5j,0.0281,223987,101.957,0.752,0.0111,0.503,9,3.4e-06,0.379,-5.768,0.615,4,0,3CAvPsgqfGkCaxkdgqNf5j,False
+0VU5k3vCrpqDgUygMjiFYj,0.0411,269920,162.874,0.588,0.0213,0.706,7,0.000103,0.0525,-15.493,0.372,4,1,0VU5k3vCrpqDgUygMjiFYj,False
+1g9V4qY5UaWJJRRYL9WYmG,0.0371,206013,121.947,0.84,0.0256,0.579,10,0.0,0.269,-4.493,0.674,4,0,1g9V4qY5UaWJJRRYL9WYmG,False
+57kR5SniQIbsbVoIjjOUDa,0.188,247267,196.093,0.725,0.0141,0.247,5,2.46e-06,0.306,-5.346,0.407,4,0,57kR5SniQIbsbVoIjjOUDa,False
+7rHAd5tANXfWBgVuBDdJhS,0.0351,209333,127.99,0.914,0.0391,0.719,0,0.391,0.0653,-3.88,0.712,4,0,7rHAd5tANXfWBgVuBDdJhS,False
+3Kf0nJpV3AMRWRTL1SEqUl,0.0807,405293,127.952,0.703,0.0491,0.947,6,0.685,0.0582,-8.308,0.88,4,0,3Kf0nJpV3AMRWRTL1SEqUl,False
+1uCbb7fkxRUrQAvCQgmSHo,0.0426,362387,122.224,0.922,0.0209,0.884,6,0.361,0.058,-4.203,0.848,4,0,1uCbb7fkxRUrQAvCQgmSHo,False
+2ZeTpxUpIHDdrRZdD8Vlh9,0.126,299375,128.162,0.962,0.0003,0.226,3,0.734,0.105,-2.89,0.434,4,0,2ZeTpxUpIHDdrRZdD8Vlh9,False
+6uomknm6K7oOeRDfwBzuV7,0.048,250413,140.04,0.808,0.0233,0.274,4,0.0,0.282,-5.139,0.533,4,0,6uomknm6K7oOeRDfwBzuV7,False
+1xrr9bAS0zfjCXdLKpLJnA,0.0369,365080,123.974,0.773,0.0022,0.197,2,0.835,0.305,-5.845,0.492,4,0,1xrr9bAS0zfjCXdLKpLJnA,False
+2IZRKyfNf5wkUxz89DSCgV,0.0363,393387,124.0,0.963,0.000518,0.598,11,0.901,0.147,-7.294,0.771,4,1,2IZRKyfNf5wkUxz89DSCgV,False
+2lGb7rd0caeIR28AOepL3a,0.0473,258533,120.065,0.834,0.000849,0.4,1,0.000757,0.15,-4.962,0.493,3,1,2lGb7rd0caeIR28AOepL3a,False
+1OqDUHFotTmZQ0khBRHnK2,0.123,297947,91.523,0.969,0.00118,0.0889,0,0.000162,0.114,-3.664,0.212,4,0,1OqDUHFotTmZQ0khBRHnK2,False
+2AIbNaLq0rHu0R27NGiWmw,0.159,260306,165.253,0.932,0.0511,0.229,4,3.29e-05,0.642,-4.167,0.251,4,0,2AIbNaLq0rHu0R27NGiWmw,False
+3kZC0ZmFWrEHdUCmUqlvgZ,0.0421,189187,80.401,0.206,0.924,0.489,5,0.0,0.118,-12.233,0.517,4,1,3kZC0ZmFWrEHdUCmUqlvgZ,False
+4w6mSxebOG12tvw1bm9oxu,0.0984,235200,92.003,0.931,0.127,0.534,11,0.0,0.0504,-4.591,0.597,4,0,4w6mSxebOG12tvw1bm9oxu,False
+18GiV1BaXzPVYpp9rmOg0E,0.0509,165427,174.874,0.0993,0.914,0.44,2,2.32e-05,0.0605,-20.567,0.38,4,1,18GiV1BaXzPVYpp9rmOg0E,False
+1XPta4VLT78HQnVFd1hlsK,0.0265,202133,82.955,0.855,2.53e-05,0.408,8,0.69,0.049,-6.046,0.476,4,1,1XPta4VLT78HQnVFd1hlsK,False
+7Gyxc4dmFaW8F9DoOO9idK,0.0424,246853,107.545,0.729,8.3e-06,0.798,6,0.883,0.047,-7.196,0.486,4,0,7Gyxc4dmFaW8F9DoOO9idK,False
+5dsYVdaWnWIRm419kNBbag,0.052,202440,162.942,0.829,0.0299,0.548,7,0.0,0.0978,-6.302,0.48,3,0,5dsYVdaWnWIRm419kNBbag,False
+4ttuaHGAnNEpr0riyh5YSl,0.0397,155267,169.341,0.906,0.00068,0.234,7,0.233,0.0671,-13.101,0.281,4,1,4ttuaHGAnNEpr0riyh5YSl,False
+69bHJ9qs5FrUJbKP8xU8uZ,0.231,214227,97.018,0.659,0.206,0.71,3,7.88e-05,0.279,-4.763,0.925,4,1,69bHJ9qs5FrUJbKP8xU8uZ,False
+5Y78yINSOCW6xbOfGWNBg4,0.347,179160,102.017,0.513,0.00112,0.595,7,0.00248,0.107,-13.203,0.933,4,1,5Y78yINSOCW6xbOfGWNBg4,False
+0Fpen1PTuEnCmOJtUU9Iud,0.345,343099,145.063,0.785,0.0367,0.718,8,0.0,0.155,-4.963,0.85,4,0,0Fpen1PTuEnCmOJtUU9Iud,False
+66Q3fAmSX5eHamgbKa9alP,0.476,251573,81.396,0.744,0.262,0.124,6,0.000382,0.138,-6.248,0.441,4,0,66Q3fAmSX5eHamgbKa9alP,False
+5GG3knKdxKWrNboRijxeKF,0.488,169267,193.88,0.756,0.393,0.602,9,3e-05,0.202,-9.017,0.646,4,0,5GG3knKdxKWrNboRijxeKF,False
+5NAiPIEzxAexFE3ucV18Q8,0.125,222147,165.107,0.951,0.0016,0.499,5,0.00242,0.351,-3.314,0.466,4,1,5NAiPIEzxAexFE3ucV18Q8,False
+1175r6ZmkUjX8dRJLz9Ohk,0.0377,160254,75.995,0.669,0.65,0.503,10,0.0,0.13,-4.898,0.578,4,1,1175r6ZmkUjX8dRJLz9Ohk,False
+1uRxyAup7OYrlh2SHJb80N,0.0323,384439,137.848,0.263,0.968,0.113,9,0.857,0.126,-13.207,0.299,3,0,1uRxyAup7OYrlh2SHJb80N,False
+39N9RPD9MRb5WmoLzNzPeA,0.0549,173628,180.073,0.773,0.0364,0.711,9,0.00108,0.334,-4.736,0.595,4,0,39N9RPD9MRb5WmoLzNzPeA,False
+7k802XMtsF57i4WS2M2MGg,0.0497,201422,133.954,0.601,0.39,0.512,10,0.0,0.0882,-5.097,0.651,4,0,7k802XMtsF57i4WS2M2MGg,False
+5yFSF6qQA1rcLsQRnBsZgb,0.058,199111,97.976,0.678,0.303,0.662,1,0.0,0.361,-4.407,0.658,4,1,5yFSF6qQA1rcLsQRnBsZgb,False
+2jB9QaPJyVdz2Q0Va8rrnU,0.052,191787,97.972,0.887,0.0498,0.349,9,3.47e-06,0.0958,-4.782,0.606,4,0,2jB9QaPJyVdz2Q0Va8rrnU,False
+3pXF1nA74528Edde4of9CC,0.195,198293,96.991,0.356,0.223,0.189,11,0.0,0.0963,-5.556,0.765,4,0,3pXF1nA74528Edde4of9CC,False
+5EbX5xL3O2xT8FxCpYzgUO,0.352,175517,180.979,0.544,0.155,0.16,9,0.000265,0.0727,-9.621,0.309,4,1,5EbX5xL3O2xT8FxCpYzgUO,False
+0u2P5u6lvoDfwTYjAADbn4,0.0333,200186,115.284,0.296,0.934,0.12,4,0.0,0.095,-10.109,0.351,4,0,0u2P5u6lvoDfwTYjAADbn4,False
+5nkYHBWXu7KCgcdwP6jcB1,0.0859,171067,95.637,0.696,0.0128,0.62,7,0.000333,0.331,-7.513,0.799,4,1,5nkYHBWXu7KCgcdwP6jcB1,False
+0Yb5Kfpf3boElZNa61wPdJ,0.162,197800,158.405,0.856,0.0535,0.847,7,6.75e-06,0.0847,-3.764,0.481,4,1,0Yb5Kfpf3boElZNa61wPdJ,False
+2HerxRQish8VLHvu20oxz2,0.0615,231200,181.964,0.906,0.0122,0.37,1,0.0,0.172,-4.415,0.363,4,1,2HerxRQish8VLHvu20oxz2,False
+6CfjAVG9FwmwRtxE8yEWlu,0.135,290667,145.105,0.935,0.00941,0.353,11,0.00065,0.0656,-4.216,0.403,4,0,6CfjAVG9FwmwRtxE8yEWlu,False
+6jwS43q1m1jvf76tmOo1Hc,0.0791,341707,91.991,0.789,0.0119,0.125,10,0.591,0.309,-10.652,0.491,4,0,6jwS43q1m1jvf76tmOo1Hc,False
+4UEo1b0wWrtHMC8bVqPiH8,0.0787,374453,129.984,0.949,0.000318,0.233,2,9.98e-05,0.2,-4.928,0.554,4,1,4UEo1b0wWrtHMC8bVqPiH8,False
+48PBqbMjiYPq3VsY7vG5n4,0.0383,270960,128.385,0.847,0.21,0.886,4,6.45e-05,0.0759,-6.216,0.771,4,1,48PBqbMjiYPq3VsY7vG5n4,False
+34nRvQtbIf4r8RLOR7yNIb,0.134,184307,141.511,0.951,0.00246,0.749,0,2.48e-05,0.222,-3.709,0.479,4,1,34nRvQtbIf4r8RLOR7yNIb,False
+6FFnRt7OMvz8yZQIDOxRfv,0.0374,271160,128.739,0.68,0.168,0.926,4,4.49e-05,0.0945,-11.792,0.761,4,1,6FFnRt7OMvz8yZQIDOxRfv,False
+6Uy6K3KdmUdAfelUp0SeXn,0.0524,220573,185.063,0.836,0.00502,0.758,10,2.1e-05,0.0425,-3.838,0.551,4,0,6Uy6K3KdmUdAfelUp0SeXn,False
+0GO8y8jQk1PkHzS31d699N,0.0439,218013,112.96,0.936,0.00847,0.371,3,0.0,0.161,-5.835,0.56,4,1,0GO8y8jQk1PkHzS31d699N,False
+4vojpVoYaj4myAkIcfNKIN,0.03,196907,112.506,0.605,0.519,0.419,1,1.56e-06,0.117,-5.252,0.705,3,1,4vojpVoYaj4myAkIcfNKIN,False
+0JlPOiJFrlFnC5QHcLPyPV,0.0581,220693,79.071,0.499,0.126,0.521,4,0.0,0.214,-6.216,0.597,4,1,0JlPOiJFrlFnC5QHcLPyPV,False
+3cdhgO3vgHyOIADMXokd2t,0.0396,271773,157.044,0.837,0.00387,0.522,2,0.0,0.117,-4.963,0.47,4,1,3cdhgO3vgHyOIADMXokd2t,False
+3Z2sglqDj1rDRMF5x0Sz2R,0.333,234213,165.985,0.461,0.149,0.615,6,0.0,0.0973,-6.474,0.473,4,0,3Z2sglqDj1rDRMF5x0Sz2R,False
+1M0g1beKC4H9gbrOiSayHW,0.244,230520,85.0,0.899,0.531,0.436,0,0.000146,0.0957,-5.935,0.532,4,0,1M0g1beKC4H9gbrOiSayHW,False
+2sCoROOlNQyFpRQEe6A5lv,0.11,227347,125.097,0.887,0.00101,0.461,8,0.0545,0.0716,-2.377,0.599,4,1,2sCoROOlNQyFpRQEe6A5lv,False
+1CTk4S81KFFsxiBSvgvsuI,0.0311,240080,98.985,0.586,0.15,0.653,7,0.0,0.233,-6.965,0.68,4,1,1CTk4S81KFFsxiBSvgvsuI,False
+4cKGldbhGJniI8BrB3K6tb,0.0306,257067,93.896,0.761,0.0517,0.736,3,0.0,0.0642,-6.389,0.636,4,0,4cKGldbhGJniI8BrB3K6tb,False
+5noQJkpVfHt2D4df2GXieV,0.0668,287907,111.999,0.777,0.000356,0.776,8,0.00113,0.169,-5.638,0.597,4,1,5noQJkpVfHt2D4df2GXieV,False
+3ZPTb9HHBRt2VDbsIUFnSD,0.0283,306040,150.135,0.423,0.294,0.353,6,0.0884,0.152,-8.799,0.54,4,1,3ZPTb9HHBRt2VDbsIUFnSD,False
+0Cvjlph1WGbwZY1PlMEtJY,0.0322,198147,80.367,0.129,0.904,0.147,0,1.52e-06,0.157,-14.304,0.363,3,1,0Cvjlph1WGbwZY1PlMEtJY,False
+7gTWkEVwRiqrrLRcmtD0uH,0.0308,285733,96.694,0.519,0.468,0.719,0,0.139,0.0739,-11.274,0.661,4,0,7gTWkEVwRiqrrLRcmtD0uH,False
+40LGKU0kbnbx4NXEMhTTXT,0.0453,216880,152.376,0.772,0.124,0.615,2,0.0,0.107,-5.512,0.397,4,0,40LGKU0kbnbx4NXEMhTTXT,False
+0AlVmkmBw6ZtMdh2bnLrmL,0.0295,207520,115.741,0.632,0.0588,0.683,9,0.0619,0.315,-7.27,0.41,4,0,0AlVmkmBw6ZtMdh2bnLrmL,False
+0t6eWxZFkm89DuTj8tJ2fz,0.0256,183956,67.528,0.417,0.136,0.479,0,0.022,0.0974,-9.345,0.464,4,0,0t6eWxZFkm89DuTj8tJ2fz,False
+76qbPFZl51tlFnfZDu84rm,0.0446,186840,97.397,0.915,0.0294,0.737,2,2.44e-06,0.315,-4.845,0.431,4,0,76qbPFZl51tlFnfZDu84rm,False
+6LCEyZZHFF4ebF1Mike1s5,0.0298,237297,83.917,0.554,0.134,0.288,6,8.56e-05,0.0963,-4.145,0.425,4,1,6LCEyZZHFF4ebF1Mike1s5,False
+7zpZQzTwWBN0eOsmb4WPH3,0.0531,213053,128.077,0.741,0.00419,0.537,6,0.0,0.147,-3.103,0.748,4,1,7zpZQzTwWBN0eOsmb4WPH3,False
+175cWIYsv1G8WSHjSV0vue,0.0557,244174,109.032,0.713,0.0383,0.331,5,0.102,0.0564,-5.676,0.777,4,0,175cWIYsv1G8WSHjSV0vue,False
+36HA2woC1glnLa4vqWY3IC,0.046,233987,125.011,0.825,0.00162,0.264,7,0.0,0.711,-2.171,0.52,4,0,36HA2woC1glnLa4vqWY3IC,False
+5SEbMBFdBY5x0ZqQUhRRms,0.0396,593040,121.441,0.854,0.00422,0.779,2,0.687,0.289,-9.847,0.633,4,1,5SEbMBFdBY5x0ZqQUhRRms,False
+3TcL0dyCMyr0kyTTc4NLgI,0.0479,195613,101.019,0.927,0.0843,0.744,4,0.0,0.149,-2.915,0.682,4,1,3TcL0dyCMyr0kyTTc4NLgI,False
+5Au8ObNQvrwFVEgGqQQL6D,0.134,189693,103.995,0.845,0.102,0.927,1,0.0,0.0497,-4.444,0.751,4,1,5Au8ObNQvrwFVEgGqQQL6D,False
+6RC5tEJEye1m0ilNfzjf3K,0.03,241867,82.006,0.726,0.0589,0.473,11,0.0,0.0861,-5.126,0.463,4,1,6RC5tEJEye1m0ilNfzjf3K,False
+3jnZjSqydlIYAZhY8eHLEr,0.288,375049,128.015,0.406,0.000179,0.387,11,0.17,0.676,-6.962,0.976,4,0,3jnZjSqydlIYAZhY8eHLEr,False
+6vSq5q5DCs1IvwKIq53hj2,0.0773,263427,118.048,0.721,0.0126,0.654,6,6.49e-06,0.0952,-6.662,0.774,4,0,6vSq5q5DCs1IvwKIq53hj2,False
+0Hv2IWtvPPca1F4zhC4UFs,0.0427,222427,80.017,0.87,0.0014,0.552,5,0.0,0.0796,-3.716,0.524,4,0,0Hv2IWtvPPca1F4zhC4UFs,False
+20X9OeC606XNwEtDBOym5u,0.141,226707,150.005,0.976,0.00177,0.412,10,3.39e-06,0.16,-3.17,0.44,4,1,20X9OeC606XNwEtDBOym5u,False
+79rFv44RxuMb70y6sHC14l,0.142,259307,184.549,0.971,0.000456,0.336,7,0.0,0.283,-3.118,0.299,4,1,79rFv44RxuMb70y6sHC14l,False
+3eKXd8eSlzMbvg94EPVmQE,0.031,130520,105.507,0.257,0.859,0.405,7,0.00157,0.683,-13.03,0.617,3,1,3eKXd8eSlzMbvg94EPVmQE,False
+3XYB3iDl0Meu7FQsqQ8aud,0.0345,246413,89.005,0.665,2.8e-06,0.358,0,0.928,0.0723,-9.097,0.195,4,1,3XYB3iDl0Meu7FQsqQ8aud,False
+4EiLHuUSKTlaGmdR17J2tc,0.072,246227,201.254,0.908,3.37e-05,0.481,7,0.000162,0.279,-9.127,0.192,4,1,4EiLHuUSKTlaGmdR17J2tc,False
+0JUxmFruSp0oCX8A7o5QmF,0.157,353947,139.225,0.946,0.0024,0.211,7,0.164,0.265,-6.823,0.179,4,0,0JUxmFruSp0oCX8A7o5QmF,False
+0m2Sibsr6rZLiMoUy8tCpd,0.0391,264160,149.744,0.792,0.000442,0.431,5,8.57e-06,0.142,-6.001,0.342,4,0,0m2Sibsr6rZLiMoUy8tCpd,False
+4xBjsLUSjcx2h7PcRikpQp,0.0536,228893,139.953,0.576,0.0295,0.167,5,0.115,0.132,-6.735,0.655,4,0,4xBjsLUSjcx2h7PcRikpQp,False
+2KvHC9z14GSl4YpkNMX384,0.45,283551,170.982,0.693,0.246,0.454,7,0.0,0.112,-5.943,0.618,4,0,2KvHC9z14GSl4YpkNMX384,False
+4UKCKdYiLN6IMA5ZESUTL7,0.0993,160184,119.705,0.304,0.779,0.271,1,0.000993,0.137,-11.192,0.699,4,1,4UKCKdYiLN6IMA5ZESUTL7,False
+5bJ1DrEM4hNCafcDd1oxHx,0.206,345133,141.894,0.538,0.367,0.177,1,0.00187,0.119,-8.109,0.52,4,1,5bJ1DrEM4hNCafcDd1oxHx,False
+3kxfsdsCpFgN412fpnW85Y,0.0941,326933,160.033,0.356,0.172,0.607,1,0.00943,0.123,-10.425,0.745,4,1,3kxfsdsCpFgN412fpnW85Y,False
+3EApebexZ7YqDIqw2EMTDh,0.408,240640,110.568,0.693,0.177,0.287,9,0.0,0.351,-5.868,0.514,3,1,3EApebexZ7YqDIqw2EMTDh,False
+66olzBxCgKlpFRB1LKH5pO,0.0335,224507,88.756,0.523,0.302,0.837,8,0.00204,0.0672,-8.731,0.731,4,1,66olzBxCgKlpFRB1LKH5pO,False
+6OwwTVRndoy9aoDxsmrteR,0.0374,236712,169.847,0.824,0.00434,0.846,4,0.000199,0.277,-5.176,0.427,4,1,6OwwTVRndoy9aoDxsmrteR,False
+5pVbLYTdihSKd8Kylfhwa7,0.046,222489,123.985,0.882,0.0166,0.685,11,2.97e-06,0.188,-5.37,0.493,4,1,5pVbLYTdihSKd8Kylfhwa7,False
+1LwP9g1Hjbs64jXM2Qsxry,0.0423,182493,121.361,0.552,8.02e-05,0.486,8,0.616,0.0591,-10.503,0.341,4,1,1LwP9g1Hjbs64jXM2Qsxry,False
+6ybViy2qrO9sIi41EgRJgx,0.028,186147,88.174,0.198,0.883,0.618,5,1.1e-05,0.0659,-11.775,0.732,4,1,6ybViy2qrO9sIi41EgRJgx,False
+6Jmk1iTfUs8YL2d620NcHB,0.0526,191413,83.778,0.109,0.889,0.188,0,0.0,0.133,-15.667,0.357,3,1,6Jmk1iTfUs8YL2d620NcHB,False
+7KcGEssn7BnJdTgildK5y0,0.258,272453,139.061,0.558,0.0884,0.432,1,4.05e-06,0.541,-6.975,0.867,4,1,7KcGEssn7BnJdTgildK5y0,False
+7dOeiXeTSfA1ixaYmQcWu7,0.314,201257,104.592,0.872,0.167,0.472,1,0.0,0.362,-3.641,0.401,4,0,7dOeiXeTSfA1ixaYmQcWu7,False
+4scpF6J5uMBvoh6sFB7EL1,0.159,200080,125.01,0.486,0.0158,0.239,6,3.78e-06,0.0925,-7.803,0.891,4,1,4scpF6J5uMBvoh6sFB7EL1,False
+2YlZnw2ikdb837oKMKjBkW,0.0434,225053,108.038,0.53,0.4,0.417,0,0.0,0.177,-7.259,0.63,3,1,2YlZnw2ikdb837oKMKjBkW,False
+7ATATJztoWLcqDAcVVof0C,0.109,217822,102.063,0.902,0.172,0.286,0,0.0,0.125,-3.559,0.635,4,1,7ATATJztoWLcqDAcVVof0C,False
+3KiktyOxQd2Z0bmnabgRq2,0.0397,244573,138.754,0.377,0.556,0.336,3,0.0,0.0999,-7.755,0.697,4,1,3KiktyOxQd2Z0bmnabgRq2,False
+1ZozJfi8u9cO2Ob8KwiwNT,0.0364,316733,155.827,0.83,5.15e-05,0.431,2,0.00014,0.206,-6.254,0.459,4,1,1ZozJfi8u9cO2Ob8KwiwNT,False
+5JtuIHVfsYBFAVrHwjUddj,0.0595,204867,148.56,0.767,0.00868,0.36,11,0.00053,0.0866,-9.435,0.37,4,0,5JtuIHVfsYBFAVrHwjUddj,False
+2ih2U8ttFzCjnQ5njF3SrR,0.0371,244493,139.959,0.544,0.445,0.641,7,5.16e-06,0.0973,-6.598,0.717,4,1,2ih2U8ttFzCjnQ5njF3SrR,False
+6HSqyfGnsHYw9MmIpa9zlZ,0.374,357347,158.423,0.926,0.253,0.542,5,0.0,0.256,-1.304,0.415,4,0,6HSqyfGnsHYw9MmIpa9zlZ,False
+6ZfXA2xakAvphXOSOJ3u1W,0.0282,248587,137.941,0.545,0.142,0.194,6,0.0,0.105,-4.874,0.459,3,1,6ZfXA2xakAvphXOSOJ3u1W,False
+7kiimUtUHJAd8icrE2AGg6,0.0488,166827,107.038,0.82,0.0208,0.781,8,0.000274,0.0205,-6.728,0.632,4,1,7kiimUtUHJAd8icrE2AGg6,False
+6UBQONiLH8kNmmB8UrV2Ef,0.0851,334360,102.941,0.529,0.0845,0.724,2,0.000779,0.0478,-11.974,0.921,4,1,6UBQONiLH8kNmmB8UrV2Ef,False
+444P4wvSDa0SD5HE4YGx9B,0.0849,201933,120.162,0.798,0.266,0.895,0,4.54e-05,0.0962,-5.665,0.934,4,1,444P4wvSDa0SD5HE4YGx9B,False
+46iI0binWzpkEJgIWTYUBR,0.0475,224333,130.121,0.833,0.00772,0.565,0,7.9e-05,0.069,-4.632,0.505,4,1,46iI0binWzpkEJgIWTYUBR,False
+77ZdAoTHYoF6Umo76HFD4m,0.126,228533,99.018,0.926,0.0775,0.432,7,0.0,0.187,-3.469,0.592,4,1,77ZdAoTHYoF6Umo76HFD4m,False
+5cNAXdmcLBckABGuNhxE37,0.0871,213861,101.015,0.933,0.0271,0.751,11,0.723,0.596,-4.482,0.67,4,0,5cNAXdmcLBckABGuNhxE37,False
+1vrTluXpA8yThSE2rq21Sy,0.0586,169960,129.985,0.683,0.0149,0.493,1,0.054,0.0527,-6.507,0.67,4,0,1vrTluXpA8yThSE2rq21Sy,False
+05y1Lc6ti5rP6L6FPbCJrR,0.0323,645333,131.012,0.535,0.00168,0.676,4,0.683,0.195,-9.145,0.772,4,0,05y1Lc6ti5rP6L6FPbCJrR,False
+12sYWro0wGQpq0rjE0lKcm,0.0295,211373,105.11,0.613,0.00463,0.132,9,0.000441,0.0711,-5.756,0.457,4,1,12sYWro0wGQpq0rjE0lKcm,False
+0Xy9xPPs2zRRFqljGqKXel,0.0415,250533,114.995,0.606,0.00757,0.191,1,0.052,0.103,-7.174,0.365,4,0,0Xy9xPPs2zRRFqljGqKXel,False
+4ToYlykhwpW98KtMIGnWQK,0.0369,224333,95.479,0.964,0.0407,0.747,7,3.65e-06,0.293,-3.177,0.646,4,1,4ToYlykhwpW98KtMIGnWQK,False
+4qx6KUiBAsuZB9ubcreapu,0.0299,228707,147.982,0.675,0.787,0.276,2,0.4,0.116,-9.208,0.581,4,1,4qx6KUiBAsuZB9ubcreapu,False
+7vIBxqsNQZ3PehEFQr1ZGt,0.0576,165320,119.929,0.922,0.0208,0.914,0,0.00213,0.116,-4.499,0.676,4,1,7vIBxqsNQZ3PehEFQr1ZGt,False
+5sbnWM2zCmjhRUpZG7cvIY,0.0404,178469,110.716,0.441,0.892,0.794,3,0.113,0.0888,-9.219,0.861,4,1,5sbnWM2zCmjhRUpZG7cvIY,False
+0LUolUzVGvE2H1WnvNVjZv,0.0502,207560,117.486,0.804,0.0837,0.958,9,0.00399,0.0381,-7.154,0.775,4,1,0LUolUzVGvE2H1WnvNVjZv,False
+3H3cOQ6LBLSvmcaV7QkZEu,0.0524,212547,122.902,0.911,0.329,0.135,7,0.861,0.0727,-7.482,0.624,4,1,3H3cOQ6LBLSvmcaV7QkZEu,False
+6qpaTfe6rCl55xEPT4F7Hp,0.0835,261245,127.977,0.953,0.000105,0.38,1,0.151,0.498,-2.895,0.674,4,1,6qpaTfe6rCl55xEPT4F7Hp,False
+6I1HRAkeErdwrOJIfRrfIO,0.0493,186867,94.063,0.82,0.015,0.219,3,2.81e-05,0.112,-4.085,0.485,4,1,6I1HRAkeErdwrOJIfRrfIO,False
+0mLS3gBv6Wzv0q6zLcmLD8,0.0892,196840,91.469,0.937,0.000539,0.679,2,0.0,0.0555,-3.977,0.648,4,1,0mLS3gBv6Wzv0q6zLcmLD8,False
+0jfGplaq20rIwm7k9QcROg,0.0283,228427,89.622,0.579,0.229,0.541,7,4.2e-05,0.935,-10.531,0.38,4,1,0jfGplaq20rIwm7k9QcROg,False
+1Y13csEpu3TK5gQdzGLrd8,0.0693,223747,152.002,0.812,0.00114,0.278,1,0.00333,0.115,-6.509,0.579,4,0,1Y13csEpu3TK5gQdzGLrd8,False
+7wpkBN00XyYnU1IP4QF8Gi,0.0446,276707,203.967,0.372,0.778,0.178,1,0.0542,0.0704,-12.322,0.34,4,1,7wpkBN00XyYnU1IP4QF8Gi,False
+4vv1KjUzPwrtDbozizSfQc,0.0445,229147,100.011,0.827,0.015,0.659,7,0.0,0.432,-3.98,0.652,4,0,4vv1KjUzPwrtDbozizSfQc,False
+6IaieqiCVvsNvEt6Y7yOFa,0.24,206267,134.206,0.55,0.513,0.543,9,0.0,0.0786,-4.166,0.797,4,1,6IaieqiCVvsNvEt6Y7yOFa,False
+3edzl4zvKFi0D3iuF6cs2f,0.208,224903,143.038,0.786,0.0403,0.441,11,0.0,0.195,-4.921,0.917,4,0,3edzl4zvKFi0D3iuF6cs2f,False
+2Ud3deeqLAG988pfW0Kwcl,0.0425,462267,142.584,0.788,0.148,0.795,2,0.625,0.0977,-5.611,0.701,4,1,2Ud3deeqLAG988pfW0Kwcl,False
+0oooDvDcrBSzSEs6XD0VsV,0.0319,211267,144.047,0.734,0.0379,0.822,1,0.00624,0.292,-4.416,0.698,4,1,0oooDvDcrBSzSEs6XD0VsV,False
+56Z7hbyMrndw1naxb6I5Oi,0.0264,290213,104.282,0.656,0.511,0.203,4,0.156,0.0679,-7.438,0.518,4,0,56Z7hbyMrndw1naxb6I5Oi,False
+7675gjlUZzneYiMrQ9Inx8,0.0536,206756,84.005,0.867,0.0229,0.531,7,1.28e-05,0.392,-4.715,0.748,4,0,7675gjlUZzneYiMrQ9Inx8,False
+15kQGEy89K8deJcZVFEn0N,0.0432,199227,105.159,0.651,0.0651,0.474,1,0.0,0.0662,-5.304,0.539,4,1,15kQGEy89K8deJcZVFEn0N,False
+0wfbD5rAksdXUzRvMfM3x5,0.0284,177573,99.991,0.303,0.238,0.15,2,8.09e-06,0.294,-11.362,0.76,4,1,0wfbD5rAksdXUzRvMfM3x5,False
+1cOyWWUr3oXJIxY0AjJEx9,0.041,185194,91.507,0.737,0.0625,0.592,7,0.0,0.0777,-4.437,0.628,4,1,1cOyWWUr3oXJIxY0AjJEx9,False
+5YjEZzlruyZPh96bOpSVPH,0.0328,223147,101.883,0.616,0.186,0.292,10,0.0,0.0928,-7.074,0.532,4,0,5YjEZzlruyZPh96bOpSVPH,False
+3ESSGgWzRf1xvP7G5hHMhB,0.072,312240,93.019,0.733,0.0062,0.291,11,0.0,0.329,-4.421,0.748,4,0,3ESSGgWzRf1xvP7G5hHMhB,False
+2SUpC3UgKwLVOS2FtZif9N,0.0326,322093,126.739,0.788,0.00283,0.793,7,0.000116,0.441,-5.712,0.452,4,1,2SUpC3UgKwLVOS2FtZif9N,False
+5Pm9uuEL0q6aXSRT3161UP,0.112,283400,135.093,0.989,0.00252,0.352,2,0.0032,0.0243,-1.909,0.576,4,1,5Pm9uuEL0q6aXSRT3161UP,False
+4Ld00UQYL3aPcK4yOnv0JP,0.0378,252920,117.564,0.917,8.57e-05,0.652,9,0.5,0.0418,-8.052,0.511,4,0,4Ld00UQYL3aPcK4yOnv0JP,False
+4jPtq9shRdUv8Zjr0a5xkD,0.0256,234440,92.564,0.346,0.302,0.195,0,0.0,0.102,-8.014,0.585,4,1,4jPtq9shRdUv8Zjr0a5xkD,False
+1Bx0zEdVjkFlV27iKaePug,0.177,267000,155.788,0.904,0.0436,0.557,0,0.0,0.0491,-4.024,0.47,4,0,1Bx0zEdVjkFlV27iKaePug,False
+6LxSe8YmdPxy095Ux6znaQ,0.106,235987,151.894,0.566,0.365,0.425,6,0.000353,0.0917,-7.16,0.636,4,0,6LxSe8YmdPxy095Ux6znaQ,False
+1XczdQt6RKNkEQfPqUsi3q,0.045,306600,187.281,0.426,0.114,0.159,0,0.0885,0.058,-9.084,0.189,3,1,1XczdQt6RKNkEQfPqUsi3q,False
+4L7jMAP8UcIe309yQmkdcO,0.226,234093,123.061,0.603,0.0272,0.497,8,0.000503,0.167,-4.892,0.913,4,1,4L7jMAP8UcIe309yQmkdcO,False
+3V5vrRmjNj4MssxW8cEJov,0.0317,180933,110.352,0.587,0.283,0.905,0,0.0,0.303,-6.616,0.642,4,1,3V5vrRmjNj4MssxW8cEJov,False
+4pGqFOfzvfe6avb9kbZicC,0.042,240040,124.015,0.615,0.15,0.414,7,0.000212,0.0879,-5.325,0.695,4,0,4pGqFOfzvfe6avb9kbZicC,False
+47WNjXohtA1A6gY2zTKZ91,0.0728,246295,128.015,0.486,8.93e-05,0.642,1,0.266,0.245,-6.278,0.729,4,1,47WNjXohtA1A6gY2zTKZ91,False
+4WRM8x9BhHcNc79iKeU61S,0.0596,171640,140.068,0.851,0.102,0.358,11,0.0,0.12,-5.529,0.532,4,0,4WRM8x9BhHcNc79iKeU61S,False
+4x2mEWttpWj7PNaEpFS9dq,0.0414,487587,138.005,0.56,0.000283,0.689,9,0.000708,0.0824,-9.833,0.617,4,0,4x2mEWttpWj7PNaEpFS9dq,False
+532ztzOKzl1Bl8NRF7OuRY,0.0405,364133,138.014,0.952,8.58e-05,0.907,3,0.905,0.371,-6.75,0.69,4,0,532ztzOKzl1Bl8NRF7OuRY,False
+5rHoZOh481VFV9kJovM9RI,0.0346,183907,134.972,0.75,8.73e-05,0.164,11,0.615,0.129,-6.799,0.541,4,0,5rHoZOh481VFV9kJovM9RI,False
+4OIpGuYJ6ph56K5GTOqjU7,0.0339,265560,146.915,0.736,0.000413,0.55,2,0.000102,0.0991,-6.022,0.307,4,1,4OIpGuYJ6ph56K5GTOqjU7,False
+6MDTpYxPFL0wtFd0pjfKws,0.0432,200200,171.878,0.542,0.356,0.726,8,0.0,0.119,-7.721,0.531,4,1,6MDTpYxPFL0wtFd0pjfKws,False
+5DABfQ4BALX012JddKxSt1,0.0307,287133,96.58,0.523,0.471,0.698,0,0.212,0.0728,-11.286,0.664,4,0,5DABfQ4BALX012JddKxSt1,False
+15q23v2bv33PKeFsuiWQA8,0.0937,228267,189.892,0.823,0.091,0.854,4,0.0683,0.154,-6.584,0.329,4,0,15q23v2bv33PKeFsuiWQA8,False
+1HbcclMpw0q2WDWpdGCKdS,0.0376,241347,121.876,0.346,0.697,0.359,8,1.07e-05,0.105,-10.497,0.53,4,1,1HbcclMpw0q2WDWpdGCKdS,False
+3Vr1FxMHtBLnQASeLl8YmG,0.0424,206547,113.016,0.933,0.0344,0.756,3,3.4e-05,0.681,-4.572,0.708,4,0,3Vr1FxMHtBLnQASeLl8YmG,False
+400abutrj9yS5YBkd3fE6P,0.0401,240467,158.258,0.704,0.0849,0.389,9,4.98e-06,0.11,-8.258,0.391,3,1,400abutrj9yS5YBkd3fE6P,False
+72IyavGtVbOMHkP5mYTBPA,0.056,227973,126.937,0.686,6.17e-05,0.687,8,0.00779,0.0674,-7.946,0.772,4,1,72IyavGtVbOMHkP5mYTBPA,False
+2Lx9qpN7NgiWD4rgSQRBGH,0.035,298373,79.523,0.662,0.53,0.62,7,0.723,0.22,-9.295,0.667,4,0,2Lx9qpN7NgiWD4rgSQRBGH,False
+5HQDspxnwlx9RCJINFxeGZ,0.0345,250826,111.984,0.625,0.00145,0.282,9,0.0,0.0817,-5.296,0.575,4,0,5HQDspxnwlx9RCJINFxeGZ,False
+655ooO5eAEicphEHAhZTS1,0.093,180600,183.988,0.949,0.00609,0.572,1,0.0,0.0561,-2.802,0.515,4,0,655ooO5eAEicphEHAhZTS1,False
+5jZAtF5byijpW7UCJsUYK8,0.056,194955,142.136,0.773,0.00112,0.327,2,0.00182,0.409,-4.629,0.452,4,0,5jZAtF5byijpW7UCJsUYK8,False
+3LcYYV9ozePfgYYmXv0P3r,0.0356,200579,76.064,0.35,0.499,0.36,5,7.84e-06,0.0844,-14.48,0.611,4,1,3LcYYV9ozePfgYYmXv0P3r,False
+6ILtPjGYb3mvprfsCaJRTA,0.029,185093,109.95,0.657,0.000372,0.792,7,0.0204,0.132,-6.873,0.615,4,1,6ILtPjGYb3mvprfsCaJRTA,False
+2VX2QRAGKPyqMZU8cFZ3Ib,0.0308,175347,116.572,0.404,0.00397,0.56,6,0.0144,0.257,-10.622,0.657,4,0,2VX2QRAGKPyqMZU8cFZ3Ib,False
+55GiOwtxNajXVbpjjIzMnD,0.221,194936,105.009,0.541,0.0831,0.274,11,0.0,0.118,-5.608,0.884,4,1,55GiOwtxNajXVbpjjIzMnD,False
+7sT3O2PXs1o12XnCKlv204,0.259,334467,95.081,0.754,0.335,0.69,10,6.21e-06,0.252,-7.158,0.853,4,0,7sT3O2PXs1o12XnCKlv204,False
+2qfR91VvO7hRp4IajDT08h,0.2,195992,99.026,0.543,0.0311,0.43,2,0.0,0.154,-6.338,0.885,4,1,2qfR91VvO7hRp4IajDT08h,False
+3nAq2hCr1oWsIU54tS98pL,0.0382,181573,96.091,0.586,0.0528,0.0681,10,7.33e-06,0.339,-4.57,0.557,4,1,3nAq2hCr1oWsIU54tS98pL,False
+4Kz4RdRCceaA9VgTqBhBfa,0.356,181573,201.8,0.442,0.000107,0.39,1,6.12e-05,0.111,-8.558,0.766,4,1,4Kz4RdRCceaA9VgTqBhBfa,False
+2MBZgYmcZTqiI39FsWuGha,0.0344,167413,177.463,0.243,0.958,0.102,1,0.00194,0.151,-11.411,0.18,3,1,2MBZgYmcZTqiI39FsWuGha,False
+3NeiYiBn3rQBgurfVk92Zm,0.126,197933,160.174,0.807,0.144,0.784,0,0.0211,0.125,-5.893,0.632,4,1,3NeiYiBn3rQBgurfVk92Zm,False
+13YxuRQZdU7snOfDI3nft2,0.0308,159707,126.457,0.609,0.0676,0.493,9,0.0,0.14,-9.357,0.448,4,1,13YxuRQZdU7snOfDI3nft2,False
+0B1QTVABE86QcHjXdPfeej,0.035,191027,89.997,0.803,0.0107,0.438,1,2.92e-05,0.0386,-4.523,0.61,4,1,0B1QTVABE86QcHjXdPfeej,False
+2Fjz5ZC5BvFdCqcnTZ3ilH,0.0668,189333,176.112,0.607,0.0125,0.166,4,1.52e-06,0.289,-6.333,0.491,4,0,2Fjz5ZC5BvFdCqcnTZ3ilH,False
+1N7YeVU0ZwAFbOhwM61ef6,0.0706,220850,129.921,0.694,0.0112,0.268,5,0.0,0.102,-5.351,0.578,4,1,1N7YeVU0ZwAFbOhwM61ef6,False
+5ODLroMe7Pj97jxSycQVDt,0.0322,262813,147.979,0.82,0.032,0.379,2,0.0,0.131,-3.368,0.493,4,1,5ODLroMe7Pj97jxSycQVDt,False
+0vCTQcxSGAgjHaiAsIANKn,0.0248,231707,166.134,0.529,0.00961,0.567,11,0.000554,0.113,-7.637,0.582,4,1,0vCTQcxSGAgjHaiAsIANKn,False
+0MhCb3iakymVqQIOeYPSUf,0.0422,211387,139.872,0.74,0.0216,0.49,10,0.0,0.326,-4.307,0.479,4,1,0MhCb3iakymVqQIOeYPSUf,False
+1zuKjpp4t7BS8JPKi6mkQr,0.0428,171653,91.537,0.157,0.95,0.342,9,0.0593,0.101,-18.141,0.424,4,1,1zuKjpp4t7BS8JPKi6mkQr,False
+5mphdlILgAq3vh1MSvAJTS,0.0532,200747,129.83,0.339,0.409,0.2,0,0.00153,0.0973,-11.195,0.721,4,1,5mphdlILgAq3vh1MSvAJTS,False
+0rFOs9paloAvEtzwDX1Kmc,0.0351,196280,127.904,0.474,0.603,0.249,9,0.0,0.11,-6.663,0.697,4,1,0rFOs9paloAvEtzwDX1Kmc,False
+2vLaES21zwbX1Rnmj56Bbb,0.068,188800,112.295,0.791,0.175,0.63,8,0.0,0.0976,-8.698,0.593,4,0,2vLaES21zwbX1Rnmj56Bbb,False
+6ojMugRyzh3US4se7esA7Z,0.03,297093,171.254,0.262,0.892,0.0828,6,6.35e-05,0.119,-9.542,0.167,5,0,6ojMugRyzh3US4se7esA7Z,False
+5WSdMcWTKRdN1QYVJHJWxz,0.0528,254620,108.036,0.913,0.00392,0.906,11,0.00149,0.466,-4.984,0.657,4,1,5WSdMcWTKRdN1QYVJHJWxz,False
+7jK67e785jzVK5c7jSLdJr,0.0441,533680,133.984,0.621,0.000358,0.398,0,0.751,0.0846,-8.444,0.828,4,0,7jK67e785jzVK5c7jSLdJr,False
+0t2QiRkpag0fAgs9zuCPlH,0.0417,284400,152.005,0.931,0.0131,0.548,1,0.825,0.215,-4.142,0.642,4,1,0t2QiRkpag0fAgs9zuCPlH,False
+0eG5CqXwJpa5MBjYyg1lRm,0.0399,213200,112.198,0.845,0.00753,0.471,8,0.0,0.0556,-4.199,0.371,4,1,0eG5CqXwJpa5MBjYyg1lRm,False
+5qltuYpj0A5dJ31qCFtmo3,0.0501,119536,145.951,0.553,0.664,0.555,9,1.06e-06,0.836,-8.997,0.662,4,1,5qltuYpj0A5dJ31qCFtmo3,False
+20uVZbYFKshjrdDHcVy9w9,0.0421,179240,164.614,0.696,0.0272,0.788,6,0.000249,0.0875,-5.157,0.511,4,0,20uVZbYFKshjrdDHcVy9w9,False
+0It6VJoMAare1zdV2wxqZq,0.0323,235000,115.997,0.585,0.00819,0.641,8,0.0162,0.0797,-6.76,0.683,4,1,0It6VJoMAare1zdV2wxqZq,False
+5XbEpHHrEliVNo2Vbf1Nqk,0.0988,180347,125.014,0.965,0.000597,0.526,9,0.0,0.1,-3.743,0.528,4,1,5XbEpHHrEliVNo2Vbf1Nqk,False
+3UyZtf5BzjEYFJkIiIipoH,0.167,300538,128.031,0.915,0.00147,0.147,5,0.0768,0.152,-4.182,0.429,4,0,3UyZtf5BzjEYFJkIiIipoH,False
+27KzTjPvpNCGeKzRsRiEKm,0.122,217493,97.727,0.95,0.00198,0.386,7,0.00279,0.282,-5.302,0.544,4,1,27KzTjPvpNCGeKzRsRiEKm,False
+2fQrGHiQOvpL9UgPvtYy6G,0.35,220307,75.016,0.347,0.015,0.376,8,7e-06,0.0871,-8.227,0.884,4,0,2fQrGHiQOvpL9UgPvtYy6G,False
+0y9uTzK9cNKSAEHnpeRG8C,0.615,248613,174.516,0.731,0.0536,0.632,7,0.0,0.258,-6.873,0.552,4,1,0y9uTzK9cNKSAEHnpeRG8C,False
+1ZAyjvIk9YiD76yYy0TEG6,0.143,175230,94.981,0.519,0.202,0.158,11,0.0,0.108,-6.531,0.876,4,1,1ZAyjvIk9YiD76yYy0TEG6,False
+1rlIrbWboTRGeKfHhgbJRZ,0.331,156195,86.048,0.637,0.129,0.496,3,0.0,0.267,-5.924,0.853,4,0,1rlIrbWboTRGeKfHhgbJRZ,False
+43bJ2plTrFmlmX0Y2rrVDi,0.0408,133133,115.474,0.39,0.814,0.566,0,0.0,0.14,-12.88,0.443,4,0,43bJ2plTrFmlmX0Y2rrVDi,False
+2ixswrurtpfZHrx406eGgw,0.048,232120,112.964,0.853,0.121,0.372,0,0.0,0.371,-3.926,0.635,4,1,2ixswrurtpfZHrx406eGgw,False
+53L6A3I9vf7rgEZnMzx54E,0.0469,244293,104.05,0.931,0.0025,0.617,2,0.0783,0.246,-5.336,0.495,4,0,53L6A3I9vf7rgEZnMzx54E,False
+18W92Zm1KjLCbUIszOhpkD,0.0563,197939,119.927,0.725,0.0253,0.605,6,0.0,0.123,-4.859,0.661,4,1,18W92Zm1KjLCbUIszOhpkD,False
+1CnPYaKxTVb4LWOtiGOm0m,0.0828,217603,90.246,0.567,0.0584,0.505,0,0.0,0.0933,-4.188,0.617,4,1,1CnPYaKxTVb4LWOtiGOm0m,False
+6Z8R6UsFuGXGtiIxiD8ISb,0.0316,192790,117.956,0.819,0.000176,0.766,0,0.00374,0.104,-4.852,0.655,5,1,6Z8R6UsFuGXGtiIxiD8ISb,False
+6Knv6wdA0luoMUuuoYi2i1,0.0499,192191,94.006,0.702,0.0215,0.74,7,0.0,0.128,-4.792,0.688,4,0,6Knv6wdA0luoMUuuoYi2i1,False
+0STK94RxUulYqWzwFlyAb5,0.11,197893,170.22,0.303,0.798,0.17,1,4.16e-06,0.0824,-10.413,0.397,3,1,0STK94RxUulYqWzwFlyAb5,False
+07q0QVgO56EorrSGHC48y3,0.038,271240,128.373,0.852,0.214,0.867,4,7.36e-05,0.0723,-6.215,0.768,4,1,07q0QVgO56EorrSGHC48y3,False
+4vpeKl0vMGdAXpZiQB2Dtd,0.0272,150640,106.798,0.293,0.486,0.322,2,0.000273,0.0864,-12.503,0.551,4,1,4vpeKl0vMGdAXpZiQB2Dtd,False
+7zLC4HAY11GvvKsZHNrkAp,0.0398,183373,106.177,0.731,0.016,0.606,2,0.184,0.333,-8.299,0.588,4,1,7zLC4HAY11GvvKsZHNrkAp,False
+521gC8oqqmUknLZpodHOh9,0.0254,328427,97.578,0.721,0.00348,0.611,2,0.0113,0.391,-7.699,0.521,4,1,521gC8oqqmUknLZpodHOh9,False
+0zOUO2Cbz0C1F8qbrebIxn,0.0424,248399,105.905,0.738,0.0125,0.665,9,0.00148,0.137,-5.738,0.637,4,1,0zOUO2Cbz0C1F8qbrebIxn,False
+7KA66zSwthBv5X9bNQEeX1,0.0503,227627,136.232,0.839,0.315,0.543,1,0.000313,0.348,-7.35,0.323,4,1,7KA66zSwthBv5X9bNQEeX1,False
+2i8hWheuwDUwyPrZynCLEF,0.125,167813,94.982,0.79,0.00863,0.712,1,0.0,0.0441,-4.353,0.803,4,1,2i8hWheuwDUwyPrZynCLEF,False
+3TlNI5wsoq0kH40SPod2WC,0.0379,266423,176.07,0.118,0.924,0.194,4,0.0,0.251,-13.352,0.269,4,0,3TlNI5wsoq0kH40SPod2WC,False
+4XcggrvWzPGxlcpSMWqGFW,0.154,323799,110.015,0.522,0.569,0.502,3,0.0482,0.0953,-11.469,0.832,4,0,4XcggrvWzPGxlcpSMWqGFW,False
+2L82XvyoCvUgePuljcA00o,0.0899,235093,90.028,0.46,0.0201,0.815,6,0.722,0.0505,-9.076,0.868,4,1,2L82XvyoCvUgePuljcA00o,False
+4Kj7BJGxHXqNiAGXVD2xAH,0.0411,156893,121.064,0.349,0.0702,0.95,9,0.00181,0.0786,-16.017,0.705,4,1,4Kj7BJGxHXqNiAGXVD2xAH,False
+65jrjEhWfAvysKfnojk1i0,0.0414,161960,123.792,0.226,0.908,0.778,7,0.000168,0.107,-13.635,0.747,4,1,65jrjEhWfAvysKfnojk1i0,False
+4nZtp0QyCRvTtsd6PN5L0r,0.118,174399,129.949,0.955,0.00226,0.387,1,0.829,0.0623,-3.055,0.539,4,0,4nZtp0QyCRvTtsd6PN5L0r,False
+0PgNhIg5n0UAOBVn43b8b6,0.029,282400,106.254,0.734,0.00112,0.576,4,0.0139,0.258,-4.523,0.683,4,0,0PgNhIg5n0UAOBVn43b8b6,False
+40pPI2TbaYSZlKfV44HRjn,0.0387,295373,158.718,0.679,0.00451,0.325,9,0.0409,0.172,-4.495,0.256,4,0,40pPI2TbaYSZlKfV44HRjn,False
+5N8JCYLVX5tekusGbKqZsU,0.0395,197027,169.777,0.718,0.00874,0.751,9,1.61e-06,0.335,-5.805,0.283,4,1,5N8JCYLVX5tekusGbKqZsU,False
+6twW4ma6w0mOeejejPK0nY,0.0614,184667,171.96,0.868,0.0604,0.755,2,0.0,0.137,-4.319,0.549,4,1,6twW4ma6w0mOeejejPK0nY,False
+0j0DNujXWeupLpZobbABoo,0.0402,236683,154.09,0.576,0.261,0.348,4,0.000113,0.366,-6.609,0.679,4,0,0j0DNujXWeupLpZobbABoo,False
+5qFL2uwfnGU8FccwLMgPNQ,0.185,301122,128.079,0.903,0.00105,0.152,5,0.0503,0.171,-3.042,0.64,4,0,5qFL2uwfnGU8FccwLMgPNQ,False
+4GMCZUi6cVQJ5wPWwJ36rW,0.0869,143080,156.062,0.961,0.000949,0.787,1,0.000294,0.0531,-3.614,0.381,4,1,4GMCZUi6cVQJ5wPWwJ36rW,False
+1nFtiJxYdhtFfFtfXBv06s,0.0317,232147,105.218,0.201,0.745,0.0668,8,0.263,0.109,-13.044,0.427,4,1,1nFtiJxYdhtFfFtfXBv06s,False
+7LX5GiovircvknKgdodqf7,0.0645,246160,155.133,0.932,0.00356,0.243,4,0.0958,0.187,-5.773,0.256,4,0,7LX5GiovircvknKgdodqf7,False
+0snDRsjNRMJhm7SVja8l6J,0.237,295933,90.429,0.798,0.0101,0.855,1,0.000615,0.628,-4.018,0.855,4,1,0snDRsjNRMJhm7SVja8l6J,False
+4ZYM6R5nOZywxACY90Bsla,0.177,266333,99.965,0.372,0.0103,0.666,4,0.00455,0.076,-12.704,0.868,4,0,4ZYM6R5nOZywxACY90Bsla,False
+1eQBEelI2NCy7AUTerX0KS,0.414,320680,105.169,0.403,0.62,0.391,0,0.0,0.54,-8.768,0.592,4,0,1eQBEelI2NCy7AUTerX0KS,False
+4fYG7YvImWlUuOZVuvV6Ic,0.0274,277613,79.9,0.51,0.719,0.226,8,9.68e-06,0.112,-6.563,0.475,4,1,4fYG7YvImWlUuOZVuvV6Ic,False
+2LWMF10STZqYY9a3YqBiOG,0.0309,453949,111.602,0.72,0.0445,0.648,11,0.0142,0.364,-8.33,0.589,4,0,2LWMF10STZqYY9a3YqBiOG,False
+6vnDoUOHTiVB5DvX18tJon,0.0295,262521,74.938,0.531,0.0685,0.271,3,3.72e-06,0.0617,-6.83,0.597,4,0,6vnDoUOHTiVB5DvX18tJon,False
+6Hgh47WXVKtXN5zGOu0hjI,0.0541,263014,72.989,0.678,0.183,0.28,2,3.26e-05,0.106,-6.183,0.652,4,1,6Hgh47WXVKtXN5zGOu0hjI,False
+7rKKh8AGVXuNXgLBpTBTFH,0.148,198107,189.723,0.871,0.139,0.303,10,8.28e-05,0.104,-5.81,0.546,4,1,7rKKh8AGVXuNXgLBpTBTFH,False
+57p8CBvPOxrvyCbn6ttl5r,0.0566,234286,126.047,0.91,0.0079,0.0921,10,0.0,0.318,-3.36,0.653,4,1,57p8CBvPOxrvyCbn6ttl5r,False
+7wR5r0KYGXBpyWXCdyYs3F,0.159,225213,98.835,0.889,0.00949,0.651,1,0.0,0.0821,-2.611,0.29,4,1,7wR5r0KYGXBpyWXCdyYs3F,False
+4STaHtfguDMkWbPEo6Fwcx,0.0804,202661,128.06,0.496,0.0253,0.725,0,0.00132,0.12,-9.309,0.598,4,1,4STaHtfguDMkWbPEo6Fwcx,False
+7qUcqYzOtfZe65bednDxmz,0.194,229107,86.938,0.75,0.159,0.728,4,0.0,0.274,-4.421,0.58,4,1,7qUcqYzOtfZe65bednDxmz,False
+75HUxEyYVoVnO4ZfAU9dfp,0.0317,224867,79.462,0.196,0.983,0.261,6,0.000151,0.108,-10.435,0.418,4,1,75HUxEyYVoVnO4ZfAU9dfp,False
+08N3wNB4s9maD4EvaLmSd5,0.0943,307360,99.456,0.827,0.000186,0.0675,8,0.0,0.238,-5.176,0.464,5,1,08N3wNB4s9maD4EvaLmSd5,False
+5litpC1PIV01OtA0rJ7R5T,0.0373,197147,67.045,0.072,0.836,0.0794,1,0.000348,0.282,-13.943,0.204,3,0,5litpC1PIV01OtA0rJ7R5T,False
+46NsjxBe9NFVN8vVMuyG4E,0.0798,243400,72.907,0.505,0.561,0.531,0,5.97e-06,0.08,-12.555,0.625,4,0,46NsjxBe9NFVN8vVMuyG4E,False
+0g5zRl16ebc0Fz5Ypiu8V5,0.0859,286315,85.125,0.857,0.0913,0.945,2,0.0,0.069,-8.85,0.614,4,0,0g5zRl16ebc0Fz5Ypiu8V5,False
+7DfFc7a6Rwfi3YQMRbDMau,0.0532,200747,129.83,0.339,0.409,0.2,0,0.00153,0.0973,-11.195,0.721,4,1,7DfFc7a6Rwfi3YQMRbDMau,False
+0Ti2dlF2xLjXblvdU5fCxM,0.0533,206587,143.519,0.873,0.00022,0.686,8,0.000729,0.0974,-4.542,0.308,4,1,0Ti2dlF2xLjXblvdU5fCxM,False
+22UQelxzCIskdmb8pIqq8U,0.0558,207934,80.937,0.839,0.0246,0.665,2,0.000646,0.0828,-5.848,0.424,4,1,22UQelxzCIskdmb8pIqq8U,False
+4QQg6DXsx6G3lv3W4A15CZ,0.0537,224240,170.045,0.631,0.00604,0.18,7,0.0,0.322,-5.155,0.421,4,1,4QQg6DXsx6G3lv3W4A15CZ,False
+4wXw26xKY4ovrdLuKEhRLh,0.029,283280,98.452,0.872,0.168,0.668,9,0.000705,0.0545,-6.211,0.602,4,1,4wXw26xKY4ovrdLuKEhRLh,False
+12B0Twa9kRz45Xw2PgXHJm,0.0445,314280,97.97,0.637,0.464,0.333,5,1.63e-05,0.136,-6.568,0.552,4,1,12B0Twa9kRz45Xw2PgXHJm,False
+1OHoBC4icbuNhpSxP400sv,0.423,236973,65.255,0.51,0.165,0.389,11,8.8e-05,0.104,-8.094,0.605,4,0,1OHoBC4icbuNhpSxP400sv,False
+3oZoXyU0SkDldgS7AcN4y4,0.0859,212773,101.033,0.932,0.0282,0.728,11,0.71,0.684,-4.424,0.674,4,0,3oZoXyU0SkDldgS7AcN4y4,False
+0laYHRpNTS6i8FXdupHkJ4,0.0469,188453,117.009,0.678,0.0761,0.922,1,0.0,0.0741,-3.87,0.858,4,0,0laYHRpNTS6i8FXdupHkJ4,False
+6DX92TuMqOKe0h9vLJIPeg,0.0495,247133,119.891,0.726,0.0529,0.943,11,0.000407,0.095,-6.731,0.775,4,1,6DX92TuMqOKe0h9vLJIPeg,False
+7aSsgR6CN8AU470gocESkw,0.0352,218080,89.691,0.416,0.0895,0.0788,9,0.336,0.18,-11.216,0.173,3,1,7aSsgR6CN8AU470gocESkw,False
+77ltWp9xNbfhldXx3IEqVx,0.0501,204467,130.026,0.798,0.0654,0.369,0,0.0,0.144,-3.196,0.592,4,1,77ltWp9xNbfhldXx3IEqVx,False
+5dpDrUG52yI3s1AQRlaypA,0.0926,192427,167.988,0.934,8.31e-05,0.724,9,0.000431,0.108,-4.061,0.428,4,1,5dpDrUG52yI3s1AQRlaypA,False
+0W7AbEauB7cP4pidLclApe,0.032,246267,137.789,0.567,0.0236,0.298,7,3.47e-06,0.0916,-10.835,0.373,4,1,0W7AbEauB7cP4pidLclApe,False
+4V6Ep89SJKTvMMPQR0FrHj,0.0407,212973,168.504,0.803,0.0105,0.483,11,0.00041,0.0982,-6.459,0.349,4,0,4V6Ep89SJKTvMMPQR0FrHj,False
+7HRSa7aEPf1X9tm8Iql3h3,0.0465,132240,141.335,0.679,1.04e-05,0.39,5,5.11e-05,0.0794,-10.027,0.424,4,1,7HRSa7aEPf1X9tm8Iql3h3,False
+5p7GiBZNL1afJJDUrOA6C8,0.13,245640,157.655,0.462,0.343,0.325,8,0.00218,0.113,-8.054,0.69,4,1,5p7GiBZNL1afJJDUrOA6C8,False
+7lAK3oHbfEnvUQWosrMMpR,0.0409,150043,128.047,0.554,0.283,0.144,0,3.4e-06,0.116,-6.571,0.785,4,1,7lAK3oHbfEnvUQWosrMMpR,False
+4G3dZN9o3o2X4VKwt4CLts,0.266,303493,87.059,0.756,0.0903,0.613,4,2.36e-06,0.265,-8.145,0.759,4,0,4G3dZN9o3o2X4VKwt4CLts,False
+6REbwUNlppTfcnV4d4ZoZi,0.277,247800,74.236,0.447,0.00627,0.189,8,0.00022,0.0899,-5.892,0.577,4,1,6REbwUNlppTfcnV4d4ZoZi,False
+3tJ4y2Zqx6gM9xOAuFfsSF,0.109,199179,101.993,0.694,0.313,0.203,9,7.17e-06,0.0752,-7.076,0.674,4,0,3tJ4y2Zqx6gM9xOAuFfsSF,False
+5u6vkDnOyaf8LsteDAj2ub,0.156,268933,82.996,0.435,0.333,0.242,2,1.31e-05,0.342,-7.033,0.782,4,1,5u6vkDnOyaf8LsteDAj2ub,False
+2XMTqoHHSH0lvuXrvIEdco,0.0305,237707,92.991,0.708,0.0398,0.355,5,0.155,0.686,-6.244,0.683,4,0,2XMTqoHHSH0lvuXrvIEdco,False
+3cCxoOgfi6hgt8MNteuiiD,0.0908,193748,105.998,0.765,0.118,0.309,9,0.0,0.31,-5.805,0.752,4,0,3cCxoOgfi6hgt8MNteuiiD,False
+3D1rlKmZdpYUeMtRRLNawc,0.0669,205760,145.007,0.844,0.00295,0.763,8,4.78e-05,0.525,-5.495,0.662,4,1,3D1rlKmZdpYUeMtRRLNawc,False
+3E2Zh20GDCR9B1EYjfXWyv,0.0429,201160,123.98,0.637,0.137,0.678,5,0.0,0.184,-4.518,0.673,4,1,3E2Zh20GDCR9B1EYjfXWyv,False
+4PhsKqMdgMEUSstTDAmMpg,0.0476,249040,134.078,0.631,0.222,0.0713,7,0.0,0.135,-9.836,0.572,4,0,4PhsKqMdgMEUSstTDAmMpg,False
+6rAXHPd18PZ6W8m9EectzH,0.0281,214707,128.005,0.776,0.00238,0.519,8,4.52e-05,0.134,-4.535,0.667,4,0,6rAXHPd18PZ6W8m9EectzH,False
+4Y7fEQ4PAzhlLnLviRw2P4,0.0306,281853,131.75,0.883,0.000736,0.518,4,3.19e-05,0.369,-4.986,0.491,4,0,4Y7fEQ4PAzhlLnLviRw2P4,False
+473dVAB97y06dfl6OBb1uj,0.0966,224960,158.075,0.951,0.00888,0.628,11,0.00126,0.376,-3.888,0.49,4,1,473dVAB97y06dfl6OBb1uj,False
+2X6gdRlGOQgfaXU9ALUQFQ,0.0436,271000,151.727,0.529,0.0629,0.574,9,0.000567,0.0383,-13.6,0.546,4,1,2X6gdRlGOQgfaXU9ALUQFQ,False
+7qQfI2F80t2MZcLLVuH6M2,0.0248,236920,144.028,0.55,0.0541,0.246,10,0.0,0.243,-6.756,0.544,4,0,7qQfI2F80t2MZcLLVuH6M2,False
+51c94ac31swyDQj9B3Lzs3,0.0854,299533,141.581,0.853,0.000249,0.179,7,0.000246,0.118,-4.647,0.269,4,0,51c94ac31swyDQj9B3Lzs3,False
+600s08VdbjiyAjDGDjYSFI,0.0509,193613,170.748,0.947,0.000553,0.484,4,0.00322,0.238,-5.053,0.214,4,1,600s08VdbjiyAjDGDjYSFI,False
+4JVSkSJAKbSlwkSepkXcK6,0.0296,218240,108.994,0.588,0.728,0.521,7,0.499,0.0791,-10.36,0.68,4,1,4JVSkSJAKbSlwkSepkXcK6,False
+4JS9r7eNfF01tSDuEmb9Hn,0.0294,164920,105.885,0.516,0.346,0.716,7,0.685,0.152,-8.161,0.793,4,0,4JS9r7eNfF01tSDuEmb9Hn,False
+7B1QliUMZv7gSTUGAfMRRD,0.0297,300333,159.929,0.546,0.492,0.418,7,0.0,0.0845,-7.728,0.416,4,1,7B1QliUMZv7gSTUGAfMRRD,False
+06Hdbxh6NCy6TIhjdXTchB,0.0367,209208,122.002,0.685,0.0245,0.369,11,0.000335,0.182,-6.371,0.597,4,1,06Hdbxh6NCy6TIhjdXTchB,False
+6Uj8ru7TNLDIelbuQ8eBd6,0.0912,201387,128.018,0.835,0.00578,0.832,6,0.0,0.314,-5.843,0.697,4,1,6Uj8ru7TNLDIelbuQ8eBd6,False
+2oh2kUwpiiQydsK0ahPQp5,0.0382,225426,123.415,0.465,0.256,0.289,7,4.2e-06,0.132,-10.765,0.511,4,1,2oh2kUwpiiQydsK0ahPQp5,False
+1UIZd9Xwvuv7aoYHTC4irP,0.0503,297040,135.69,0.781,0.00687,0.205,2,0.0443,0.0913,-10.768,0.338,4,1,1UIZd9Xwvuv7aoYHTC4irP,False
+6vsV4D8BM6PioRr1UOx0n2,0.196,180567,75.235,0.552,0.479,0.278,1,0.127,0.147,-10.271,0.697,4,0,6vsV4D8BM6PioRr1UOx0n2,False
+1o6YK7phnXgsljfWSQQfWc,0.028,216373,125.884,0.444,0.248,0.356,7,0.0,0.0531,-6.067,0.675,4,1,1o6YK7phnXgsljfWSQQfWc,False
+5aWhs651KYM26HYM16kRdk,0.115,250093,106.02,0.942,0.0737,0.519,6,2.23e-06,0.0709,-2.598,0.606,4,0,5aWhs651KYM26HYM16kRdk,False
+5RsUlxLto4NZbhJpqJbHfN,0.0496,194120,131.7,0.834,0.165,0.816,2,0.0,0.105,-5.851,0.727,4,1,5RsUlxLto4NZbhJpqJbHfN,False
+1MQTmpYOZ6fcMQc56Hdo7T,0.0701,205600,127.059,0.929,0.00162,0.539,2,0.105,0.0789,-6.729,0.426,4,1,1MQTmpYOZ6fcMQc56Hdo7T,False
+6H3kDe7CGoWYBabAeVWGiD,0.031,270773,118.628,0.63,0.447,0.489,1,0.039,0.17,-8.277,0.634,4,0,6H3kDe7CGoWYBabAeVWGiD,False
+2rDwdvBma1O1eLzo29p2cr,0.0489,227320,185.948,0.683,0.00706,0.445,11,0.0,0.0593,-4.732,0.44,4,0,2rDwdvBma1O1eLzo29p2cr,False
+4yRgS8Wn06YC6e2c2HWgsm,0.0332,214907,138.048,0.846,0.141,0.775,2,1.28e-06,0.394,-4.602,0.743,4,1,4yRgS8Wn06YC6e2c2HWgsm,False
+59qMoWacc63YxgtJyFzapH,0.184,234546,119.881,0.58,0.493,0.753,2,9.25e-05,0.0954,-13.598,0.778,4,1,59qMoWacc63YxgtJyFzapH,False
+6SVSBX8f1HC2zQhvoEPjvg,0.0306,209360,154.885,0.504,0.637,0.479,9,1.89e-05,0.21,-7.533,0.532,4,1,6SVSBX8f1HC2zQhvoEPjvg,False
+5TOYgNohZAFEPOtnchPhZS,0.0375,267560,116.337,0.734,0.000128,0.645,9,1.04e-05,0.337,-5.179,0.632,4,1,5TOYgNohZAFEPOtnchPhZS,False
+3PGubBdFfQSHAHsXb068eG,0.185,206060,67.297,0.797,0.371,0.444,4,0.0,0.0921,-3.488,0.739,3,0,3PGubBdFfQSHAHsXb068eG,False
+2B9aYvlGefTIgKLhM6ia8t,0.322,296267,91.778,0.731,0.397,0.685,9,0.0,0.664,-6.846,0.609,4,1,2B9aYvlGefTIgKLhM6ia8t,False
+6KqKg8IPuvtDB3PNAvffFf,0.109,274440,107.006,0.642,0.0543,0.547,1,3.68e-05,0.158,-5.831,0.964,4,0,6KqKg8IPuvtDB3PNAvffFf,False
+0Sl8C9oeS3b5Kv9bSvTPDr,0.0424,283067,109.015,0.626,0.00422,0.185,8,0.323,0.122,-10.753,0.647,4,0,0Sl8C9oeS3b5Kv9bSvTPDr,False
+5hc71nKsUgtwQ3z52KEKQk,0.0585,347520,101.045,0.788,0.195,0.472,0,0.0142,0.153,-5.724,0.61,4,1,5hc71nKsUgtwQ3z52KEKQk,False
+1KhljCoJ2TgDEldnnfTHHc,0.0829,221178,142.096,0.576,0.0556,0.316,1,0.0,0.0866,-4.951,0.762,4,0,1KhljCoJ2TgDEldnnfTHHc,False
+5NeIONQWJ25uPylJBJiO4c,0.036,282947,105.754,0.753,0.0417,0.434,3,0.0,0.389,-4.618,0.545,4,0,5NeIONQWJ25uPylJBJiO4c,False
+0nnwn7LWHCAu09jfuH1xTA,0.0374,212067,112.423,0.843,0.00483,0.481,8,0.0,0.0404,-4.476,0.395,4,1,0nnwn7LWHCAu09jfuH1xTA,False
+6mFkJmJqdDVQ1REhVfGgd1,0.0414,334744,122.861,0.262,0.735,0.375,7,0.0114,0.832,-15.73,0.481,4,1,6mFkJmJqdDVQ1REhVfGgd1,False
+74fpNVAJrKGQuqHETi4WSt,0.0609,198907,89.988,0.567,0.0126,0.428,0,9.51e-05,0.257,-8.585,0.764,4,1,74fpNVAJrKGQuqHETi4WSt,False
+76N7FdzCI9OsiUnzJVLY2m,0.0451,221427,120.041,0.753,0.637,0.557,7,0.0,0.0905,-5.05,0.618,4,0,76N7FdzCI9OsiUnzJVLY2m,False
+3dLg6cqxvKQl2E6lnD62ZT,0.0685,327400,171.067,0.499,0.0765,0.367,2,1.49e-06,0.111,-10.972,0.397,4,1,3dLg6cqxvKQl2E6lnD62ZT,False
+04zllSy1QxiamFFwB4KET8,0.0304,312920,107.548,0.678,0.000683,0.682,2,0.000671,0.068,-6.768,0.65,4,1,04zllSy1QxiamFFwB4KET8,False
+03wKMRNYVvw6s9nm4I4jUS,0.0429,279293,175.919,0.787,0.00176,0.202,7,0.00445,0.531,-5.071,0.363,4,1,03wKMRNYVvw6s9nm4I4jUS,False
+1mX6SYJ1ZpcoxQUiER8wOI,0.0357,270387,110.98,0.942,0.000233,0.373,2,7.07e-06,0.106,-3.618,0.606,4,1,1mX6SYJ1ZpcoxQUiER8wOI,False
+0b6wdul3A5sQNpIOv03OxP,0.0431,206320,115.026,0.718,0.00637,0.557,8,0.000703,0.119,-5.054,0.686,4,0,0b6wdul3A5sQNpIOv03OxP,False
+5UWYJWoVXRpaLuzzXmHqg8,0.0457,162467,105.39,0.783,0.416,0.813,6,1.54e-06,0.631,-5.852,0.554,4,1,5UWYJWoVXRpaLuzzXmHqg8,False
+3jfCRwsBwomcfKfyhAZ30i,0.0976,189680,106.01,0.985,0.0389,0.669,7,8.45e-05,0.152,-3.528,0.722,4,0,3jfCRwsBwomcfKfyhAZ30i,False
+0ZFUn5dFxuN3Um8y6ubX93,0.0723,187680,168.99,0.956,0.0271,0.529,1,1.32e-05,0.134,-2.195,0.42,4,0,0ZFUn5dFxuN3Um8y6ubX93,False
+5YHWXpglx1Tplpy0T6o4Hm,0.357,189693,197.929,0.936,0.00243,0.376,2,0.0,0.14,-6.131,0.257,4,1,5YHWXpglx1Tplpy0T6o4Hm,False
+2fSIF8CJhoc9CJhF9vJDXp,0.0329,250867,119.656,0.142,0.863,0.288,7,0.000162,0.0953,-15.196,0.588,4,1,2fSIF8CJhoc9CJhF9vJDXp,False
+54eZmuggBFJbV7k248bTTt,0.0535,252240,123.179,0.506,0.686,0.831,11,0.0155,0.155,-17.18,0.654,4,0,54eZmuggBFJbV7k248bTTt,False
+4ekUwwCPIKT1ef5GllLSk1,0.0277,196667,112.029,0.741,0.336,0.722,7,0.0,0.103,-5.18,0.618,4,1,4ekUwwCPIKT1ef5GllLSk1,False
+4cgJF9rKas2H5AC8FnNts0,0.0755,204440,91.37,0.702,0.0919,0.804,10,0.00559,0.191,-4.759,0.822,4,0,4cgJF9rKas2H5AC8FnNts0,False
+3e7Y6sfFlIdBMJhX7wpqVO,0.221,188600,139.965,0.584,0.0718,0.219,10,0.0,0.106,-7.098,0.824,4,0,3e7Y6sfFlIdBMJhX7wpqVO,False
+5M66BjyDzijqQPLNbyujAt,0.246,160067,86.958,0.803,0.032,0.764,11,3.7e-05,0.206,-5.498,0.419,4,1,5M66BjyDzijqQPLNbyujAt,False
+4yYvWFUWMaKMXtoJKJnmZk,0.0298,235293,109.981,0.959,0.316,0.397,7,0.00576,0.112,-4.744,0.627,4,1,4yYvWFUWMaKMXtoJKJnmZk,False
+7xj3v3gPWWytfwqHZRtdMj,0.0303,275307,82.967,0.448,0.397,0.33,8,0.00104,0.128,-9.291,0.298,4,0,7xj3v3gPWWytfwqHZRtdMj,False
+7KsZHCfOitA5V9oQYVdltG,0.0302,303013,116.046,0.865,0.00171,0.61,0,0.000449,0.457,-5.325,0.548,4,1,7KsZHCfOitA5V9oQYVdltG,False
+6yHkPtl6UQ7RjtJLBPzbJw,0.0741,251423,95.746,0.369,0.0303,0.0913,8,7.64e-06,0.383,-10.044,0.415,4,1,6yHkPtl6UQ7RjtJLBPzbJw,False
+10VBBaul4zVD0reteuIHM2,0.413,322160,94.378,0.491,0.626,0.448,1,0.0,0.126,-9.726,0.738,4,0,10VBBaul4zVD0reteuIHM2,False
+1wLQwg0mloy3yXjL0jPE0N,0.0786,323373,136.133,0.892,3.31e-05,0.176,4,0.0948,0.751,-8.036,0.365,4,0,1wLQwg0mloy3yXjL0jPE0N,False
+4Smc57rqnTjKvz56WJaunv,0.0645,239293,171.931,0.912,3.45e-05,0.276,5,0.00264,0.389,-3.433,0.296,4,1,4Smc57rqnTjKvz56WJaunv,False
+53HL9X1ZFXUvN8OS7HsHCX,0.0957,338133,83.839,0.31,0.445,0.561,9,1.62e-06,0.0629,-15.513,0.718,4,0,53HL9X1ZFXUvN8OS7HsHCX,False
+0WgNkkgnjHS2jFHwyP30Lj,0.0302,299711,93.624,0.415,0.777,0.0709,7,0.0241,0.109,-9.553,0.362,4,1,0WgNkkgnjHS2jFHwyP30Lj,False
+6bxq92mCKHtpDH2Q3Ffsim,0.029,284693,140.008,0.845,0.000467,0.0863,9,0.00199,0.161,-3.622,0.45,4,0,6bxq92mCKHtpDH2Q3Ffsim,False
+7acHFntM5UgPUQ6jC06J9Q,0.0284,187720,96.973,0.533,0.00982,0.611,4,0.000364,0.111,-5.426,0.649,4,0,7acHFntM5UgPUQ6jC06J9Q,False
+6hI8qP6AkRc3e965iqICG8,0.0514,279960,126.647,0.861,0.000281,0.818,4,0.000276,0.0612,-8.315,0.631,4,0,6hI8qP6AkRc3e965iqICG8,False
+3T6DY7gUqGCcHG6HON54Ex,0.0505,175733,124.052,0.848,0.0417,0.723,1,0.0,0.0496,-4.006,0.675,3,1,3T6DY7gUqGCcHG6HON54Ex,False
+3hxoYmSHzIBwSS2bPTOfbg,0.0382,188400,160.748,0.625,0.734,0.896,6,0.514,0.128,-9.783,0.637,4,1,3hxoYmSHzIBwSS2bPTOfbg,False
+3NxAG2ni1lLa8RKL6a0INc,0.113,241400,80.006,0.475,0.0175,0.292,10,1.1e-05,0.197,-11.243,0.746,4,0,3NxAG2ni1lLa8RKL6a0INc,False
+4MdQkwmoI9lrUfHGD7wOzy,0.115,170752,135.159,0.494,0.0108,0.143,8,1.05e-06,0.108,-7.607,0.735,4,0,4MdQkwmoI9lrUfHGD7wOzy,False
+1hlveB9M6ijHZRbzZ2teyh,0.0503,219667,149.186,0.924,0.0127,0.922,4,0.0,0.162,-6.299,0.502,4,1,1hlveB9M6ijHZRbzZ2teyh,False
+104buTcnP2AsxqB7U1FIZ4,0.0706,169801,149.982,0.671,0.0484,0.438,9,0.0,0.0604,-6.098,0.59,4,1,104buTcnP2AsxqB7U1FIZ4,False
+1XIh7vGeTRTbCmWAX6A8u8,0.0501,294160,91.983,0.911,0.00176,0.553,0,3.59e-05,0.497,-3.425,0.508,4,1,1XIh7vGeTRTbCmWAX6A8u8,False
+1AM1o0mKbgAK5oMpY8B3Z7,0.0239,250173,90.16,0.562,0.00373,0.208,10,3.23e-05,0.223,-6.869,0.592,4,0,1AM1o0mKbgAK5oMpY8B3Z7,False
+3QkXEz9TxApuk1JpDmeWnS,0.137,277013,74.154,0.739,0.0311,0.231,1,0.0,0.0772,-5.103,0.644,4,1,3QkXEz9TxApuk1JpDmeWnS,False
+3SZLtkoHoECHHuOnNkNCuS,0.0278,234987,150.066,0.562,0.0102,0.24,11,0.000278,0.198,-6.106,0.436,4,1,3SZLtkoHoECHHuOnNkNCuS,False
+0yg4nmSO3H9xMbuC3E5vhY,0.04,351640,107.824,0.674,0.525,0.0787,1,0.00421,0.115,-6.67,0.432,4,1,0yg4nmSO3H9xMbuC3E5vhY,False
+0kXJNqmYdjwb31QLWGkNb7,0.113,322515,128.008,0.955,0.136,0.896,9,0.918,0.0841,-6.87,0.729,4,0,0kXJNqmYdjwb31QLWGkNb7,False
+0yk2bjpBiaXfIIj2Rcnx5Q,0.0289,176587,154.659,0.634,0.548,0.898,4,2.58e-05,0.245,-6.61,0.595,4,1,0yk2bjpBiaXfIIj2Rcnx5Q,False
+50W9PJjr1Euo9FFoqw90eL,0.0537,200626,103.073,0.126,0.177,0.066,9,3.54e-05,0.478,-16.028,0.569,4,0,50W9PJjr1Euo9FFoqw90eL,False
+1JyG5yuwpN0VIi4wbqvDfB,0.0357,177533,145.612,0.404,0.21,0.157,5,0.00049,0.197,-8.817,0.56,4,1,1JyG5yuwpN0VIi4wbqvDfB,False
+5k8viPkN0jExLQTlKsakKZ,0.0583,250200,162.07,0.904,0.00956,0.605,9,1.26e-06,0.0381,-3.389,0.434,4,0,5k8viPkN0jExLQTlKsakKZ,False
+6qlNXctTMFO2cYc0NAaIsT,0.0494,319467,133.566,0.652,0.000123,0.351,0,0.351,0.138,-9.692,0.481,4,1,6qlNXctTMFO2cYc0NAaIsT,False
+7yyRTcZmCiyzzJlNzGC9Ol,0.131,225205,145.99,0.525,0.236,0.708,8,0.0,0.057,-7.39,0.886,4,1,7yyRTcZmCiyzzJlNzGC9Ol,False
+2DQ1ITjI0YoLFzuADN1ZBW,0.244,245387,175.957,0.771,0.0117,0.405,1,0.0,0.0853,-3.791,0.838,4,1,2DQ1ITjI0YoLFzuADN1ZBW,False
+4LmAnpjlhWTahvRkYR8xJa,0.259,267427,131.023,0.471,0.0201,0.405,2,0.0,0.268,-8.406,0.768,4,1,4LmAnpjlhWTahvRkYR8xJa,False
+4aX4Oycsk1fhHIee1zqsDe,0.0418,240307,154.001,0.661,0.000177,0.272,11,5.14e-06,0.108,-6.093,0.644,4,1,4aX4Oycsk1fhHIee1zqsDe,False
+6e13443Ve7RGcAUScTgYtl,0.0471,230400,115.042,0.872,0.00599,0.559,8,0.0,0.188,-5.293,0.576,4,1,6e13443Ve7RGcAUScTgYtl,False
+5QqyRUZeBE04yJxsD1OC0I,0.126,260672,134.981,0.574,0.0155,0.137,1,2.02e-05,0.199,-8.57,0.76,4,1,5QqyRUZeBE04yJxsD1OC0I,False
+2RZWdE8kYPlCAcRUYDeuLC,0.121,198173,183.052,0.865,0.000583,0.726,2,0.0,0.056,-7.384,0.564,4,1,2RZWdE8kYPlCAcRUYDeuLC,False
+0AJhcuRl3i1FfPNr88ZScv,0.0473,215693,120.009,0.805,0.0193,0.711,11,0.000107,0.342,-5.049,0.721,4,0,0AJhcuRl3i1FfPNr88ZScv,False
+28clONjZmul6FjfO6tZQDE,0.0808,316867,121.201,0.933,0.0434,0.507,2,0.00108,0.228,-5.977,0.494,4,1,28clONjZmul6FjfO6tZQDE,False
+3BWWSa0UDSVP6Z9uRrT175,0.0925,287067,114.92,0.991,4.44e-05,0.324,8,0.0695,0.179,-3.703,0.553,4,1,3BWWSa0UDSVP6Z9uRrT175,False
+49dOnz1NuDgUNba91MudGy,0.0294,136800,126.707,0.528,0.608,0.873,9,0.0,0.342,-8.033,0.651,4,1,49dOnz1NuDgUNba91MudGy,False
+1e8e7hIST31biEls05NZzD,0.0321,173413,81.838,0.256,0.859,0.0885,5,1.54e-05,0.112,-9.794,0.443,4,1,1e8e7hIST31biEls05NZzD,False
+5hviCr3lgg6LY6noG6DPKs,0.0279,230549,145.948,0.438,0.534,0.444,2,1.56e-05,0.187,-7.007,0.571,4,1,5hviCr3lgg6LY6noG6DPKs,False
+26bL4gSULWDgdIMX0pRFrG,0.177,221333,185.069,0.825,0.13,0.753,6,0.0,0.306,-5.146,0.499,4,1,26bL4gSULWDgdIMX0pRFrG,False
+5BmagRD7Thki6O1zZwbxBy,0.0691,258000,191.059,0.954,0.000674,0.264,6,0.000132,0.0975,-2.879,0.251,4,1,5BmagRD7Thki6O1zZwbxBy,False
+1aGvLFHJ2shKqO9uycaUcW,0.0355,164187,119.939,0.833,0.00559,0.68,0,0.000727,0.186,-5.079,0.65,4,1,1aGvLFHJ2shKqO9uycaUcW,False
+5fpEDGQX0Ah3utGnFYulQZ,0.0334,264547,79.359,0.596,0.439,0.4,4,9.84e-06,0.111,-9.034,0.508,4,0,5fpEDGQX0Ah3utGnFYulQZ,False
+7ciLq0Cip0yxiz6KANrOUq,0.133,231813,104.978,0.785,0.122,0.825,7,0.0,0.468,-5.842,0.556,4,1,7ciLq0Cip0yxiz6KANrOUq,False
+6AvfZXpbb6r35DfF7gHPRq,0.0555,190643,126.088,0.603,0.0959,0.452,8,0.0,0.107,-5.014,0.655,4,1,6AvfZXpbb6r35DfF7gHPRq,False
+5kRPPEWFJIMox5qIkQkiz5,0.0276,224867,104.085,0.262,0.746,0.228,7,0.0,0.068,-8.541,0.427,4,1,5kRPPEWFJIMox5qIkQkiz5,False
+4lAdOkj9Pj1952EYIKZmxg,0.0963,214333,126.025,0.781,0.00657,0.286,1,0.00144,0.102,-5.448,0.558,4,0,4lAdOkj9Pj1952EYIKZmxg,False
+6u7oTPtlkzqtisk70ZRQJc,0.0485,397773,133.991,0.915,0.00167,0.316,10,0.776,0.112,-8.441,0.648,4,0,6u7oTPtlkzqtisk70ZRQJc,False
+2FSDgZ3Ysl0a8x8luagG7G,0.151,197800,158.262,0.884,0.0943,0.898,7,1.52e-06,0.0654,-3.765,0.514,4,1,2FSDgZ3Ysl0a8x8luagG7G,False
+0CILKPMt12CBXBJYksxUai,0.0314,218787,92.457,0.921,0.0218,0.635,11,0.00118,0.499,-2.807,0.508,4,0,0CILKPMt12CBXBJYksxUai,False
+3mhOmh4tRKsMfnRmgZfeBm,0.0268,299733,89.518,0.645,0.00187,0.588,7,1.38e-06,0.0424,-6.595,0.552,4,1,3mhOmh4tRKsMfnRmgZfeBm,False
+5mTFQUnS4PNyZ8FAKZe6wD,0.145,324573,113.529,0.666,0.841,0.768,2,2.53e-05,0.711,-8.658,0.567,3,1,5mTFQUnS4PNyZ8FAKZe6wD,False
+7mWdQmeasG17YG0ygCZoNT,0.0581,240907,115.077,0.738,0.0111,0.905,0,0.0,0.0652,-10.771,0.744,4,1,7mWdQmeasG17YG0ygCZoNT,False
+2HGymMoOdB4ZYv0AAqYmgF,0.0278,192520,159.848,0.815,0.708,0.564,5,0.0,0.111,-2.815,0.534,4,1,2HGymMoOdB4ZYv0AAqYmgF,False
+2JA6A6Y5f4m7PawM58U2Op,0.189,245920,128.971,0.849,0.0668,0.599,1,0.0,0.69,-3.259,0.693,4,0,2JA6A6Y5f4m7PawM58U2Op,False
+1ng36571Iyov4HBxUClySn,0.166,297267,79.898,0.804,0.00589,0.671,7,0.00116,0.16,-5.492,0.631,4,1,1ng36571Iyov4HBxUClySn,False
+5le0k7yvbMCHH2Xa1tEpAL,0.0468,281333,137.921,0.637,0.601,0.411,4,0.000334,0.137,-4.637,0.49,3,0,5le0k7yvbMCHH2Xa1tEpAL,False
+5lFDtgWsjRJu8fPOAyJIAK,0.356,170638,86.976,0.48,0.00855,0.382,1,0.0,0.116,-3.728,0.893,4,0,5lFDtgWsjRJu8fPOAyJIAK,False
+4iEOVEULZRvmzYSZY2ViKN,0.0462,173631,101.99,0.877,0.462,0.802,3,0.00943,0.083,-4.465,0.697,4,1,4iEOVEULZRvmzYSZY2ViKN,False
+12REd1n8PeiHHWOh066tpr,0.0565,233337,119.247,0.559,0.436,0.264,0,0.0,0.164,-5.445,0.494,4,1,12REd1n8PeiHHWOh066tpr,False
+3hYvGiw2Q8QE2YWdIJLBz0,0.0433,236987,82.142,0.582,0.0241,0.253,3,0.0,0.181,-5.452,0.536,4,0,3hYvGiw2Q8QE2YWdIJLBz0,False
+5NDUXbMwcnTQp66tI2zcdR,0.0327,198001,122.054,0.56,0.548,0.872,0,3.66e-05,0.15,-6.685,0.828,4,1,5NDUXbMwcnTQp66tI2zcdR,False
+53DB6LJV9B8sz0p1s6tlGS,0.192,227773,125.358,0.805,0.0524,0.602,3,0.0,0.0914,-5.473,0.523,5,1,53DB6LJV9B8sz0p1s6tlGS,False
+2l57cfmCnOkwNX1tky02n1,0.0454,238880,109.864,0.916,0.000148,0.646,3,0.0,0.291,-3.858,0.518,4,1,2l57cfmCnOkwNX1tky02n1,False
+5L7zWiRiXDPNvTLLoXvIja,0.0359,223267,149.306,0.593,0.132,0.706,7,0.0,0.35,-11.641,0.619,4,1,5L7zWiRiXDPNvTLLoXvIja,False
+0apqDPK578iRoiR9VIRA0a,0.0374,184373,125.92,0.672,0.104,0.595,6,0.0,0.106,-7.12,0.618,4,1,0apqDPK578iRoiR9VIRA0a,False
+4LtNVbnOZK34t9mtLSRNe5,0.0373,217013,141.946,0.787,0.1,0.784,1,1.01e-05,0.133,-4.907,0.646,4,1,4LtNVbnOZK34t9mtLSRNe5,False
+3e21cX0CVwzkQXiHz7WUQZ,0.317,229227,144.993,0.91,0.0719,0.342,1,0.0,0.244,-1.629,0.663,4,1,3e21cX0CVwzkQXiHz7WUQZ,False
+59Zm2A9DvVogvIYTuPO1VR,0.0428,232027,127.944,0.882,0.0128,0.292,2,1.1e-06,0.181,-3.811,0.539,4,1,59Zm2A9DvVogvIYTuPO1VR,False
+7i2DJ88J7jQ8K7zqFX2fW8,0.0354,214802,110.03,0.585,0.107,0.447,6,1.11e-06,0.131,-4.861,0.67,4,0,7i2DJ88J7jQ8K7zqFX2fW8,False
+6ORqU0bHbVCRjXm9AjyHyZ,0.0302,153467,94.605,0.432,0.183,0.648,7,0.0,0.161,-7.844,0.475,4,1,6ORqU0bHbVCRjXm9AjyHyZ,False
+2nRvKHh2mtOfIQ4jcAkP9q,0.0307,218840,142.881,0.639,0.446,0.332,1,0.0,0.0998,-5.826,0.593,4,1,2nRvKHh2mtOfIQ4jcAkP9q,False
+1CeizRCGEYPWooEeVfmyFL,0.248,280973,75.714,0.541,0.0617,0.28,6,0.000137,0.112,-9.295,0.713,4,0,1CeizRCGEYPWooEeVfmyFL,False
+4YNaKY0jTnfSa1a5fDnGsc,0.0628,228312,123.758,0.873,4.64e-05,0.345,9,0.00289,0.055,-4.331,0.2,4,1,4YNaKY0jTnfSa1a5fDnGsc,False
+4XOZaPYeMn9hcbpyS90NnD,0.116,208187,167.819,0.972,8.48e-05,0.387,11,0.0,0.293,-3.675,0.344,4,0,4XOZaPYeMn9hcbpyS90NnD,False
+53rVYwGiKUC3gYX8SQQYYU,0.0523,241533,106.084,0.347,0.642,0.103,1,0.000464,0.114,-13.379,0.48,4,1,53rVYwGiKUC3gYX8SQQYYU,False
+608a1wIsSd5KzMEqm1O7w3,0.318,296147,149.33,0.807,0.0536,0.438,11,0.0,0.631,-3.499,0.413,4,0,608a1wIsSd5KzMEqm1O7w3,False
+0prNGof3XqfTvNDxHonvdK,0.129,230227,97.085,0.739,0.0285,0.451,0,0.0,0.111,-5.74,0.573,4,1,0prNGof3XqfTvNDxHonvdK,False
+4oDZ5L8izBals6jKBJDBcX,0.0553,216467,129.537,0.654,0.121,0.616,1,3.62e-06,0.0673,-12.421,0.579,4,0,4oDZ5L8izBals6jKBJDBcX,False
+4MzGM692jKGkNSQ7qzeTaJ,0.0355,246307,127.541,0.674,0.00378,0.743,9,0.000302,0.129,-6.506,0.609,4,0,4MzGM692jKGkNSQ7qzeTaJ,False
+5t1Eqjxu93ub0LiTgxZQOB,0.139,197440,105.185,0.95,0.0123,0.29,0,0.0,0.329,-5.219,0.598,4,1,5t1Eqjxu93ub0LiTgxZQOB,False
+5Cr8DxrjyP2fS93XjGXlFl,0.0335,266827,115.287,0.808,0.166,0.844,0,0.000167,0.164,-6.965,0.556,4,1,5Cr8DxrjyP2fS93XjGXlFl,False
+0wzABO1igQsSy8cQ7dIeHK,0.0916,202267,158.81,0.8,0.0569,0.569,11,0.00223,0.387,-9.278,0.482,4,0,0wzABO1igQsSy8cQ7dIeHK,False
+59XmHUquo2SrCkiopxQBed,0.0501,194040,105.006,0.465,0.835,0.391,0,0.0,0.155,-11.755,0.394,4,1,59XmHUquo2SrCkiopxQBed,False
+7cz70nyRXlCJOE85whEkgU,0.0443,217267,144.97,0.901,0.00152,0.482,4,0.000263,0.286,-4.133,0.361,4,0,7cz70nyRXlCJOE85whEkgU,False
+1dQPIX6upFkwDI6ms2k52J,0.0465,237532,69.483,0.629,0.0704,0.225,9,1e-06,0.0721,-4.752,0.373,4,0,1dQPIX6upFkwDI6ms2k52J,False
+0JpKR3QQs88aTtMUZTtlLz,0.0289,299382,127.869,0.475,0.275,0.0964,2,0.455,0.188,-9.442,0.364,4,0,0JpKR3QQs88aTtMUZTtlLz,False
+2s53BFN2aKtiBA93tRQtGj,0.0824,265907,102.048,0.819,1.84e-05,0.309,11,0.000416,0.0568,-11.364,0.302,4,0,2s53BFN2aKtiBA93tRQtGj,False
+4BAWCedKFfdwxPFmFv4DMG,0.0792,159320,101.675,0.427,0.893,0.476,9,0.101,0.37,-13.333,0.462,3,1,4BAWCedKFfdwxPFmFv4DMG,False
+1m4dXbkplvaOO4Wbdjbwxs,0.101,181240,123.824,0.694,0.0963,0.834,11,1.2e-06,0.479,-5.849,0.935,4,0,1m4dXbkplvaOO4Wbdjbwxs,False
+3XJpQ65m90QFmogv8MH1pG,0.0807,245933,59.409,0.631,0.126,0.589,11,0.0,0.0666,-5.79,0.387,4,0,3XJpQ65m90QFmogv8MH1pG,False
+7EKTo6rVJ3XSS7QTd6ep2j,0.189,223933,146.075,0.694,0.0439,0.581,11,3.67e-06,0.18,-5.745,0.764,4,0,7EKTo6rVJ3XSS7QTd6ep2j,False
+57uX2vR9j9DNiANDYfXw1i,0.0317,256613,160.139,0.492,0.568,0.262,8,8.18e-06,0.176,-5.767,0.23,4,1,57uX2vR9j9DNiANDYfXw1i,False
+2QlPByrmEO9XciNBXCrawR,0.0276,320733,117.254,0.645,0.07,0.954,0,0.0403,0.0986,-13.352,0.759,4,1,2QlPByrmEO9XciNBXCrawR,False
+30Zcjs7pgEkmJA1lEbGSWT,0.131,236120,125.357,0.415,0.329,0.12,5,0.0,0.195,-7.184,0.527,4,1,30Zcjs7pgEkmJA1lEbGSWT,False
+4mHgYpuGHu99Mw69E83CP2,0.052,121680,81.031,0.538,0.68,0.343,0,0.0,0.192,-6.044,0.767,4,0,4mHgYpuGHu99Mw69E83CP2,False
+42PyxnviKRfOa8z39g8aZj,0.111,233293,202.523,0.72,0.403,0.805,1,1.36e-06,0.394,-9.668,0.28,4,0,42PyxnviKRfOa8z39g8aZj,False
+6wxjQM03PLCihSZNCPG1sW,0.12,213747,161.988,0.987,0.000248,0.647,5,1.61e-06,0.311,-3.501,0.462,4,0,6wxjQM03PLCihSZNCPG1sW,False
+20nb0Wl1yqoEERbUSILuG1,0.0484,313573,104.366,0.919,0.00272,0.387,2,0.00511,0.0977,-7.679,0.545,4,1,20nb0Wl1yqoEERbUSILuG1,False
+1Z4mVNtYGnpjHUoZVo3IMU,0.333,284467,92.649,0.319,0.0933,0.687,4,0.000104,0.0482,-16.099,0.891,4,0,1Z4mVNtYGnpjHUoZVo3IMU,False
+2JFmTONwQdRaOj2s2DhFah,0.0351,261561,157.965,0.584,0.509,0.427,4,3.33e-05,0.11,-8.244,0.444,4,0,2JFmTONwQdRaOj2s2DhFah,False
+7jqzZyJJLrpkRFYGpkqSK6,0.0327,272800,120.012,0.643,0.0364,0.212,0,0.74,0.105,-7.36,0.552,4,1,7jqzZyJJLrpkRFYGpkqSK6,False
+2y8rZoB5iJBt233kASCihn,0.0515,187627,112.893,0.495,0.491,0.684,11,0.0,0.0773,-6.073,0.509,4,1,2y8rZoB5iJBt233kASCihn,False
+2Y1XNziUW2AN7gK987rF5m,0.0629,368840,139.995,0.578,0.0069,0.138,9,5.22e-06,0.0712,-5.251,0.595,4,0,2Y1XNziUW2AN7gK987rF5m,False
+6kdL7lwL7GftOGGLNDuoRE,0.0311,194333,89.452,0.494,0.403,0.814,7,0.0102,0.112,-11.077,0.516,3,0,6kdL7lwL7GftOGGLNDuoRE,False
+32lItqlMi4LBhb4k0BaSaC,0.154,227533,180.064,0.667,0.64,0.381,4,1.22e-06,0.0753,-5.941,0.664,4,1,32lItqlMi4LBhb4k0BaSaC,False
+6N1EjQjnvhOjFrF6oUmGPa,0.0371,216973,138.907,0.71,0.0115,0.771,2,2.58e-06,0.0977,-10.853,0.505,4,1,6N1EjQjnvhOjFrF6oUmGPa,False
+4vFGGlxQg6HnGcdpP8CASx,0.0488,199067,140.219,0.955,0.00962,0.658,9,0.0,0.36,-3.799,0.395,4,1,4vFGGlxQg6HnGcdpP8CASx,False
+48p5E25cFPanxuwCTmTpuL,0.0444,220960,118.01,0.876,0.0864,0.358,0,7.72e-05,0.0431,-10.141,0.629,4,1,48p5E25cFPanxuwCTmTpuL,False
+2YDC6HEdImL1bEhyLrU777,0.0509,431107,121.074,0.583,0.0397,0.794,5,1.85e-05,0.125,-11.186,0.8,4,0,2YDC6HEdImL1bEhyLrU777,False
+6ZANrVuAMp2rpjhfbOuJly,0.0304,229080,98.02,0.593,0.0223,0.438,11,0.0,0.214,-4.01,0.672,4,0,6ZANrVuAMp2rpjhfbOuJly,False
+16Ah4QqH4mgYVXqfC4mdSd,0.252,228640,190.169,0.528,0.0108,0.252,11,0.0,0.117,-8.113,0.539,4,0,16Ah4QqH4mgYVXqfC4mdSd,False
+4fZDZMgyWBxTg2Rc4OHVtB,0.0322,288653,130.744,0.593,0.192,0.428,8,1.85e-05,0.145,-7.099,0.563,4,1,4fZDZMgyWBxTg2Rc4OHVtB,False
+3RVupqMb1zXl8FNG9TlWBZ,0.0306,275307,121.946,0.45,0.417,0.344,11,0.000335,0.14,-9.251,0.391,4,1,3RVupqMb1zXl8FNG9TlWBZ,False
+2wz5weI4PREzpexKfrKgwv,0.0536,204587,133.713,0.956,0.0784,0.831,11,0.0247,0.0923,-5.647,0.656,4,0,2wz5weI4PREzpexKfrKgwv,False
+5cBfw0kSfINwLHfTn3O2KI,0.0572,227467,150.033,0.963,0.00315,0.581,10,0.0,0.244,-3.795,0.471,4,1,5cBfw0kSfINwLHfTn3O2KI,False
+5274I4mUMnYczyeXkGDWZN,0.323,141587,166.111,0.542,0.0484,0.551,7,0.0,0.126,-7.358,0.656,4,1,5274I4mUMnYczyeXkGDWZN,False
+0PfcFWevZo1sB9N7C4akEK,0.0458,264893,128.063,0.88,0.0125,0.227,8,0.0,0.0605,-4.482,0.542,4,1,0PfcFWevZo1sB9N7C4akEK,False
+5RWORiPPEnwaniNnTqDf1c,0.0713,264547,88.508,0.79,0.212,0.695,9,0.0,0.403,-5.673,0.681,4,0,5RWORiPPEnwaniNnTqDf1c,False
+0Altlm3kLPob56k2qqR4i2,0.0898,207133,174.071,0.682,0.0281,0.385,0,4.5e-05,0.125,-5.883,0.562,4,1,0Altlm3kLPob56k2qqR4i2,False
+6Zt7JInOOOCdLwdAYvPDDu,0.0284,211255,87.31,0.193,0.848,0.258,10,5.84e-06,0.123,-13.165,0.597,4,1,6Zt7JInOOOCdLwdAYvPDDu,False
+6gU9OKjOE7ghfEd55oRO57,0.0597,272187,73.313,0.366,0.242,0.161,8,0.0,0.126,-9.405,0.4,3,0,6gU9OKjOE7ghfEd55oRO57,False
+4EAV2cKiqKP5UPZmY6dejk,0.0378,204747,149.908,0.741,0.0425,0.422,1,0.0,0.0761,-4.099,0.667,4,1,4EAV2cKiqKP5UPZmY6dejk,False
+0iAcyO7WLhnC7WOTOpjGv1,0.205,136773,161.79,0.952,0.000202,0.257,9,0.219,0.0671,-6.925,0.322,4,1,0iAcyO7WLhnC7WOTOpjGv1,False
+0sfdLPLiWJCtV7Qj9tdNtI,0.066,203507,115.061,0.927,0.00892,0.356,8,0.0,0.198,-3.463,0.548,4,1,0sfdLPLiWJCtV7Qj9tdNtI,False
+044qU7kwVZaDwzWnRsmVVL,0.0398,233280,126.001,0.543,0.623,0.282,1,0.0706,0.107,-9.483,0.752,4,1,044qU7kwVZaDwzWnRsmVVL,False
+1iOJQ1vrofaG04Eb6uRIir,0.0337,182067,132.012,0.843,0.00658,0.543,7,0.864,0.0888,-6.756,0.595,4,1,1iOJQ1vrofaG04Eb6uRIir,False
+0ySCYRXVugL9xDBecGc0jr,0.221,202107,91.376,0.729,1.7e-05,0.357,11,0.0431,0.152,-5.819,0.69,4,0,0ySCYRXVugL9xDBecGc0jr,False
+53hXLQsByJC4B3UCNcmh0E,0.0326,300547,154.989,0.569,0.0302,0.143,2,0.0639,0.172,-8.044,0.588,4,1,53hXLQsByJC4B3UCNcmh0E,False
+0SGkqnVQo9KPytSri1H6cF,0.139,222360,81.502,0.575,0.106,0.273,1,0.0,0.129,-5.628,0.78,4,0,0SGkqnVQo9KPytSri1H6cF,False
+2dQx3sIylsbvagZCNf69h4,0.0942,165733,181.297,0.585,0.195,0.545,3,0.0,0.13,-7.257,0.371,4,1,2dQx3sIylsbvagZCNf69h4,False
+7lO6vt8u0LHoh2s05x4fMk,0.0324,219480,130.976,0.93,0.0127,0.582,0,0.0,0.0577,-5.021,0.6,4,1,7lO6vt8u0LHoh2s05x4fMk,False
+7aKWgpecgLEqisWcXPElDl,0.043,164267,125.815,0.735,0.0426,0.592,9,0.0838,0.0917,-8.171,0.761,4,0,7aKWgpecgLEqisWcXPElDl,False
+6llCmY7PCYkaLDpodiTkUB,0.0452,278133,134.252,0.803,0.000573,0.376,0,0.00396,0.184,-7.164,0.482,4,1,6llCmY7PCYkaLDpodiTkUB,False
+0N3W5peJUQtI4eyR6GJT5O,0.0977,234693,107.059,0.657,0.00589,0.489,6,0.0,0.154,-4.569,0.884,4,0,0N3W5peJUQtI4eyR6GJT5O,False
+1060gzllf4b0UETAXisR5l,0.0413,236427,89.972,0.824,0.000127,0.57,0,0.000311,0.0922,-7.25,0.501,4,1,1060gzllf4b0UETAXisR5l,False
+3kI8fSpOQmL5ax63lBOuH3,0.0294,250067,104.242,0.691,0.0674,0.298,1,3.36e-05,0.247,-6.154,0.328,4,1,3kI8fSpOQmL5ax63lBOuH3,False
+1ipcb9qXpSHWhSUvdxJhsx,0.0245,212640,90.392,0.724,0.143,0.697,2,0.000101,0.158,-8.992,0.677,4,1,1ipcb9qXpSHWhSUvdxJhsx,False
+1xPSDf8z4dH46gkvlLtvDO,0.0651,244707,158.86,0.533,0.0891,0.835,3,4.04e-06,0.0415,-11.516,0.617,4,0,1xPSDf8z4dH46gkvlLtvDO,False
+6AbVJjzv7thIvmMCuhZrmK,0.082,213697,104.973,0.881,0.00119,0.337,7,0.0,0.0709,-2.224,0.556,1,1,6AbVJjzv7thIvmMCuhZrmK,False
+3Q3myFA7q4Op95DOpHplaY,0.0526,212027,111.002,0.593,0.00522,0.17,8,5.25e-06,0.123,-6.35,0.745,3,1,3Q3myFA7q4Op95DOpHplaY,False
+2oaK4JLVnmRGIO9ytBE1bt,0.0716,302000,91.959,0.742,0.0722,0.197,5,0.0199,0.11,-6.777,0.7,4,0,2oaK4JLVnmRGIO9ytBE1bt,False
+7frWizM5FgJkaUl1rXhVtO,0.211,248467,74.014,0.459,0.00529,0.201,1,0.000546,0.0818,-5.79,0.699,4,1,7frWizM5FgJkaUl1rXhVtO,False
+3DmW6y7wTEYHJZlLo1r6XJ,0.0487,206167,119.987,0.529,0.0317,0.121,2,3.59e-05,0.285,-7.548,0.699,4,1,3DmW6y7wTEYHJZlLo1r6XJ,False
+3AA8xNhDC0MpqwkGX3EP5V,0.107,266600,119.7,0.553,0.0492,0.836,6,0.00607,0.0646,-9.449,0.755,4,0,3AA8xNhDC0MpqwkGX3EP5V,False
+0e5q6Z47J4oU5S0gvfjKpi,0.0328,236133,99.128,0.712,0.00936,0.244,1,0.0,0.0764,-4.388,0.486,4,0,0e5q6Z47J4oU5S0gvfjKpi,False
+15fZrZhdK0g1BS9sDeW6sD,0.054,168636,121.01,0.678,0.0221,0.217,0,4.82e-05,0.258,-6.249,0.767,4,1,15fZrZhdK0g1BS9sDeW6sD,False
+2GyA33q5rti5IxkMQemRDH,0.0876,223853,113.939,0.761,0.102,0.743,9,0.0,0.147,-4.582,0.687,4,0,2GyA33q5rti5IxkMQemRDH,False
+4bM8EypbcVO1qTLklaHBhR,0.253,182427,164.597,0.83,0.0266,0.787,7,0.0385,0.311,-9.098,0.531,4,1,4bM8EypbcVO1qTLklaHBhR,False
+3LyetI45on2w6hV1H3agi9,0.0312,494467,129.22,0.737,0.0445,0.7,6,0.174,0.148,-10.001,0.739,4,0,3LyetI45on2w6hV1H3agi9,False
+3liiZRlJxa8GeLUgWMoIeu,0.0353,203080,119.997,0.274,0.659,0.167,5,0.0166,0.109,-16.574,0.289,3,1,3liiZRlJxa8GeLUgWMoIeu,False
+488E8BWYDCDrL6vunOAzPy,0.0473,290827,92.001,0.837,0.217,0.642,9,0.883,0.0591,-6.559,0.812,4,0,488E8BWYDCDrL6vunOAzPy,False
+0z9UVN8VBHJ9HdfYsOuuNf,0.028,240067,144.319,0.3,0.883,0.289,7,1.05e-05,0.0698,-10.807,0.471,4,1,0z9UVN8VBHJ9HdfYsOuuNf,False
+0DbhBvuZpoFRR44KQimNvU,0.0397,232227,127.972,0.756,0.00426,0.255,7,0.000108,0.111,-5.409,0.559,4,0,0DbhBvuZpoFRR44KQimNvU,False
+6GOxgLKnfd567oG2VpfJio,0.0753,352093,130.089,0.563,0.00444,0.355,7,0.753,0.103,-16.727,0.714,4,1,6GOxgLKnfd567oG2VpfJio,False
+714Lw0m2SmCEhKSPw0Dn8J,0.0963,206773,173.255,0.858,0.0134,0.491,1,0.0,0.067,-4.535,0.421,4,1,714Lw0m2SmCEhKSPw0Dn8J,False
+2SpndxdGe05PZaJhLOEswg,0.0766,178333,109.153,0.448,0.619,0.489,9,1.05e-06,0.0651,-9.162,0.647,3,1,2SpndxdGe05PZaJhLOEswg,False
+5fyIGoaaKelzdyW8ELhYJZ,0.269,237840,139.045,0.703,0.437,0.477,2,0.00927,0.358,-5.459,0.564,4,1,5fyIGoaaKelzdyW8ELhYJZ,False
+1D1p0w1Hcpjoi8rf75tnpe,0.0405,255832,122.079,0.659,0.0557,0.53,9,0.0,0.407,-5.442,0.385,4,1,1D1p0w1Hcpjoi8rf75tnpe,False
+4bCOAuhvjsxbVBM5MM8oik,0.0489,190787,187.961,0.9,0.000102,0.88,10,1.89e-05,0.0404,-3.541,0.446,4,0,4bCOAuhvjsxbVBM5MM8oik,False
+3o7McydZKC1XPxpWxAY8ip,0.0412,150400,160.395,0.387,0.248,0.966,1,0.0102,0.0625,-12.333,0.727,4,1,3o7McydZKC1XPxpWxAY8ip,False
+2WmDlNSXpyYgMK0ws7ZWDa,0.0517,235200,156.0,0.72,0.0206,0.297,11,0.000353,0.282,-7.504,0.447,4,1,2WmDlNSXpyYgMK0ws7ZWDa,False
+5BgnPaqCgFkm1W17NvVZiQ,0.0275,219707,83.839,0.504,0.229,0.434,7,0.0,0.358,-6.989,0.438,4,1,5BgnPaqCgFkm1W17NvVZiQ,False
+7hzY0LHz8KdEr1PowHhbdu,0.0496,346133,132.57,0.73,0.45,0.917,9,0.0143,0.0817,-6.605,0.867,4,1,7hzY0LHz8KdEr1PowHhbdu,False
+7tGlzXJv6GD5e5qlu5YmDg,0.0334,253440,124.952,0.608,0.0119,0.464,8,0.0,0.103,-6.628,0.674,4,0,7tGlzXJv6GD5e5qlu5YmDg,False
+14hJ5tc1VCFMWhVn9axRTC,0.0314,214533,113.978,0.615,0.0663,0.161,10,0.0,0.111,-4.995,0.666,4,1,14hJ5tc1VCFMWhVn9axRTC,False
+1scwOPRenO71iomcms70Fc,0.0399,280867,125.957,0.864,0.021,0.802,3,1.53e-05,0.0917,-5.188,0.656,4,0,1scwOPRenO71iomcms70Fc,False
+4lqpGLAsSIrfqvM9zcxqhO,0.0478,242587,106.626,0.688,0.481,0.588,9,8.17e-06,0.458,-6.868,0.307,3,0,4lqpGLAsSIrfqvM9zcxqhO,False
+0mBkoM8r7KAQzZij5swTUL,0.0459,198440,126.967,0.699,0.245,0.726,5,6.76e-06,0.0588,-5.541,0.87,4,0,0mBkoM8r7KAQzZij5swTUL,False
+2TOoPCW05TjfwMqpVTThVZ,0.0325,177120,174.029,0.907,0.331,0.782,1,0.000362,0.0681,-1.882,0.54,4,1,2TOoPCW05TjfwMqpVTThVZ,False
+1jikEfVwDhMVo4itxekCRp,0.0825,470375,192.035,0.922,0.0148,0.0275,10,0.874,0.0638,-7.838,0.645,3,0,1jikEfVwDhMVo4itxekCRp,False
+1TSJITdrNXnlFZ91axSb8Z,0.0296,220333,169.823,0.764,0.000532,0.515,5,1.55e-05,0.122,-4.129,0.362,4,1,1TSJITdrNXnlFZ91axSb8Z,False
+4BATUkk8UMuiMb6lr5CH5G,0.0486,182039,106.167,0.545,0.118,0.656,8,0.0,0.289,-6.714,0.619,4,1,4BATUkk8UMuiMb6lr5CH5G,False
+3Eledd1W29SYnGGbEbMS3g,0.0388,168200,99.033,0.737,0.0181,0.763,1,0.0,0.136,-5.446,0.653,4,1,3Eledd1W29SYnGGbEbMS3g,False
+6ZeQp2XTOiPCePWRfCHSo5,0.0294,196347,78.533,0.321,0.76,0.28,5,2.33e-06,0.429,-8.952,0.422,4,1,6ZeQp2XTOiPCePWRfCHSo5,False
+1XHjU0TGIgl5lMFKAF25Y3,0.0564,252520,140.02,0.609,0.000349,0.326,9,3.97e-06,0.129,-5.231,0.863,4,1,1XHjU0TGIgl5lMFKAF25Y3,False
+0H8XeaJunhvpBdBFIYi6Sh,0.0493,234213,133.935,0.69,0.0931,0.331,7,0.0,0.131,-6.508,0.62,4,1,0H8XeaJunhvpBdBFIYi6Sh,False
+5mQNY6pTeSDl2doFB7uLbE,0.0401,238387,99.98,0.732,0.0153,0.228,2,0.0,0.318,-6.189,0.596,4,1,5mQNY6pTeSDl2doFB7uLbE,False
+6zGu9iV982w2OJyRIortQg,0.0333,222067,100.011,0.796,0.00107,0.182,0,0.0,0.106,-4.501,0.46,4,0,6zGu9iV982w2OJyRIortQg,False
+142rTdgKhe55q9LdSU4cYF,0.0273,225027,105.096,0.631,0.033,0.23,7,0.0,0.144,-5.623,0.568,4,1,142rTdgKhe55q9LdSU4cYF,False
+3B5UbSndRz907IZhhmUfLi,0.028,197470,89.1,0.389,0.851,0.501,0,0.0,0.0772,-5.972,0.589,4,1,3B5UbSndRz907IZhhmUfLi,False
+2LTIrVBonJJLQHAjw41b28,0.0539,244174,109.029,0.71,0.0412,0.306,5,0.0811,0.0577,-5.694,0.777,4,0,2LTIrVBonJJLQHAjw41b28,False
+6gsyzNWOSOWSiRgSOuKLgp,0.0813,197493,93.037,0.894,0.0298,0.6,3,0.0,0.108,-4.638,0.46,4,1,6gsyzNWOSOWSiRgSOuKLgp,False
+1Igy3egsujfV4WphlW0B7K,0.172,270867,142.75,0.964,0.0472,0.232,2,0.00249,0.323,-3.779,0.334,5,1,1Igy3egsujfV4WphlW0B7K,False
+5G1sTBGbZT5o4PNRc75RKI,0.068,193653,166.3,0.872,0.00417,0.607,2,0.00975,0.0997,-7.837,0.356,4,1,5G1sTBGbZT5o4PNRc75RKI,False
+1MQCTOWVfy4PcuBXkBsHVB,0.21,238267,85.308,0.663,0.12,0.837,0,0.0,0.318,-9.004,0.862,4,1,1MQCTOWVfy4PcuBXkBsHVB,False
+0yq9XIqQ4CXqDYJSS8Zak7,0.182,284427,113.124,0.646,0.00394,0.533,2,0.336,0.707,-16.801,0.847,4,1,0yq9XIqQ4CXqDYJSS8Zak7,False
+0Og6ggyXEZMcKbE2PjclwV,0.0898,211387,103.967,0.591,0.0765,0.244,0,0.00033,0.0919,-7.762,0.698,4,1,0Og6ggyXEZMcKbE2PjclwV,False
+2NniAhAtkRACaMeYt48xlD,0.0478,247947,140.043,0.935,0.000284,0.736,6,0.000278,0.142,-2.664,0.591,4,1,2NniAhAtkRACaMeYt48xlD,False
+3Uvx1TO0Kg5HgGPk58lHXv,0.0264,253413,80.282,0.593,0.00327,0.574,5,0.00144,0.0967,-9.362,0.561,4,1,3Uvx1TO0Kg5HgGPk58lHXv,False
+3CcvahnsiArpTHYQEWV2Au,0.257,216707,98.579,0.891,0.0298,0.587,11,0.0,0.141,-2.983,0.759,4,1,3CcvahnsiArpTHYQEWV2Au,False
+06EL94D0TA27Ik0Ke5usbj,0.113,227027,82.324,0.877,0.294,0.861,5,0.0,0.0759,-3.208,0.645,4,0,06EL94D0TA27Ik0Ke5usbj,False
+7ARveOiD31w2Nq0n5FsSf8,0.0504,221874,104.41,0.58,0.00241,0.512,1,2.95e-05,0.112,-5.273,0.622,4,0,7ARveOiD31w2Nq0n5FsSf8,False
+6RFkVsPmrM4pzlDkFswwJl,0.115,158573,82.228,0.485,0.868,0.845,5,3.44e-05,0.115,-8.227,0.617,4,0,6RFkVsPmrM4pzlDkFswwJl,False
+5U5ImHZbfNoauvgsyO7mDJ,0.058,298413,125.768,0.858,0.281,0.444,3,0.00223,0.432,-5.799,0.596,4,1,5U5ImHZbfNoauvgsyO7mDJ,False
+1FMHNVeJ9s1x1l1WlaRs2I,0.0273,244827,87.89,0.636,0.00228,0.313,0,0.0,0.154,-4.731,0.454,4,1,1FMHNVeJ9s1x1l1WlaRs2I,False
+02oAUzv4M0ItuTDy2RT3IT,0.0577,189796,107.047,0.431,0.287,0.268,10,2.75e-06,0.0934,-5.423,0.771,4,1,02oAUzv4M0ItuTDy2RT3IT,False
+1W7zkKgRv9mrLbfdQ8XyH3,0.0436,177029,121.48,0.447,0.111,0.11,10,0.0,0.303,-8.318,0.439,4,0,1W7zkKgRv9mrLbfdQ8XyH3,False
+1F2Ca0Cfo7DcdieWlZEqzc,0.0386,255907,188.257,0.93,0.109,0.541,9,0.0307,0.0772,-4.689,0.238,4,1,1F2Ca0Cfo7DcdieWlZEqzc,False
+0Gk2NWITP9Q1QJewMr28po,0.0391,298373,79.508,0.627,0.52,0.612,7,0.727,0.23,-9.234,0.666,4,0,0Gk2NWITP9Q1QJewMr28po,False
+2ZBalNGwjqdKJd29O76wBV,0.0489,227627,136.136,0.84,0.358,0.576,1,0.000239,0.367,-7.31,0.324,4,1,2ZBalNGwjqdKJd29O76wBV,False
+3wScL5W8H40zzCKN0atfBk,0.212,194184,99.079,0.87,0.0595,0.884,1,0.0,0.299,-2.188,0.743,4,1,3wScL5W8H40zzCKN0atfBk,False
+4hGOhC87bn7JBdYykOJJvJ,0.0341,209027,141.99,0.833,0.329,0.972,0,0.0567,0.126,-6.156,0.843,4,0,4hGOhC87bn7JBdYykOJJvJ,False
