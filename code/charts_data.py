@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 from requests import get
-from charts_utilities import remove_featured_artists
+from charts_utilities import clean_title, clean_artist
 
 BASE_URL = 'https://www.officialcharts.com/search/singles/'
 CHARTING_THRESHOLD = 40
@@ -10,10 +10,14 @@ def __scrape(url: str) -> list:
     response = get(url)
     html = BeautifulSoup(response.content, 'html.parser')
 
-    table = html.find('tbody', class_='chart-results-content')
-    rows = table.find_all('tr')
-
     results = []
+    
+    table = html.find('tbody', class_='chart-results-content')
+    
+    if not table:
+        return results
+
+    rows = table.find_all('tr')
 
     for row in rows:
         title = row.find('div', class_='title')
@@ -31,7 +35,8 @@ def __scrape(url: str) -> list:
 
 # Get the top chart position for the specified track.
 def _get_top_position(track_name: str, artist_name: str) -> int:
-    url = BASE_URL + track_name
+    # Remove forward slashes from URL
+    url = BASE_URL + track_name.replace('/','_slash_')
     results = __scrape(url)
     max = -1
 
@@ -46,8 +51,17 @@ def has_charted(track_name: str, artist_name: str) -> tuple:
     """
     returns: tuple (found, charted)
     """
-    top_pos = _get_top_position(remove_featured_artists(track_name), artist_name)
+    top_pos = -1
+
+    # Remove whitespace
+    track_name = track_name.strip()
+    artist_name = artist_name.strip()
+
+    # Check that track and artist names aren't empty
+    if track_name and artist_name:
+        top_pos = _get_top_position(clean_title(track_name), clean_artist(artist_name))
     return (
         top_pos > 0,
-        top_pos < CHARTING_THRESHOLD
+        top_pos <= CHARTING_THRESHOLD
     )
+    
