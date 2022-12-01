@@ -26,7 +26,7 @@ for rec in recs:
 
         rows.append([track_id, track_name, artist_id, artist_name])
 
-filename = './data/recommendations.csv'
+filename = './data/new_recs.csv'
 headings = ['track_id', 'track_name', 'artist_id', 'artist_name']
 
 with open(filename, 'w', encoding="utf-8") as file:
