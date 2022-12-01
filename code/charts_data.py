@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 from requests import get
-from charts_utilities import remove_featured_artists
+from charts_utilities import clean_title
 
 BASE_URL = 'https://www.officialcharts.com/search/singles/'
 CHARTING_THRESHOLD = 40
@@ -59,7 +59,7 @@ def has_charted(track_name: str, artist_name: str) -> tuple:
 
     # Check that track and artist names aren't empty
     if track_name and artist_name:
-        top_pos = _get_top_position(remove_featured_artists(track_name), artist_name)
+        top_pos = _get_top_position(clean_title(track_name), artist_name)
     return (
         top_pos > 0,
         top_pos <= CHARTING_THRESHOLD

@@ -10,7 +10,7 @@ FEATURED_PATTERNS = [
     'ft',
 ]
 # Cut featured artists section out of track name
-def remove_featured_artists(track_name: str) -> str:
+def _remove_featured_artists(track_name: str) -> str:
     lower = track_name.lower()
     for pattern in FEATURED_PATTERNS:
         # Check for "feat " or "feat.", not just "feat" in case of words like "feather"
@@ -28,3 +28,29 @@ def remove_featured_artists(track_name: str) -> str:
             return track_name[:cut_index].strip()
 
     return track_name
+
+# Remove tags that indicate a track is from a movie or show
+# e.g. Song Name - From Frozen
+def _remove_from_tag(track_name: str) -> str:
+    lower = track_name.lower()
+
+    cut_index = lower.find('- from ')
+
+    if cut_index != -1:
+        return track_name[:cut_index].strip()
+
+    return track_name
+
+def clean_title(track_name: str) -> str:
+    """
+    Remove sections of title which might conflict with track name on charts.
+
+    Currently removes:
+
+        featured artist tags, e.g. Song (feat. Artist 2)
+        
+        'from' tags, e.g. Song - From Frozen
+    """
+    # Don't pass as lower because wan't to keep original case for scraping
+    # Only use lower within individual functions for pattern matching
+    return _remove_from_tag(_remove_featured_artists(track_name))
