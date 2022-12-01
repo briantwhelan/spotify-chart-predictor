@@ -16,8 +16,8 @@ def classify_training_tracks(filename) -> None:
     data = pd.read_csv(filename)
     songs = data.to_numpy()
 
-    filename_charted = "./data/charted.csv"
-    filename_uncharted = "./data/uncharted.csv"
+    filename_charted = "./data/charted_2.csv"
+    filename_uncharted = "./data/uncharted_2.csv"
 
     if(os.path.exists(filename_charted) and os.path.isfile(filename_charted)):
         os.remove(filename_charted)
@@ -42,7 +42,6 @@ def classify_training_tracks(filename) -> None:
             print(f'NO DATA')
             continue
 
-        print(f'{i}. {track} by {artist}')
         found, charted = has_charted(track, artist)
         if found and charted:
             print(f"YES - Has charted in Top {CHARTING_THRESHOLD}")

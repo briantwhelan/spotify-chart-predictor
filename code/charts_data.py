@@ -64,3 +64,4 @@ def has_charted(track_name: str, artist_name: str) -> tuple:
         top_pos > 0,
         top_pos <= CHARTING_THRESHOLD
     )
+    

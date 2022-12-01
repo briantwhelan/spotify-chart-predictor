@@ -33,3 +33,4 @@ with open(filename, 'w', encoding="utf-8") as file:
     out = writer(file, lineterminator='\n')
     out.writerow(headings)
     out.writerows(rows)
+    
