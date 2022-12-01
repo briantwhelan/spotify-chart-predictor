@@ -14,13 +14,13 @@ def _remove_featured_artists(track_name: str) -> str:
     lower = track_name.lower()
     for pattern in FEATURED_PATTERNS:
         # Check for "feat " or "feat.", not just "feat" in case of words like "feather"
-        # cut_index = max([lower.find('(' + pattern + ' '), lower.find('(' + pattern + '.')])
+        cut_index = max([lower.find('(' + pattern + ' '), lower.find('(' + pattern + '.')])
 
-        # if(cut_index != -1):
-        #     # print(f'- {pattern} tag at {cut_index} -> "{track_name[cut_index]}{track_name[cut_index+1]}"')
-        #     next_brack = _find_next(lower, '(', cut_index)
-        #     # print(f'- finished at {next_brack} -> "{track_name[next_brack - 1]}{track_name[next_brack]}"')
-        #     return track_name[:cut_index].strip() + track_name[next_brack + 1:]
+        if(cut_index != -1):
+            # print(f'- {pattern} tag at {cut_index} -> "{track_name[cut_index]}{track_name[cut_index+1]}"')
+            next_brack = _find_next(lower, '(', cut_index)
+            # print(f'- finished at {next_brack} -> "{track_name[next_brack - 1]}{track_name[next_brack]}"')
+            return track_name[:cut_index].strip() + track_name[next_brack + 1:]
         
         # max because it will be one or the other, so one will be -1
         cut_index = max([lower.find(' ' + pattern + ' '), lower.find(' ' + pattern + '.')])
@@ -70,7 +70,7 @@ def clean_title(track_name: str) -> str:
     """
     # Don't pass as lower because wan't to keep original case for scraping
     # Only use lower within individual functions for pattern matching
-    return _remove_from_tag(_remove_featured_artists(_remove_brackets(track_name)))
+    return _remove_from_tag(_remove_featured_artists(track_name))
 
 def _remove_the(artist_name: str) -> str:
     lower = artist_name.lower()
