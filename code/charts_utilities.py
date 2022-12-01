@@ -81,4 +81,11 @@ def _remove_the(artist_name: str) -> str:
     return artist_name
 
 def clean_artist(artist_name: str) -> str:
+    """
+    Remove sections of artist name which might conflict with artist name on charts.
+
+    Currently removes:
+
+        'The' from start of artist name, e.g. The Wanted -> Wanted
+    """
     return _remove_the(artist_name)
