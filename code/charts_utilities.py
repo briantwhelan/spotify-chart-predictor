@@ -54,3 +54,14 @@ def clean_title(track_name: str) -> str:
     # Don't pass as lower because wan't to keep original case for scraping
     # Only use lower within individual functions for pattern matching
     return _remove_from_tag(_remove_featured_artists(track_name))
+
+def _remove_the(artist_name: str) -> str:
+    lower = artist_name.lower()
+
+    if lower.startswith('the '):
+        return artist_name[4:].strip()
+
+    return artist_name
+
+def clean_artist(artist_name: str) -> str:
+    return _remove_the(artist_name)
