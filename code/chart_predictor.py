@@ -14,11 +14,23 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import roc_curve
 
 # Import the data.
+
 charted = pd.read_csv("./data/charted_songs.csv")
 uncharted = pd.read_csv("./data/uncharted_songs.csv")
-songs = pd.concat([charted.iloc[:len(uncharted.axes[0])], uncharted.iloc[:len(charted.axes[0])]])
+#songs = pd.concat([charted.iloc[:len(uncharted.axes[0])], uncharted.iloc[:len(charted.axes[0])]])
+
+# Temporary data workaround.
+all_songs = pd.read_csv("./data/features.csv")
+all_songs["charted"] = False
+uncharted["charted"] = True
+songs2 = pd.concat([charted, uncharted])
+songs = pd.concat([songs2, all_songs.iloc[:len(songs2.axes[0])]])
+
+# Normalise features.
+songs["duration_ms"] = (songs["duration_ms"] - all_songs["duration_ms"].min()) / (all_songs["duration_ms"].max() - all_songs["duration_ms"].min())   
+songs["tempo"] = (songs["tempo"] - all_songs["tempo"].min()) / (all_songs["tempo"].max() - all_songs["tempo"].min())    
+songs["loudness"] = (songs["loudness"] - (-60)) / (0 - (-60))
 print(songs)
-X = songs.iloc[:, [1,3,4,5,6,11]]
 y = songs.iloc[:, 15]
 
 # Split data into training and validation data.
