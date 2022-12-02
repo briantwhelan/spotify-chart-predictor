@@ -36,7 +36,7 @@ def classify_training_tracks(in_filename: str, out_charted_filename: str, out_un
             continue
 
         found, top_pos = has_charted(track, artist)
-        if found and top_pos > CHARTING_THRESHOLD:
+        if found and top_pos <= CHARTING_THRESHOLD:
             print(f"YES - Has charted in Top {CHARTING_THRESHOLD}")
             # track_features = extract_features(track_id)
             # For each feature field: Value OR None
