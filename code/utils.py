@@ -6,7 +6,7 @@ def stitch():
     # Stitch charted and uncharted classifications.
     charted_classifications = pd.DataFrame()
     uncharted_classifications = pd.DataFrame()
-    for i in range(2000, 20000, 2000):
+    for i in range(0, 40, 1):
         charted_file = f'./data/charted/charted_{i}.csv'
         uncharted_file = f'./data/uncharted/uncharted_{i}.csv'
         if (os.path.exists(charted_file) and os.path.exists(uncharted_file)):  
