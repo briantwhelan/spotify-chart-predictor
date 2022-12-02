@@ -75,3 +75,25 @@ def remove_duplicates(filename_in: str, filename_out: str) -> None:
     data = pd.read_csv(filename_in)
     no_dupes = data.drop_duplicates()
     no_dupes.to_csv(filename_out, index=False)
+
+# Some CSV files have the wrong entries
+# Charted file contains songs which were found but HADN'T CHARTED
+# Uncharted contains songs which were found and HAD CHARTED, AND songs which were NOT FOUND
+
+def fix_dodgy_file_number(number: int):
+    charted_prefix = './data/charted/charted_'
+    uncharted_prefix = './data/uncharted/uncharted_'
+    
+    charted_rows = pd.read_csv(f'{charted_prefix}{number}.csv')
+    uncharted_rows = pd.read_csv(f'{uncharted_prefix}{number}.csv')
+
+    actually_unfound = uncharted_rows.loc[uncharted_rows['charted'] == 1000]
+    actually_charted = pd.merge(uncharted_rows,actually_unfound, indicator=True, how='outer').query('_merge=="left_only"').drop('_merge', axis=1)
+    # print (pd.merge(a,b, indicator=True, how='outer')
+    #      .query('_merge=="left_only"')
+    #      .drop('_merge', axis=1))
+    actually_uncharted = charted_rows
+    uncharted_unfound = pd.concat([actually_uncharted, actually_unfound])
+
+    actually_charted.to_csv(f'{charted_prefix}{number}.csv', index=False)
+    uncharted_unfound.to_csv(f'{uncharted_prefix}{number}.csv', index=False)
