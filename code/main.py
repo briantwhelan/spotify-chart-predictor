@@ -78,14 +78,14 @@ def classify_training_tracks(in_filename: str, out_charted_filename: str, out_un
 # remove_duplicates("./data/recommendations.csv", "./data/recs_no_duplicates.csv")
 
 if __name__ == '__main__':
-    # file_to_classify = argv[1]
-    # print(f'Classifying tracks in file {file_to_classify}...')
-    # classify_training_tracks(
-    #     in_filename=f"./data/rec_splits/recs_{file_to_classify}.csv",
-    #     out_charted_filename=f"./data/charted/charted_{file_to_classify}.csv",
-    #     out_uncharted_filename=f"./data/uncharted/uncharted_{file_to_classify}.csv"
-    # )
-    fix_dodgy_file_number(2)
+    file_number = argv[1]
+    print(f'Classifying tracks in file {file_number}...')
+    classify_training_tracks(
+        in_filename=f"./data/rec_splits/recs_{file_number}.csv",
+        out_charted_filename=f"./data/charted/charted_{file_number}.csv",
+        out_uncharted_filename=f"./data/uncharted/uncharted_{file_number}.csv"
+    )
+    # fix_dodgy_file_number(file_number)
     
     # combine_csvs()
 
