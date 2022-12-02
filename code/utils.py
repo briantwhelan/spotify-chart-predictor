@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+import csv
 
 def stitch():
     # Stitch charted and uncharted classifications.
@@ -30,3 +31,34 @@ def split_csv(filename: str, increment_size: int, output_dir: str) -> None:
         if i % increment_size == 0:
             open(f'{output_dir}/{filename}_{number}.csv', 'w').writelines(csvfile[i:i+increment_size])
             number += 1
+
+def combine_csvs() -> None:
+    charted = []
+    uncharted = []
+
+    combined_file = './data/classifications.csv'
+    # combined_uncharted_file = './data/uncharted/uncharted_combined/csv'
+
+    for i in range(2000, 20000, 2000):
+        charted_file = f'./data/charted/charted_{i}.csv'
+        uncharted_file = f'./data/uncharted/uncharted_{i}.csv'
+
+        if not (os.path.exists(charted_file) and os.path.exists(charted_file)):
+            continue
+
+        df_charted = pd.read_csv(charted_file)
+        charted.extend(df_charted.to_numpy())
+        df_uncharted = pd.read_csv(uncharted_file)
+        uncharted.extend(df_uncharted.to_numpy())
+
+    with open(combined_file, 'w') as csvfile:
+        csvwriter = csv.writer(csvfile, lineterminator='\n')
+        csvwriter.writerow(['track_id','charted'])
+        csvwriter.writerows(charted)
+        csvwriter.writerows(uncharted)
+
+# Create duplicate free copy of csv file
+def remove_duplicates(filename_in: str, filename_out: str) -> None:
+    data = pd.read_csv(filename_in)
+    no_dupes = data.drop_duplicates()
+    no_dupes.to_csv(filename_out, index=False)
