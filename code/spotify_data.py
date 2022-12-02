@@ -38,6 +38,16 @@ def get_track_audio_features(track_id: str):
   response_json = response.json()
   return response_json
 
+def get_batch_artists(artist_ids: str) -> list:
+  """
+  params: (str) comma separated list of artist ids
+
+  return: (list<dict>) list of artists
+  """
+  response = requests.get(BASE_URL + f'artists?ids={artist_ids}', headers=headers)
+  response_json = response.json()
+  return response_json['artists']
+
 def get_batch_audio_features(track_ids: str) -> list:
   """
   params: (str) comma separated list of track ids to get features for
@@ -60,6 +70,35 @@ def get_track_sections(track_id: str):
   analysis = get_track_audio_analysis(track_id)
   sections = analysis['sections']
   return sections
+
+def batch_artists(artist_ids: list) -> list:
+  """
+  Makes as many API calls as necessary to get artists in input list.
+
+  Each API call returns up to 50 artists, so be weary of API rate limits for larger input lists.
+
+  params:
+    track_ids: list<str> -> list of any number of artist IDs.
+
+  return: list<dict> -> list of artists for each ID in input list 
+  """
+  artists = []
+  print(f'Starting {ceil(len(artist_ids) / 50)} API calls to get {len(artist_ids)} artists...\nThis may take a while...')
+
+  ids_processed = 0
+  while ids_processed < len(artist_ids):
+    offset = min(50, len(artist_ids) - ids_processed)
+    ids_processed += offset
+    
+    print(f'Getting artists {ids_processed - offset} to {ids_processed - 1}')
+    curr = artist_ids[ids_processed - offset : ids_processed]
+    
+    ids_string = ','.join(curr)
+    
+    # features.append(*get_batch_audio_features(ids_string))
+    artists.extend(get_batch_artists(ids_string))
+
+  return artists
 
 # Extract desired features from data returned from API.
 def extract_features(track_id: str):
