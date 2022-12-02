@@ -81,7 +81,7 @@ if __name__ == '__main__':
     file_to_classify = argv[1]
     print(f'Classifying tracks in file {file_to_classify}...')
     classify_training_tracks(
-        in_filename=f"./data/recs/recs_{file_to_classify}.csv",
+        in_filename=f"./data/rec_splits/recs_{file_to_classify}.csv",
         out_charted_filename=f"./data/charted/charted_{file_to_classify}.csv",
         out_uncharted_filename=f"./data/uncharted/uncharted_{file_to_classify}.csv"
     )
