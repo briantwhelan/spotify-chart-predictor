@@ -31,7 +31,21 @@ songs["duration_ms"] = (songs["duration_ms"] - all_songs["duration_ms"].min()) /
 songs["tempo"] = (songs["tempo"] - all_songs["tempo"].min()) / (all_songs["tempo"].max() - all_songs["tempo"].min())    
 songs["loudness"] = (songs["loudness"] - (-60)) / (0 - (-60))
 print(songs)
+
+# Select features.
 y = songs.iloc[:, 15]
+print("Speechiness correlation: ", songs["speechiness"].corr(y))
+print("Duration correlation: ", songs["duration_ms"].corr(y))
+print("Tempo correlation: ", songs["tempo"].corr(y))
+print("Energy correlation: ", songs["energy"].corr(y))
+print("Acousticness correlation: ", songs["acousticness"].corr(y))
+print("Valence correlation: ", songs["valence"].corr(y))
+print("Instrumentalness correlation: ", songs["instrumentalness"].corr(y))
+print("Liveness correlation: ", songs["liveness"].corr(y))
+print("Loudness correlation: ", songs["loudness"].corr(y))
+print("Danceability correlation: ", songs["danceability"].corr(y))
+print(songs.iloc[:, [1,2,3,4,5,6,8,9,10,11]].corr(method='pearson'))
+X = songs.iloc[:, [4,6,8,11]]
 
 # Split data into training and validation data.
 X_train, X_validate, y_train, y_validate = train_test_split(X, y, test_size=0.2, random_state=9801)
