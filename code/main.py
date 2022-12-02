@@ -78,14 +78,17 @@ def classify_training_tracks(in_filename: str, out_charted_filename: str, out_un
 # remove_duplicates("./data/recommendations.csv", "./data/recs_no_duplicates.csv")
 
 if __name__ == '__main__':
-    # file_to_classify = argv[1]
-    # print(f'Classifying tracks in file {file_to_classify}...')
-    # classify_training_tracks(
-    #     in_filename=f"./data/recs/recs_{file_to_classify}.csv",
-    #     out_charted_filename=f"./data/charted/charted_{file_to_classify}.csv",
-    #     out_uncharted_filename=f"./data/uncharted/uncharted_{file_to_classify}.csv"
-    # )
+    file_to_classify = argv[1]
+    print(f'Classifying tracks in file {file_to_classify}...')
+    classify_training_tracks(
+        in_filename=f"./data/recs/recs_{file_to_classify}.csv",
+        out_charted_filename=f"./data/charted/charted_{file_to_classify}.csv",
+        out_uncharted_filename=f"./data/uncharted/uncharted_{file_to_classify}.csv"
+    )
+    
     # combine_csvs()
-    headings = ['track_id','track_name','track_popularity','artist_id','artist_name','artist_popularity','artist_followers']
-    split_csv('./data/new_recs.csv', 500, './data/rec_splits', 'recs', headings)
+
+    # headings = ['track_id','track_name','track_popularity','artist_id','artist_name','artist_popularity','artist_followers']
+    # split_csv('./data/new_recs.csv', 500, './data/rec_splits', 'recs', headings)
+    
     # print('Check main...')

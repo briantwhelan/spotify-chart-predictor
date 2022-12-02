@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-import csv
+from csv import writer, reader
 
 def stitch():
     # Stitch charted and uncharted classifications.
@@ -25,15 +25,25 @@ def stitch():
     uncharted_data.to_csv('./data/uncharted_songs.csv', sep=',', encoding='utf-8', index=False)
 
 def split_csv(filename: str, increment_size: int, output_dir: str = './splits', title: str = 'split', headings: list = []) -> None:
-    csvfile = open(filename, 'r').readlines()
-    number = 1
-    for i in range(len(csvfile)):
-        if i % increment_size == 0:
-            with open(f'{output_dir}/{title}_{number}.csv', 'w') as out_file:
-                csvwriter = csv.writer(out_file)
-                csvwriter.writerow(headings)
-                csvwriter.writerows(csvfile[i:i+increment_size])
-            number += 1
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+    # Read input csv file
+    with open(filename, 'r', encoding="utf-8") as csv_in:
+        csvreader = reader(csv_in)
+        rows = []
+        number = 0
+
+        # Keep record of all rows, and output in blocks of specified size
+        for i, row in enumerate(csvreader):
+            rows.append(row)
+            if i % increment_size == 0 and i != 0:
+                with open(f'{output_dir}/{title}_{number}.csv', 'w', encoding='utf-8') as csv_out:
+                    csvwriter = writer(csv_out, lineterminator='\n')
+                    csvwriter.writerow(headings)
+                    csvwriter.writerows(rows)
+                    rows = []
+                number += 1
 
 def combine_csvs() -> None:
     charted = []
@@ -55,7 +65,7 @@ def combine_csvs() -> None:
         uncharted.extend(df_uncharted.to_numpy())
 
     with open(combined_file, 'w') as csvfile:
-        csvwriter = csv.writer(csvfile, lineterminator='\n')
+        csvwriter = writer(csvfile, lineterminator='\n')
         csvwriter.writerow(['track_id','charted'])
         csvwriter.writerows(charted)
         csvwriter.writerows(uncharted)
