@@ -3,7 +3,7 @@ from requests import get
 from charts_utilities import clean_title, clean_artist
 
 BASE_URL = 'https://www.officialcharts.com/search/singles/'
-CHARTING_THRESHOLD = 40
+CHARTING_THRESHOLD = 100
 
 # Scrape officialcharts.com to find chart information on specified track in specified URL.
 def __scrape(url: str) -> list:
@@ -62,6 +62,6 @@ def has_charted(track_name: str, artist_name: str) -> tuple:
         top_pos = _get_top_position(clean_title(track_name), clean_artist(artist_name))
     return (
         top_pos > 0,
-        top_pos <= CHARTING_THRESHOLD
+        top_pos
     )
     
