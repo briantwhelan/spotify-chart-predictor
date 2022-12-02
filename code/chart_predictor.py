@@ -104,8 +104,41 @@ print(confusion_matrix(y_validate, kNN_preds))
 print(classification_report(y_validate, kNN_preds))
 
 # Perform cross validation to select C.
+mean_error = []
+std_error = []
+c_range = [0.01, 0.1, 1, 10, 100]
+kf = KFold(n_splits=5)
+for c in c_range:
+  model = SVC(C=c, kernel="rbf", gamma=1, probability=True).fit(X_train, y_train)
+  scores = cross_val_score(model, X_train, y_train, cv=kf, scoring="f1")
+  mean_error.append(np.array(scores).mean())
+  std_error.append(np.array(scores).std())
+plt.rc("font", size=18)
+plt.rcParams["figure.constrained_layout.use"] = True
+plt.errorbar(c_range, mean_error, yerr=std_error, linewidth=3)
+plt.xlabel("C")
+plt.ylabel("F1 Score")
+plt.title("C Cross Validation for Kernalized SVM Model")
+plt.savefig("./plots/svm-C-cross-validation.png")
+plt.clf()
 
 # Perform cross validation to select gamma.
+mean_error = []
+std_error = []
+gamma_range = [0.01, 0.1, 1, 10]
+kf = KFold(n_splits=5)
+for g in gamma_range:
+  model = SVC(C=1, kernel="rbf", gamma=g, probability=True).fit(X_train, y_train)
+  scores = cross_val_score(model, X_train, y_train, cv=kf, scoring="f1")
+  mean_error.append(np.array(scores).mean())
+  std_error.append(np.array(scores).std())
+plt.rc("font", size=18)
+plt.rcParams["figure.constrained_layout.use"] = True
+plt.errorbar(gamma_range, mean_error, yerr=std_error, linewidth=3)
+plt.xlabel("C")
+plt.ylabel("F1 Score")
+plt.title("C Cross Validation for Kernalized SVM Model")
+plt.savefig("./plots/svm-gamma-cross-validation.png")
 
 # Train kernalised SVM classifier with hyperparameters from cross-validation.
 svm_model = SVC(C=100, kernel="rbf", gamma=2, probability=True).fit(X_train, y_train)
