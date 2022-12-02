@@ -1,0 +1,85 @@
+------------------------Features------------------------
+                    track_id  speechiness  duration_ms     tempo  energy  ...  danceability  time_signature  mode                   track  charted
+0     5zF2zGPkL6Ipsn9AfAK6RP       0.0363     0.045056  0.431714   0.868  ...         0.714               4     0  5zF2zGPkL6Ipsn9AfAK6RP     True
+1     6HFbq7cewJ7rPiffV0ciil       0.0279     0.058733  0.567609   0.675  ...         0.545               4     1  6HFbq7cewJ7rPiffV0ciil     True
+2     3G6hD9B2ZHOsgf4WfNu7X1       0.0929     0.042141  0.454019   0.578  ...         0.690               4     1  3G6hD9B2ZHOsgf4WfNu7X1     True
+3     3ZffCQKLFLUvYM59XKLbVm       0.0314     0.062678  0.476816   0.814  ...         0.546               4     1  3ZffCQKLFLUvYM59XKLbVm     True
+4     0c4IEciLCDdXEhhKxj4ThA       0.0718     0.061655  0.818921   0.417  ...         0.502               4     1  0c4IEciLCDdXEhhKxj4ThA     True
+...                      ...          ...          ...       ...     ...  ...           ...             ...   ...                     ...      ...
+3274  78Bh87inKLDdIAfRAJ6IZj       0.0362     0.062228  0.532927   0.571  ...         0.481               4     1                     NaN    False
+3275  6ymzW87mWBaDNDDic76GAx       0.0662     0.038456  0.672365   0.773  ...         0.443               4     1                     NaN    False
+3276  5HDvQApGjUbbIMqRBeRm2e       0.0547     0.061702  0.536842   0.650  ...         0.462               4     1                     NaN    False
+3277  2PatEYrrVBNx5LPjTL2ruP       0.1760     0.064169  0.943820   0.603  ...         0.333               3     1                     NaN    False
+3278  7haFcQaoTBr2qY6G0r4JSH       0.0314     0.046422  0.605312   0.558  ...         0.589               4     1                     NaN    False
+
+[6558 rows x 16 columns]
+Speechiness correlation:  0.004905781710715891
+Duration correlation:  -0.038113919211287546
+Tempo correlation:  0.030754129331030326
+Energy correlation:  0.15731149223954585
+Acousticness correlation:  -0.18796455347578764
+Valence correlation:  0.1197937684600234
+Instrumentalness correlation:  -0.1879442918286223
+Liveness correlation:  -0.02036544032745998
+Loudness correlation:  0.19268587134395573
+Danceability correlation:  0.09455783647427887
+                  speechiness  duration_ms     tempo    energy  acousticness   valence  instrumentalness  liveness  loudness  danceability
+speechiness          1.000000    -0.016313  0.075694  0.096218     -0.082119  0.056990         -0.082248  0.092466  0.092586      0.192226
+duration_ms         -0.016313     1.000000 -0.026241  0.040981     -0.120992 -0.210663          0.294157 -0.027348 -0.059982     -0.040412
+tempo                0.075694    -0.026241  1.000000  0.254926     -0.205015  0.088838          0.003342  0.046381  0.188024     -0.104138
+energy               0.096218     0.040981  0.254926  1.000000     -0.743724  0.307001         -0.082594  0.126254  0.775050      0.165308
+acousticness        -0.082119    -0.120992 -0.205015 -0.743724      1.000000 -0.177183          0.089843 -0.054195 -0.639878     -0.239884
+valence              0.056990    -0.210663  0.088838  0.307001     -0.177183  1.000000         -0.188950  0.002279  0.213298      0.471414
+instrumentalness    -0.082248     0.294157  0.003342 -0.082594      0.089843 -0.188950          1.000000 -0.009699 -0.273082     -0.079743
+liveness             0.092466    -0.027348  0.046381  0.126254     -0.054195  0.002279         -0.009699  1.000000  0.056928     -0.084815
+loudness             0.092586    -0.059982  0.188024  0.775050     -0.639878  0.213298         -0.273082  0.056928  1.000000      0.261813
+danceability         0.192226    -0.040412 -0.104138  0.165308     -0.239884  0.471414         -0.079743 -0.084815  0.261813      1.000000
+------------------------Baseline------------------------
+[[  0 662]
+ [  0 650]]
+              precision    recall  f1-score   support
+
+       False       0.00      0.00      0.00       662
+        True       0.50      1.00      0.66       650
+
+    accuracy                           0.50      1312
+   macro avg       0.25      0.50      0.33      1312
+weighted avg       0.25      0.50      0.33      1312
+
+------------------Logistic Regression------------------
+[ 1.21529396  0.13120085 -1.67616631  0.68070647]
+[[291 371]
+ [160 490]]
+              precision    recall  f1-score   support
+
+       False       0.65      0.44      0.52       662
+        True       0.57      0.75      0.65       650
+
+    accuracy                           0.60      1312
+   macro avg       0.61      0.60      0.59      1312
+weighted avg       0.61      0.60      0.59      1312
+
+--------------------------kNN--------------------------
+[[213 449]
+ [ 91 559]]
+              precision    recall  f1-score   support
+
+       False       0.70      0.32      0.44       662
+        True       0.55      0.86      0.67       650
+
+    accuracy                           0.59      1312
+   macro avg       0.63      0.59      0.56      1312
+weighted avg       0.63      0.59      0.56      1312
+
+---------------------Kernalized SVM---------------------
+[[249 413]
+ [109 541]]
+              precision    recall  f1-score   support
+
+       False       0.70      0.38      0.49       662
+        True       0.57      0.83      0.67       650
+
+    accuracy                           0.60      1312
+   macro avg       0.63      0.60      0.58      1312
+weighted avg       0.63      0.60      0.58      1312
+

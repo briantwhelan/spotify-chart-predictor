@@ -11,10 +11,9 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import classification_report
-from sklearn.metrics import roc_curve
+from sklearn.metrics import roc_curve 
 
 # Import the data.
-
 charted = pd.read_csv("./data/charted_songs.csv")
 uncharted = pd.read_csv("./data/uncharted_songs.csv")
 #songs = pd.concat([charted.iloc[:len(uncharted.axes[0])], uncharted.iloc[:len(charted.axes[0])]])
@@ -30,6 +29,7 @@ songs = pd.concat([songs2, all_songs.iloc[:len(songs2.axes[0])]])
 songs["duration_ms"] = (songs["duration_ms"] - all_songs["duration_ms"].min()) / (all_songs["duration_ms"].max() - all_songs["duration_ms"].min())   
 songs["tempo"] = (songs["tempo"] - all_songs["tempo"].min()) / (all_songs["tempo"].max() - all_songs["tempo"].min())    
 songs["loudness"] = (songs["loudness"] - (-60)) / (0 - (-60))
+print("------------------------Features------------------------")
 print(songs)
 
 # Select features.
@@ -209,3 +209,36 @@ plt.ylabel("True Positive Rate")
 plt.title("ROC Curves")
 plt.legend()
 plt.savefig("./plots/ROC-curves.png")
+
+# Write results to file.
+with open ("results.txt", 'w') as out_file:
+  print("------------------------Features------------------------", file=out_file)
+  print(songs, file=out_file)  
+  print("Speechiness correlation: ", songs["speechiness"].corr(y), file=out_file)
+  print("Duration correlation: ", songs["duration_ms"].corr(y), file=out_file)
+  print("Tempo correlation: ", songs["tempo"].corr(y), file=out_file)
+  print("Energy correlation: ", songs["energy"].corr(y), file=out_file)
+  print("Acousticness correlation: ", songs["acousticness"].corr(y), file=out_file)
+  print("Valence correlation: ", songs["valence"].corr(y), file=out_file)
+  print("Instrumentalness correlation: ", songs["instrumentalness"].corr(y), file=out_file)
+  print("Liveness correlation: ", songs["liveness"].corr(y), file=out_file)
+  print("Loudness correlation: ", songs["loudness"].corr(y), file=out_file)
+  print("Danceability correlation: ", songs["danceability"].corr(y), file=out_file)
+  print(songs.iloc[:, [1,2,3,4,5,6,8,9,10,11]].corr(method='pearson'), file=out_file)
+
+  print("------------------------Baseline------------------------", file=out_file)
+  print(confusion_matrix(y_validate, baseline_preds), file=out_file)
+  print(classification_report(y_validate, baseline_preds, zero_division=0), file=out_file)
+
+  print("------------------Logistic Regression------------------", file=out_file)
+  print(lrl2_model.coef_[0], file=out_file)
+  print(confusion_matrix(y_validate, lrl2_preds), file=out_file)
+  print(classification_report(y_validate, lrl2_preds), file=out_file)
+
+  print("--------------------------kNN--------------------------", file=out_file)
+  print(confusion_matrix(y_validate, kNN_preds), file=out_file)
+  print(classification_report(y_validate, kNN_preds), file=out_file)
+
+  print("---------------------Kernalized SVM---------------------", file=out_file)
+  print(confusion_matrix(y_validate, svm_preds), file=out_file)
+  print(classification_report(y_validate, svm_preds), file=out_file)
