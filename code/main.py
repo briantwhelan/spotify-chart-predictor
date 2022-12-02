@@ -86,5 +86,6 @@ if __name__ == '__main__':
     #     out_uncharted_filename=f"./data/uncharted/uncharted_{file_to_classify}.csv"
     # )
     # combine_csvs()
-    # split_csv()
-    print('Check main...')
+    headings = ['track_id','track_name','track_popularity','artist_id','artist_name','artist_popularity','artist_followers']
+    split_csv('./data/new_recs.csv', 500, './data/rec_splits', 'recs', headings)
+    # print('Check main...')

@@ -24,12 +24,15 @@ def stitch():
     uncharted_data = pd.merge(features, uncharted_classifications, left_on="track_id", right_on="track", how="inner")
     uncharted_data.to_csv('./data/uncharted_songs.csv', sep=',', encoding='utf-8', index=False)
 
-def split_csv(filename: str, increment_size: int, output_dir: str) -> None:
+def split_csv(filename: str, increment_size: int, output_dir: str = './splits', title: str = 'split', headings: list = []) -> None:
     csvfile = open(filename, 'r').readlines()
     number = 1
     for i in range(len(csvfile)):
         if i % increment_size == 0:
-            open(f'{output_dir}/{filename}_{number}.csv', 'w').writelines(csvfile[i:i+increment_size])
+            with open(f'{output_dir}/{title}_{number}.csv', 'w') as out_file:
+                csvwriter = csv.writer(out_file)
+                csvwriter.writerow(headings)
+                csvwriter.writerows(csvfile[i:i+increment_size])
             number += 1
 
 def combine_csvs() -> None:
