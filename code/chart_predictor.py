@@ -54,8 +54,9 @@ X_train, X_validate, y_train, y_validate = train_test_split(X, y, test_size=0.2,
 baseline_model = DummyClassifier(strategy="most_frequent")
 baseline_model.fit(X_train, y_train)
 baseline_preds = baseline_model.predict(X_validate)
+print("------------------------Baseline------------------------")
 print(confusion_matrix(y_validate, baseline_preds))
-print(classification_report(y_validate, baseline_preds))
+print(classification_report(y_validate, baseline_preds, zero_division=0))
 
 # Perform cross validation to select q.
 mean_error = []
@@ -64,7 +65,7 @@ q_range = [1, 2, 3, 4, 5, 6]
 kf = KFold(n_splits=5)
 for q in q_range:
   X_poly = PolynomialFeatures(q).fit_transform(X_train)
-  model = LogisticRegression(penalty="l2", C=1)
+  model = LogisticRegression(penalty="l2", C=1, max_iter=1000)
   scores = cross_val_score(model, X_poly, y_train, cv=kf, scoring="f1")
   mean_error.append(np.array(scores).mean())
   std_error.append(np.array(scores).std())
@@ -73,13 +74,13 @@ plt.errorbar(q_range, mean_error, yerr=std_error, linewidth=3)
 plt.xlabel("q")
 plt.ylabel("F1 Score")
 plt.title("q Cross Validation for Logistic Regression Model")
-plt.legend()
 plt.savefig("./plots/lr-q-cross-validation.png")
+plt.clf()
 
 # Perform cross validation to select C.
 mean_error = []
 std_error = []
-c_range = [0.01, 0.1, 1, 10, 100]
+c_range = [0.01, 0.1, 1, 5, 10, 15, 20]
 kf = KFold(n_splits=5)
 for c in c_range:
   model = LogisticRegression(penalty="l2", C=c)
@@ -92,20 +93,25 @@ plt.errorbar(c_range, mean_error, yerr=std_error, linewidth=3)
 plt.xlabel("C")
 plt.ylabel("F1 Score")
 plt.title("C Cross Validation for Logistic Regression Model")
-plt.legend()
 plt.savefig("./plots/lr-C-cross-validation.png")
+plt.clf()
 
-# Train logistic regression classifier (with L2 penalty) with hyperparameters from cross-validation.
-lrl2_model = LogisticRegression(penalty="l2", C=1000)
+# Train logistic regression classifier (with L2 penalty) with hyperparameters selected from cross-validation.
+lrl2_model = LogisticRegression(penalty="l2", C=10)
+#poly = PolynomialFeatures(4)
+#lrl2_model.fit(poly.fit_transform(X_train), y_train)
+#lrl2_preds = lrl2_model.predict(poly.fit_transform(X_validate))
 lrl2_model.fit(X_train, y_train)
 lrl2_preds = lrl2_model.predict(X_validate)
+print("------------------Logistic Regression------------------")
+print(lrl2_model.coef_[0])
 print(confusion_matrix(y_validate, lrl2_preds))
 print(classification_report(y_validate, lrl2_preds))
 
 # Perform cross validation to select k.
 mean_error = []
 std_error = []
-k_range = [1, 5, 10, 20, 50, 100]
+k_range = [1, 5, 10, 20, 50, 100, 200, 300, 400, 500, 600]
 kf = KFold(n_splits=5)
 for k in k_range:
   from sklearn.neighbors import KNeighborsClassifier
@@ -119,13 +125,14 @@ plt.errorbar(k_range, mean_error, yerr=std_error, linewidth=3)
 plt.xlabel("k")
 plt.ylabel("F1 Score")
 plt.title("k Cross Validation for kNN Model")
-plt.legend()
 plt.savefig("./plots/kNN-k-cross-validation.png")
+plt.clf()
 
 # Train kNN classifier with k selected from cross-validation.
-kNN_model = KNeighborsClassifier(n_neighbors=5)
+kNN_model = KNeighborsClassifier(n_neighbors=500)
 kNN_model.fit(X_train, y_train)
 kNN_preds = kNN_model.predict(X_validate)
+print("--------------------------kNN--------------------------")
 print(confusion_matrix(y_validate, kNN_preds))
 print(classification_report(y_validate, kNN_preds))
 
@@ -165,10 +172,12 @@ plt.xlabel("C")
 plt.ylabel("F1 Score")
 plt.title("C Cross Validation for Kernalized SVM Model")
 plt.savefig("./plots/svm-gamma-cross-validation.png")
+plt.clf()
 
 # Train kernalised SVM classifier with hyperparameters from cross-validation.
 svm_model = SVC(C=100, kernel="rbf", gamma=2, probability=True).fit(X_train, y_train)
 svm_preds = svm_model.predict(X_validate)
+print("---------------------Kernalized SVM---------------------")
 print(confusion_matrix(y_validate, svm_preds))
 print(classification_report(y_validate, svm_preds))
 
