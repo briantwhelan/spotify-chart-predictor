@@ -3,7 +3,7 @@ import pandas as pd
 import csv
 import os
 from sys import argv
-from utils import split_csv
+from utils import split_csv, fix_dodgy_file_number
 
 # Classify tracks in specified file as charted or not
 def classify_training_tracks(in_filename: str, out_charted_filename: str, out_uncharted_filename: str) -> None:
@@ -78,13 +78,14 @@ def classify_training_tracks(in_filename: str, out_charted_filename: str, out_un
 # remove_duplicates("./data/recommendations.csv", "./data/recs_no_duplicates.csv")
 
 if __name__ == '__main__':
-    file_to_classify = argv[1]
-    print(f'Classifying tracks in file {file_to_classify}...')
-    classify_training_tracks(
-        in_filename=f"./data/rec_splits/recs_{file_to_classify}.csv",
-        out_charted_filename=f"./data/charted/charted_{file_to_classify}.csv",
-        out_uncharted_filename=f"./data/uncharted/uncharted_{file_to_classify}.csv"
-    )
+    # file_to_classify = argv[1]
+    # print(f'Classifying tracks in file {file_to_classify}...')
+    # classify_training_tracks(
+    #     in_filename=f"./data/rec_splits/recs_{file_to_classify}.csv",
+    #     out_charted_filename=f"./data/charted/charted_{file_to_classify}.csv",
+    #     out_uncharted_filename=f"./data/uncharted/uncharted_{file_to_classify}.csv"
+    # )
+    fix_dodgy_file_number(2)
     
     # combine_csvs()
 
