@@ -26,7 +26,7 @@ def classify_training_tracks(in_filename: str, out_charted_filename: str, out_un
     for i, song in enumerate(songs):
         track_id = song[0]
         track = song[1]
-        artist = song[3]
+        artist = song[4]
         print(f'{i}. {track} by {artist}')
 
         # Check for empty entries
