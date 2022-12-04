@@ -1,0 +1,31 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag spotify-chart-predictor:$(date +%s)
+
+    - name: Run within Docker
+      uses: mosteo-actions/docker-run@v1
+      with:
+        # A dockerhub image
+        image: # optional, default is ubuntu:latest
+        # Command to run inside image
+        command: # optional, default is ls -al
+        # Extra parameters to pass to `docker run`
+        params: # optional, default is 
+        # Host dir to map into the container
+        host-dir: # optional, default is ${{ github.workspace }}
+        # Guest dir that will overlay host-dir, and be used as working directory
+        guest-dir: # optional, default is ${{ github.workspace }}
+      
