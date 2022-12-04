@@ -19,9 +19,12 @@ def stitch():
 
     # Stitch features and classifications.
     features = pd.read_csv('./data/features.csv')
+    recommendations = pd.read_csv('./data/new_recs.csv')
     charted_data = pd.merge(features, charted_classifications, left_on="track_id", right_on="track", how="inner")
+    charted_data = pd.merge(charted_data, recommendations, on="track_id", how="inner")
     charted_data.to_csv('./data/charted_songs.csv', sep=',', encoding='utf-8', index=False)
     uncharted_data = pd.merge(features, uncharted_classifications, left_on="track_id", right_on="track", how="inner")
+    uncharted_data = pd.merge(uncharted_data, recommendations, on="track_id", how="inner")
     uncharted_data.to_csv('./data/uncharted_songs.csv', sep=',', encoding='utf-8', index=False)
 
 def split_csv(filename: str, increment_size: int, output_dir: str = './splits', title: str = 'split', headings: list = []) -> None:

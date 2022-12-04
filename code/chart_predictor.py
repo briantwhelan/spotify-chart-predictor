@@ -25,6 +25,7 @@ all_songs = pd.read_csv("./data/features.csv")
 songs["duration_ms"] = (songs["duration_ms"] - all_songs["duration_ms"].min()) / (all_songs["duration_ms"].max() - all_songs["duration_ms"].min())   
 songs["tempo"] = (songs["tempo"] - all_songs["tempo"].min()) / (all_songs["tempo"].max() - all_songs["tempo"].min())    
 songs["loudness"] = (songs["loudness"] - (-60)) / (0 - (-60))
+songs["artist_popularity"] = (songs["artist_popularity"] - 0) / (100 - 0) 
 print("------------------------Features------------------------")
 print(songs)
 
@@ -40,6 +41,7 @@ print("Instrumentalness correlation: ", songs["instrumentalness"].corr(y))
 print("Liveness correlation: ", songs["liveness"].corr(y))
 print("Loudness correlation: ", songs["loudness"].corr(y))
 print("Danceability correlation: ", songs["danceability"].corr(y))
+print("Artist Popularity correlation: ", songs["artist_popularity"].corr(y))
 print(songs.iloc[:, [1,2,3,4,5,6,8,9,10,11]].corr(method='pearson'))
 X = songs.iloc[:, [4,6,8,11]]
 
